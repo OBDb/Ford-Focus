@@ -5,7 +5,7 @@
   ]},
 { "hdr": "726", "cmd": {"22": "407E"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_EXTERIOR_LIGHT_STATE", "path": "Lighting", "name": "Focus Exterior Lighting State", "fmt": {"bix": 0, "len": 1, "map": {
+    {"id": "FOCUS_EXTERIOR_LIGHT_STATE", "path": "Lights", "name": "Focus Exterior Lighting State", "fmt": {"bix": 0, "len": 1, "map": {
           "0":   { "description": "0", "value": "0" },
           "216": { "description": "1", "value": "1" }
         }}
@@ -13,7 +13,7 @@
   ]},
 { "hdr": "726", "cmd": {"22": "7151"}, "freq": 4,
   "signals": [
-    {"id": "FOCUS_HIGHBEAM_STATUS", "path": "Lighting", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam Status"}
+    {"id": "FOCUS_HIGHBEAM_STATUS", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam Status"}
   ]},
 { "hdr": "726", "cmd": {"22": "C150"}, "freq": 3,
   "signals": [
