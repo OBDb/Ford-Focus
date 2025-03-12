@@ -55,17 +55,6 @@
           }}
       }
     ]},
-  { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2,
-    "signals": [
-      {"id": "FOCUS_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-            "10": { "description": "Manual",  "value": "MANUAL" },
-            "46": { "description": "Drive",   "value": "DRIVE" },
-            "50": { "description": "Neutral", "value": "NEUTRAL" },
-            "60": { "description": "Reverse", "value": "REVERSE" },
-            "70": { "description": "Park",    "value": "PARK" }
-          }}
-      }
-    ]},
     { "hdr": "726", "cmd": {"22": "C259"}, "freq": 2,
 "signals": [
   {"id": "FOCUS_CENTRAL_LOCK_STATUS", "path": "Doors & Windows", "name": "Lock Status", "fmt": {"len": 8, "map": {
@@ -101,7 +90,7 @@
   "signals": [
     {
       "id": "FOCUS_EXTERIOR_LIGHT_STATE",
-      "name": "FOCUS Exterior Lighting State",
+      "name": "Focus Exterior Lighting State",
       "path": "Lighting",
       "fmt": {
         "bix": 0,
@@ -126,7 +115,7 @@
       "id": "FOCUS_PARKING_BRAKE",
       "path": "Transmission",
       "fmt": { "bix": 0, "len": 1, "max": 1, "unit": "offon" },
-      "name": "FOCUS Parking Brake State"
+      "name": "Focus Parking Brake State"
     }
   ]}
   ]
