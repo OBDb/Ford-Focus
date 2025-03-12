@@ -1,122 +1,95 @@
 { "commands": [
-  { "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1,
-    "signals": [
-      {"id": "FOCUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure", "suggestedMetric": "rearRightTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure", "suggestedMetric": "rearLeftTirePressure"}
-    ]},
-  { "hdr": "726", "rax": "72E", "cmd": {"22": "DD01"}, "freq": 5,
-    "signals": [
-      {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
-    ]},
-  { "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.25,
-    "signals": [
-      {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
-    ]},
-  { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1,
-    "signals": [
-      {"id": "FOCUS_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
-    ]},
-  { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2,
-    "signals": [
-      {"id": "FOCUS_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
-            "1":  { "description": "First gear",   "value": "1" },
-            "2":  { "description": "Second gear",  "value": "2" },
-            "3":  { "description": "Third gear",   "value": "3" },
-            "4":  { "description": "Fourth gear",  "value": "4" },
-            "5":  { "description": "Fifth gear",   "value": "5" },
-            "6":  { "description": "Sixth gear",   "value": "6" },
-            "7":  { "description": "Seventh gear", "value": "7" },
-            "8":  { "description": "Eighth gear",  "value": "8" },
-            "9":  { "description": "Ninth gear",   "value": "9" },
-            "10": { "description": "Tenth gear",   "value": "10" }
-          }}
-      }
-    ]},
-    { "hdr": "726", "cmd": {"22": "C259"}, "freq": 2,
-"signals": [
-  {"id": "FOCUS_CENTRAL_LOCK_STATUS", "path": "Doors & Windows", "name": "Lock Status", "fmt": {"len": 8, "map": {
-        "0": { "description": "Unlocked",  "value": "UNLOCKED" },
-        "2": { "description": "Locked",   "value": "LOCKED" }
-      }}
-  }
-]},
-{
-  "hdr": "726",
-  "cmd": {"22": "7151"},
-  "freq": 4,
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_HIGHBEAM_STATUS", "path": "Lighting", "fmt": { "len": 16, "max": 2, "unit": "offon"}, "name": "Highbeam Status"}
-  ]
-},
-{ "hdr": "726", "cmd": {"22": "C150"}, "freq": 3,
-"signals": [
-  {"id": "FOCUS_TRUNK_OPEN", "path": "Doors & Windows", "fmt": { "bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
-  {"id": "FOCUS_RRD_OPEN", "path": "Doors & Windows", "fmt": { "bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
-  {"id": "FOCUS_RLD_OPEN", "path": "Doors & Windows", "fmt": { "bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
-  {"id": "FOCUS_DRIVER_DOOR_OPEN", "path": "Doors & Windows", "fmt": { "bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
-  {"id": "FOCUS_PASSENGER_DOOR_OPEN", "path": "Doors & Windows", "fmt": { "bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
-]},
-{ "hdr": "726", "cmd": {"22": "C154"}, "freq": 3,
-"signals": [
-  {"id": "FOCUS_HOOD_OPEN", "path": "Doors & Windows", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood Ajar?"}
-]},
-{
-  "hdr": "726",
-  "cmd": { "22": "407E" },
-  "freq": 1,
+    {"id": "FOCUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "726", "cmd": {"22": "407E"}, "freq": 1,
   "signals": [
-    {
-      "id": "FOCUS_EXTERIOR_LIGHT_STATE",
-      "name": "Focus Exterior Lighting State",
-      "path": "Lighting",
-      "fmt": {
-        "bix": 0,
-        "len": 1,
-        "max": 1,
-        "unit": "offon",
-        "min": 0,
-        "map": {
-          "00": 0,
-          "D8": 1
-        }
-      }
+    {"id": "FOCUS_EXTERIOR_LIGHT_STATE", "path": "Lighting", "name": "Focus Exterior Lighting State", "fmt": {"bix": 0, "len": 1, "map": {
+          "0":   { "description": "0", "value": "0" },
+          "216": { "description": "1", "value": "1" }
+        }}
     }
-  ]
-},
-{
-  "hdr": "760",
-  "cmd": { "22": "2B00" },
-  "freq": 3,
+  ]},
+{ "hdr": "726", "cmd": {"22": "7151"}, "freq": 4,
   "signals": [
-    {
-      "id": "FOCUS_PARKING_BRAKE",
-      "path": "Transmission",
-      "fmt": { "bix": 0, "len": 1, "max": 1, "unit": "offon" },
-      "name": "Focus Parking Brake State"
+    {"id": "FOCUS_HIGHBEAM_STATUS", "path": "Lighting", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam Status"}
+  ]},
+{ "hdr": "726", "cmd": {"22": "C150"}, "freq": 3,
+  "signals": [
+    {"id": "FOCUS_TRUNK_OPEN",          "path": "Doors & Windows", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
+    {"id": "FOCUS_RRD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
+    {"id": "FOCUS_RLD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
+    {"id": "FOCUS_DRIVER_DOOR_OPEN",    "path": "Doors & Windows", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
+    {"id": "FOCUS_PASSENGER_DOOR_OPEN", "path": "Doors & Windows", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
+  ]},
+{ "hdr": "726", "cmd": {"22": "C154"}, "freq": 3,
+  "signals": [
+    {"id": "FOCUS_HOOD_OPEN", "path": "Doors & Windows", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood Ajar?"}
+  ]},
+{ "hdr": "726", "cmd": {"22": "C259"}, "freq": 2,
+  "signals": [
+    {"id": "FOCUS_CENTRAL_LOCK_STATUS", "path": "Doors & Windows", "name": "Lock Status", "fmt": {"len": 8, "map": {
+          "0": { "description": "Unlocked", "value": "UNLOCKED" },
+          "2": { "description": "Locked",   "value": "LOCKED" }
+        }}
+    }
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD01"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3,
+  "signals": [
+    {"id": "FOCUS_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus Parking Brake State"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+  ]},
+{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1,
+  "signals": [
+    {"id": "FOCUS_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2,
+  "signals": [
+    {"id": "FOCUS_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+          "1":  { "description": "First gear",   "value": "1" },
+          "2":  { "description": "Second gear",  "value": "2" },
+          "3":  { "description": "Third gear",   "value": "3" },
+          "4":  { "description": "Fourth gear",  "value": "4" },
+          "5":  { "description": "Fifth gear",   "value": "5" },
+          "6":  { "description": "Sixth gear",   "value": "6" },
+          "7":  { "description": "Seventh gear", "value": "7" },
+          "8":  { "description": "Eighth gear",  "value": "8" },
+          "9":  { "description": "Ninth gear",   "value": "9" },
+          "10": { "description": "Tenth gear",   "value": "10" }
+        }}
     }
   ]}
-  ]
-  }
+]
+}
