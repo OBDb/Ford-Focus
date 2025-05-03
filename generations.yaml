@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation (North America)"
+    start_year: 2000
+    end_year: 2007
+    description: "The original North American Ford Focus was derived from the European model but with market-specific modifications. Available in sedan, wagon, three-door hatchback (ZX3), and five-door hatchback (ZX5) body styles, it replaced the Escort in Ford's lineup. Powered by either a 2.0L Zetec or 2.0L or 2.3L Duratec four-cylinder engines, it offered more engaging handling than typical compact cars of its era. The sporty SVT Focus variant featured enhanced performance with a higher-output engine, improved suspension, and distinctive styling. The interior was relatively basic but functional, with a focus on affordability. Despite some early quality issues, the first-generation Focus was generally well-received for its driving dynamics, practical packaging, and value, establishing the nameplate in the North American market."
+
+  - name: "Second Generation (North America)"
+    start_year: 2008
+    end_year: 2011
+    description: "The second-generation North American Focus featured significant styling changes compared to its predecessor but was mechanically similar, representing an evolution rather than a complete redesign. Available only in sedan and coupe body styles (losing the previous wagon and hatchback variants), it continued with the 2.0L Duratec four-cylinder engine. The interior was updated with improved materials and available features including SYNC infotainment. Safety equipment expanded to include standard stability control in later model years. During this generation, Ford decided to develop a truly global Focus for its successor, making this a relatively short-lived transitional model in North America while development continued on the global platform."
+
+  - name: "Third Generation (Global)"
+    start_year: 2011
+    end_year: 2018
+    description: "The third-generation Focus represented Ford's 'One Ford' global product strategy, with essentially the same vehicle sold worldwide with minor regional adaptations. Available in sedan, hatchback, and wagon (in some markets) body styles, it featured more expressive styling and significantly improved interior quality compared to its predecessors. Powertrain options varied by market but typically included a range of efficient four-cylinder engines, including the innovative 1.0L EcoBoost three-cylinder. The high-performance ST model offered 252 HP from a turbocharged 2.0L, while the RS featured all-wheel drive and a 350 HP 2.3L EcoBoost. The interior showcased improved materials and technology, including the MyFord Touch system (later SYNC 3). A significant facelift in 2015 updated the styling and technology offerings. This generation successfully positioned the Focus as a more premium offering in the compact segment with class-leading driving dynamics."
+
+  - name: "Fourth Generation (Global)"
+    start_year: 2018
+    end_year: 2023
+    description: "The fourth-generation Focus continued as a global model with more sophisticated styling, improved interior space, and advanced technology. Available in hatchback, sedan, and wagon body styles depending on the market, it featured a range of efficient EcoBoost petrol and EcoBlue diesel engines. The interior showcased a more minimalist design with a floating touchscreen running SYNC 3 or SYNC 4 infotainment systems. Safety technology expanded to include Co-Pilot360 driver assistance features. While this generation was initially planned for North America, Ford's strategic shift toward SUVs and trucks led to the Focus being discontinued in that market after the third generation. The Active variant offered crossover-inspired styling with raised ride height and body cladding. The ST performance model continued with a 276 HP 2.3L EcoBoost engine, though the RS was not renewed. In 2023, Ford announced the Focus production would end in 2025 as part of its transition toward electric vehicles, marking the conclusion of one of its most significant global nameplates."

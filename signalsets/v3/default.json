@@ -17,11 +17,11 @@
   ]},
 { "hdr": "726", "cmd": {"22": "C150"}, "freq": 3,
   "signals": [
-    {"id": "FOCUS_TRUNK_OPEN",          "path": "Doors & Windows", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
-    {"id": "FOCUS_RRD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
-    {"id": "FOCUS_RLD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
-    {"id": "FOCUS_DRIVER_DOOR_OPEN",    "path": "Doors & Windows", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
-    {"id": "FOCUS_PASSENGER_DOOR_OPEN", "path": "Doors & Windows", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
+    {"id": "FOCUS_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
+    {"id": "FOCUS_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
+    {"id": "FOCUS_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
+    {"id": "FOCUS_DRIVER_DOOR_OPEN",    "path": "Doors", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
+    {"id": "FOCUS_PASSENGER_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
   ]},
 { "hdr": "726", "cmd": {"22": "C154"}, "freq": 3,
   "signals": [
