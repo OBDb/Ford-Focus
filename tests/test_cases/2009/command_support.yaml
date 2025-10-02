@@ -38,3 +38,6 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
+unsupported_commands_by_ecu:
+  "720":
+  - 720.728.226185:FOCUS_FLI
