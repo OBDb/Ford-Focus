@@ -41,3 +41,5 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "720":
   - 720.728.226185:FOCUS_FLI
+  "726":
+  - 726.72E.222816:FOCUS_TP_RLO
