@@ -27,7 +27,7 @@
   "signals": [
     {"id": "FOCUS_HOOD_OPEN", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood Ajar?"}
   ]},
-{ "hdr": "726", "cmd": {"22": "C259"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "cmd": {"22": "C259"}, "freq": 2, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_CENTRAL_LOCK_STATUS", "path": "Doors", "name": "Lock Status", "fmt": {"len": 8, "map": {
           "0": { "description": "Unlocked", "value": "UNLOCKED" },

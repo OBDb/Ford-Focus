@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221E12
 test_cases:
 - expected_values:
+    FOCUS_GEAR: '1'
+  response: 7E804621E1201
+- expected_values:
     FOCUS_GEAR: '5'
   response: 7E804621E1205
 - expected_values:
