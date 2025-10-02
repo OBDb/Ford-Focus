@@ -4,26 +4,5 @@ test_cases:
     FOCUS_TP_FL: 30.9
   response: 72E05622813026A
 - expected_values:
-    FOCUS_TP_FL: 31.15
-  response: 72E05622813026F
-- expected_values:
-    FOCUS_TP_FL: 31.4
-  response: '72E056228130274'
-- expected_values:
-    FOCUS_TP_FL: 31.5
-  response: '72E056228130276'
-- expected_values:
-    FOCUS_TP_FL: 31.65
-  response: '72E056228130279'
-- expected_values:
-    FOCUS_TP_FL: 31.75
-  response: 72E05622813027B
-- expected_values:
-    FOCUS_TP_FL: 32
-  response: '72E056228130280'
-- expected_values:
-    FOCUS_TP_FL: 32.25
-  response: '72E056228130285'
-- expected_values:
-    FOCUS_TP_FL: 32.5
-  response: 72E05622813028A
+    FOCUS_TP_FL: 34.65
+  response: 72E0562281302B5
