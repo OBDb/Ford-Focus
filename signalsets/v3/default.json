@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -15,7 +15,7 @@
   "signals": [
     {"id": "FOCUS_HIGHBEAM_STATUS", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam Status"}
   ]},
-{ "hdr": "726", "cmd": {"22": "C150"}, "freq": 3, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "cmd": {"22": "C150"}, "freq": 3, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
     {"id": "FOCUS_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
@@ -27,7 +27,7 @@
   "signals": [
     {"id": "FOCUS_HOOD_OPEN", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood Ajar?"}
   ]},
-{ "hdr": "726", "cmd": {"22": "C259"}, "freq": 2, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "cmd": {"22": "C259"}, "freq": 2, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_CENTRAL_LOCK_STATUS", "path": "Doors", "name": "Lock Status", "fmt": {"len": 8, "map": {
           "0": { "description": "Unlocked", "value": "UNLOCKED" },
