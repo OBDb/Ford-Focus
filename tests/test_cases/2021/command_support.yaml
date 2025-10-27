@@ -53,6 +53,7 @@ supported_commands_by_ecu:
   - 7E0.010D:VSS
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
+  - 7E0.0142:VPWR
   - 7E0.015C:EOT
   - 7E0.7E8.221E12:FOCUS_GEAR
 unsupported_commands_by_ecu:
