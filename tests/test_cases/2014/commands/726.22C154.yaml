@@ -1,0 +1,5 @@
+command_id: 726.22C154
+test_cases:
+- expected_values:
+    FOCUS_HOOD_OPEN: 0
+  response: 72E0762C15400000000
