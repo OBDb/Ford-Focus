@@ -1,32 +1,11 @@
 command_id: 726.72E.22DD01
 test_cases:
 - expected_values:
+    FOCUS_ODO: 32258
+  response: 72E0662DD01007E02
+- expected_values:
     FOCUS_ODO: 149978
   response: 72E0662DD010249DA
 - expected_values:
-    FOCUS_ODO: 149981
-  response: 72E0662DD010249DD
-- expected_values:
-    FOCUS_ODO: 149982
-  response: 72E0662DD010249DE
-- expected_values:
-    FOCUS_ODO: 149986
-  response: 72E0662DD010249E2
-- expected_values:
-    FOCUS_ODO: 149987
-  response: 72E0662DD010249E3
-- expected_values:
-    FOCUS_ODO: 149989
-  response: 72E0662DD010249E5
-- expected_values:
-    FOCUS_ODO: 149990
-  response: 72E0662DD010249E6
-- expected_values:
-    FOCUS_ODO: 149991
-  response: 72E0662DD010249E7
-- expected_values:
-    FOCUS_ODO: 149992
-  response: 72E0662DD010249E8
-- expected_values:
-    FOCUS_ODO: 149995
-  response: 72E0662DD010249EB
+    FOCUS_ODO: 150000
+  response: 72E0662DD010249F0
