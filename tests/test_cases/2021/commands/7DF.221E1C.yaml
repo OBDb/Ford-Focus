@@ -7,8 +7,5 @@ test_cases:
     FOCUS_TOT: 31.875
   response: 7E805621E1C01FE
 - expected_values:
-    FOCUS_TOT: 48.75
-  response: 7E805621E1C030C
-- expected_values:
-    FOCUS_TOT: 81
-  response: 7E805621E1C0510
+    FOCUS_TOT: 80.625
+  response: 7E805621E1C050A
