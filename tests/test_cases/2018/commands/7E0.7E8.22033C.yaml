@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22033C
+test_cases:
+- expected_values:
+    FOCUS_TIP_V: 1.35742
+  response: 7E80562033C0116
+- expected_values:
+    FOCUS_TIP_V: 1.37695
+  response: 7E80562033C011A
