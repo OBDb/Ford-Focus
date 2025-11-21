@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F404
+test_cases:
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 5.4902
+  response: 7E80462F4040E
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 7.45098
+  response: 7E80462F40413
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 26.27451
+  response: 7E80462F40443
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 30.19608
+  response: 7E80462F4044D
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 30.58824
+  response: 7E80462F4044E
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 31.37255
+  response: 7E80462F40450
+- expected_values:
+    FOCUS_ENG_LOAD_PCT: 34.5098
+  response: 7E80462F40458
