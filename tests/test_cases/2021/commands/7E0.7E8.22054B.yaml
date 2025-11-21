@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22054B
+test_cases:
+- expected_values:
+    FOCUS_PCM_ENG_OIL_LIFE_REM: 45
+  response: 7E80462054B2D

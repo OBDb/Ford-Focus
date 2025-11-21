@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22057D
+test_cases:
+- expected_values:
+    FOCUS_AAT_ALT: 20
+  response: 7E80462057D78
+- expected_values:
+    FOCUS_AAT_ALT: 21
+  response: 7E80462057D7A
+- expected_values:
+    FOCUS_AAT_ALT: 22
+  response: 7E80462057D7C
+- expected_values:
+    FOCUS_AAT_ALT: 23
+  response: 7E80462057D7E

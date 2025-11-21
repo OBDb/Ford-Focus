@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221E16
+test_cases:
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 2.64404
+  response: 7E805621E162A4E
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 2.64673
+  response: 7E805621E162A59
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 2.65308
+  response: 7E805621E162A73
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 3.41382
+  response: 7E805621E16369F
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 3.41504
+  response: 7E805621E1636A4
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 3.96826
+  response: 7E805621E163F7E
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 5.3208
+  response: 7E805621E165522
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 5.32349
+  response: 7E805621E16552D
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 10
+  response: 7E805621E16A000
