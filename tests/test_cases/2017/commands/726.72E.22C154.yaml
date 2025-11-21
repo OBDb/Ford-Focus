@@ -1,4 +1,4 @@
-command_id: 726.22C154
+command_id: 726.72E.22C154
 test_cases:
 - expected_values:
     FOCUS_HOOD_OPEN: 0
