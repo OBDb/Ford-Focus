@@ -16,8 +16,14 @@ test_cases:
     FOCUS_TIP_V: 1.65527
   response: 7E80562033C0153
 - expected_values:
+    FOCUS_TIP_V: 1.67969
+  response: 7E80562033C0158
+- expected_values:
     FOCUS_TIP_V: 1.72363
   response: 7E80562033C0161
+- expected_values:
+    FOCUS_TIP_V: 1.80176
+  response: 7E80562033C0171
 - expected_values:
     FOCUS_TIP_V: 1.92871
   response: 7E80562033C018B

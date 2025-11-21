@@ -4,20 +4,5 @@ test_cases:
     FOCUS_PCM_VEH_ODO: 30837.3
   response: 7E80762F4A60004B495
 - expected_values:
-    FOCUS_PCM_VEH_ODO: 30837.5
-  response: 7E80762F4A60004B497
-- expected_values:
-    FOCUS_PCM_VEH_ODO: 30837.6
-  response: 7E80762F4A60004B498
-- expected_values:
-    FOCUS_PCM_VEH_ODO: 30837.8
-  response: 7E80762F4A60004B49A
-- expected_values:
-    FOCUS_PCM_VEH_ODO: 30838.2
-  response: 7E80762F4A60004B49E
-- expected_values:
-    FOCUS_PCM_VEH_ODO: 30838.4
-  response: 7E80762F4A60004B4A0
-- expected_values:
-    FOCUS_PCM_VEH_ODO: 30838.6
-  response: 7E80762F4A60004B4A2
+    FOCUS_PCM_VEH_ODO: 30839.3
+  response: 7E80762F4A60004B4A9

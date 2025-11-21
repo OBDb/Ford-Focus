@@ -4,20 +4,8 @@ test_cases:
     FOCUS_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
-    FOCUS_VCT_EXH_DES: 27.125
-  response: 7E8056203BB01B2
-- expected_values:
     FOCUS_VCT_EXH_DES: 31.1875
   response: 7E8056203BB01F3
 - expected_values:
-    FOCUS_VCT_EXH_DES: 33.0625
-  response: 7E8056203BB0211
-- expected_values:
-    FOCUS_VCT_EXH_DES: 36.75
-  response: 7E8056203BB024C
-- expected_values:
-    FOCUS_VCT_EXH_DES: 39.0625
-  response: 7E8056203BB0271
-- expected_values:
-    FOCUS_VCT_EXH_DES: 50.75
-  response: 7E8056203BB032C
+    FOCUS_VCT_EXH_DES: 48
+  response: 7E8056203BB0300

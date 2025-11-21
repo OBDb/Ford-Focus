@@ -4,6 +4,12 @@ test_cases:
     FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 444
   response: 7E805621E1A00DE
 - expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 464
+  response: 7E805621E1A00E8
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 488
+  response: 7E805621E1A00F4
+- expected_values:
     FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 506
   response: 7E805621E1A00FD
 - expected_values:

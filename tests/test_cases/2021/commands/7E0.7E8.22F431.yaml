@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_DIST_DTC_CLR: 4167
   response: 7E80562F4311047
+- expected_values:
+    FOCUS_DIST_DTC_CLR: 4168
+  response: 7E80562F4311048
