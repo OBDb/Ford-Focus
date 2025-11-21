@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 444
+  response: 7E805621E1A00DE
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 506
+  response: 7E805621E1A00FD
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 580
+  response: 7E805621E1A0122
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 1008
+  response: 7E805621E1A01F8
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 1176
+  response: 7E805621E1A024C
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 1206
+  response: 7E805621E1A025B
