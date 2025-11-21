@@ -85,6 +85,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   "720":
+  - 720.728.22404C:FOCUS_ODO
   - 720.728.226185:FOCUS_FLI
   "760":
   - 760.768.223201:FOCUS_STEER_ANGLE
