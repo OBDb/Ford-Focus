@@ -4,29 +4,8 @@ test_cases:
     FOCUS_CL_LC: 0
   response: 7E8056203BD0000
 - expected_values:
-    FOCUS_CL_LC: 0.00977
-  response: 7E8056203BD0050
-- expected_values:
-    FOCUS_CL_LC: 0.01208
-  response: 7E8056203BD0063
-- expected_values:
-    FOCUS_CL_LC: 0.0127
-  response: 7E8056203BD0068
-- expected_values:
-    FOCUS_CL_LC: 0.01282
-  response: 7E8056203BD0069
-- expected_values:
-    FOCUS_CL_LC: 0.01831
-  response: 7E8056203BD0096
-- expected_values:
     FOCUS_CL_LC: 0.02515
   response: 7E8056203BD00CE
 - expected_values:
-    FOCUS_CL_LC: -0.01392
-  response: 7E8056203BDFF8E
-- expected_values:
-    FOCUS_CL_LC: -0.00806
-  response: 7E8056203BDFFBE
-- expected_values:
-    FOCUS_CL_LC: -0.00732
-  response: 7E8056203BDFFC4
+    FOCUS_CL_LC: -0.01587
+  response: 7E8056203BDFF7E
