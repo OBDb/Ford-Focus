@@ -1,4 +1,4 @@
-command_id: 726.22C150
+command_id: 726.72E.22C150
 test_cases:
 - expected_values:
     FOCUS_DRIVER_DOOR_OPEN: 0
