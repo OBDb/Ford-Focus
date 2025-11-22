@@ -4,6 +4,9 @@ test_cases:
     FOCUS_TIP_ABS: 14.17775
   response: 7E80562033E320E
 - expected_values:
+    FOCUS_TIP_ABS: 14.74313
+  response: 7E80562033E340D
+- expected_values:
     FOCUS_TIP_ABS: 15.00757
   response: 7E80562033E34FC
 - expected_values:

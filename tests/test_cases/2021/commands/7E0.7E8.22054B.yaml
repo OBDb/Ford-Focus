@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_ENG_OIL_LIFE_REM: 45
   response: 7E80462054B2D
+- expected_values:
+    FOCUS_PCM_ENG_OIL_LIFE_REM: 100
+  response: 7E80462054B64

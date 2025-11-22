@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.224194
 test_cases:
 - expected_values:
-    FOCUS_DTE: 401.7
-  response: 7E8056241940FB1
+    FOCUS_DTE: 352.1
+  response: 7E8056241940DC1
 - expected_values:
-    FOCUS_DTE: 435.1
-  response: 7E80562419410FF
+    FOCUS_DTE: 358.3
+  response: 7E8056241940DFF
+- expected_values:
+    FOCUS_DTE: 384
+  response: 7E8056241940F00
 - expected_values:
     FOCUS_DTE: 435.3
   response: '7E8056241941101'

@@ -10,5 +10,8 @@ test_cases:
     FOCUS_GRILL_SHUT_DC: 74.11765
   response: 7E804620707BD
 - expected_values:
+    FOCUS_GRILL_SHUT_DC: 75.68627
+  response: 7E804620707C1
+- expected_values:
     FOCUS_GRILL_SHUT_DC: 100
   response: 7E804620707FF
