@@ -7,5 +7,5 @@ test_cases:
     FOCUS_EVAP_PURGE_CMD: 42.95959
   response: 7E80562116636FD
 - expected_values:
-    FOCUS_EVAP_PURGE_CMD: 92.85583
-  response: 7E80562116676DB
+    FOCUS_EVAP_PURGE_CMD: 96.94214
+  response: 7E8056211667C16

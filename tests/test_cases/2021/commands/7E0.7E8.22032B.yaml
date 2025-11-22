@@ -7,6 +7,9 @@ test_cases:
     FOCUS_ACC_POS: 3.5
   response: 7E80462032B07
 - expected_values:
+    FOCUS_ACC_POS: 4
+  response: 7E80462032B08
+- expected_values:
     FOCUS_ACC_POS: 7
   response: 7E80462032B0E
 - expected_values:
