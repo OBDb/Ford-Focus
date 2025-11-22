@@ -4,11 +4,11 @@ test_cases:
     FOCUS_ETC_ANG_DES: 3.0918
   response: 7E80562091A062F
 - expected_values:
-    FOCUS_ETC_ANG_DES: 3.9668
-  response: 7E80562091A07EF
+    FOCUS_ETC_ANG_DES: 4.99023
+  response: 7E80562091A09FB
 - expected_values:
-    FOCUS_ETC_ANG_DES: 4.00977
-  response: 7E80562091A0805
+    FOCUS_ETC_ANG_DES: 8
+  response: 7E80562091A1000
 - expected_values:
     FOCUS_ETC_ANG_DES: 26.20312
   response: 7E80562091A3468
