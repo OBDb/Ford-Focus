@@ -7,5 +7,5 @@ test_cases:
     FOCUS_IGN_TIM_CYL1: -15.75
   response: 7E80562116BFFC1
 - expected_values:
-    FOCUS_IGN_TIM_CYL1: -3.5
-  response: 7E80562116BFFF2
+    FOCUS_IGN_TIM_CYL1: -2
+  response: 7E80562116BFFF8

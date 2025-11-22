@@ -4,5 +4,5 @@ test_cases:
     FOCUS_ENG_LOAD_PCT: 0
   response: 7E80462F40400
 - expected_values:
-    FOCUS_ENG_LOAD_PCT: 45.09804
-  response: 7E80462F40473
+    FOCUS_ENG_LOAD_PCT: 49.01961
+  response: 7E80462F4047D
