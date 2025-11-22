@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22031A
 test_cases:
 - expected_values:
-    FOCUS_VCT_INT_ERR: 1.875
-  response: 7E80562031A001E
+    FOCUS_VCT_INT_ERR: 0
+  response: 7E80562031A0000
 - expected_values:
     FOCUS_VCT_INT_ERR: -5.875
   response: 7E80562031AFFA2

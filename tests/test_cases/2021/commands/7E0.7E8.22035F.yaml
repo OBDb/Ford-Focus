@@ -4,11 +4,11 @@ test_cases:
     FOCUS_RO2_V: 0.1084
   response: 7E80562035F006F
 - expected_values:
-    FOCUS_RO2_V: 0.72266
-  response: 7E80562035F02E4
-- expected_values:
     FOCUS_RO2_V: 0.75781
   response: 7E80562035F0308
 - expected_values:
     FOCUS_RO2_V: 1
-  response: 7E80562035F066D
+  response: 7E80562035F05F6
+- expected_values:
+    FOCUS_RO2_V: 1
+  response: 7E80562035F061B

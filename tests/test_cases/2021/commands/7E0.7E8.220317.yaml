@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_VCT_EXH_DUTY: 42.88025
   response: 7E80562031736E3
+- expected_values:
+    FOCUS_VCT_EXH_DUTY: 43.4967
+  response: 7E80562031737AD
