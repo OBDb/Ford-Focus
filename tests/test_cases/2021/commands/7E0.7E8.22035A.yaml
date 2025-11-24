@@ -4,6 +4,9 @@ test_cases:
     FOCUS_BARO_V: 3.87586
   response: 7E80562035A0319
 - expected_values:
+    FOCUS_BARO_V: 3.92473
+  response: 7E80562035A0323
+- expected_values:
     FOCUS_BARO_V: 3.93939
   response: 7E80562035A0326
 - expected_values:

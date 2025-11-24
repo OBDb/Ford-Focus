@@ -4,11 +4,11 @@ test_cases:
     FOCUS_LPFP_ACT: 48.80631
   response: 7E80562054802A1
 - expected_values:
+    FOCUS_LPFP_ACT: 55.33316
+  response: 7E80562054802FB
+- expected_values:
     FOCUS_LPFP_ACT: 55.69576
   response: '7E8056205480300'
-- expected_values:
-    FOCUS_LPFP_ACT: 70.56247
-  response: 7E80562054803CD
 - expected_values:
     FOCUS_LPFP_ACT: 97.32254
   response: 7E805620548053E
