@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_VEH_ODO: 30839.3
   response: 7E80762F4A60004B4A9
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 30902.8
+  response: 7E80762F4A60004B724
