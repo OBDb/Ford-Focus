@@ -4,20 +4,5 @@ test_cases:
     FOCUS_DIST_DTC_CLR: 398
   response: 7E80562F431018E
 - expected_values:
-    FOCUS_DIST_DTC_CLR: 399
-  response: 7E80562F431018F
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 400
-  response: 7E80562F4310190
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 401
-  response: 7E80562F4310191
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 403
-  response: 7E80562F4310193
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 404
-  response: 7E80562F4310194
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 405
-  response: 7E80562F4310195
+    FOCUS_DIST_DTC_CLR: 481
+  response: 7E80562F43101E1

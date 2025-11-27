@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     FOCUS_GEAR_ENG: 6
   response: 7E804621E1F06
+- expected_values:
+    FOCUS_GEAR_ENG: 6
+  response: 7E804621E1F82

@@ -4,5 +4,5 @@ test_cases:
     FOCUS_MCT: 53
   response: 7E8046203CA35
 - expected_values:
-    FOCUS_MCT: 78
-  response: 7E8046203CA4E
+    FOCUS_MCT: 85
+  response: 7E8046203CA55

@@ -4,5 +4,5 @@ test_cases:
     FOCUS_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    FOCUS_VSS: 95
-  response: 7E80462F40D5F
+    FOCUS_VSS: 104
+  response: 7E80462F40D68
