@@ -61,3 +61,5 @@ unsupported_commands_by_ecu:
   - 726.72E.22DD01:FOCUS_ODO
   "760":
   - 760.768.223201:FOCUS_STEER_ANGLE
+  "7E0":
+  - 7E0.7E8.22030F:FOCUS_CL
