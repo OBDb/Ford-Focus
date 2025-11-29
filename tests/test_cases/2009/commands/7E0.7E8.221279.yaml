@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    FOCUS_IAT_SENS_V: 3.74878
+  response: 7E80562127902FF
+- expected_values:
+    FOCUS_IAT_SENS_V: 3.78299
+  response: '7E8056212790306'
