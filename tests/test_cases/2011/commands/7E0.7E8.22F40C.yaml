@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    FOCUS_RPM: 709
+  response: 7E80562F40C0B14
+- expected_values:
+    FOCUS_RPM: 1540.5
+  response: 7E80562F40C1812
+- expected_values:
+    FOCUS_RPM: 2175.75
+  response: 7E80562F40C21FF
+- expected_values:
+    FOCUS_RPM: 2404
+  response: 7E80562F40C2590
