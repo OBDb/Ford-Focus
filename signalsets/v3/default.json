@@ -442,7 +442,7 @@
   "signals": [
     {"id": "FOCUS_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2013, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
