@@ -179,7 +179,7 @@
   "signals": [
     {"id": "FOCUS_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_EVAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 195597, "div": 978941, "unit": "volts" }, "name": "Evaporative pressure sensor voltage"}
   ]},
