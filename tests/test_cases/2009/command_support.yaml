@@ -50,6 +50,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.22F42F:FOCUS_FLI
 unsupported_commands_by_ecu:
   "720":
+  - 720.728.22404C:FOCUS_ODO
   - 720.728.226185:FOCUS_FLI
   - 720.728.2261A5:FOCUS_TPMS_WARN
   "726":
