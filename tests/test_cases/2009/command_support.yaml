@@ -52,6 +52,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.221E12:FOCUS_GEAR
   - 7E0.7E8.221E16:FOCUS_AXLE_GEAR_RATIO_MEAS
   - 7E0.7E8.22F42F:FOCUS_FLI
+  - 7E0.7E8.22F431:FOCUS_DIST_DTC_CLR
 unsupported_commands_by_ecu:
   "720":
   - 720.728.22404C:FOCUS_ODO
