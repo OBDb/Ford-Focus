@@ -1,0 +1,32 @@
+command_id: 7E0.0110
+test_cases:
+- expected_values:
+    MAF: 3.05
+  response: '7E80441100131'
+- expected_values:
+    MAF: 4.02
+  response: '7E80441100192'
+- expected_values:
+    MAF: 4.2
+  response: 7E804411001A4
+- expected_values:
+    MAF: 4.68
+  response: 7E804411001D4
+- expected_values:
+    MAF: 8.71
+  response: '7E80441100367'
+- expected_values:
+    MAF: 8.95
+  response: 7E8044110037F
+- expected_values:
+    MAF: 13.77
+  response: '7E80441100561'
+- expected_values:
+    MAF: 13.91
+  response: 7E8044110056F
+- expected_values:
+    MAF: 14.73
+  response: 7E804411005C1
+- expected_values:
+    MAF: 19.15
+  response: 7E8044110077B
