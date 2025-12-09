@@ -1,8 +1,8 @@
 command_id: 726.72E.222813
 test_cases:
 - expected_values:
-    FOCUS_TP_FL: 28
-  response: '72E056228130230'
+    FOCUS_TP_FL: 27.75
+  response: 72E05622813022B
 - expected_values:
-    FOCUS_TP_FL: 34.65
-  response: 72E0562281302B5
+    FOCUS_TP_FL: 37.25
+  response: 72E0562281302E9
