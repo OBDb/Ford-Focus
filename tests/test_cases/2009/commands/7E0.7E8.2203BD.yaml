@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203BD
+test_cases:
+- expected_values:
+    FOCUS_CL_LC: 0.00269
+  response: 7E8056203BD0016
+- expected_values:
+    FOCUS_CL_LC: 0.00989
+  response: 7E8056203BD0051
+- expected_values:
+    FOCUS_CL_LC: -0.01099
+  response: 7E8056203BDFFA6
