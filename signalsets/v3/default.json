@@ -406,7 +406,7 @@
   "signals": [
     {"id": "FOCUS_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "dbgfilter": { "to": 2010, "years": [2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
