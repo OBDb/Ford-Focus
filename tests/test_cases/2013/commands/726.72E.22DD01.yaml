@@ -7,26 +7,8 @@ test_cases:
     FOCUS_ODO: 259379
   response: 72E0662DD0103F533
 - expected_values:
-    FOCUS_ODO: 259380
-  response: 72E0662DD0103F534
-- expected_values:
-    FOCUS_ODO: 259381
-  response: 72E0662DD0103F535
-- expected_values:
-    FOCUS_ODO: 259382
-  response: 72E0662DD0103F536
-- expected_values:
-    FOCUS_ODO: 259383
-  response: 72E0662DD0103F537
-- expected_values:
     FOCUS_ODO: 259669
   response: 72E0662DD0103F655
 - expected_values:
-    FOCUS_ODO: 259670
-  response: 72E0662DD0103F656
-- expected_values:
-    FOCUS_ODO: 259698
-  response: 72E0662DD0103F672
-- expected_values:
-    FOCUS_ODO: 259727
-  response: 72E0662DD0103F68F
+    FOCUS_ODO: 259785
+  response: 72E0662DD0103F6C9
