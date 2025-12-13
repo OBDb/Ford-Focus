@@ -59,6 +59,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.229800:FOCUS_AC_P_SENS_V
   - 7E0.7E8.22F42F:FOCUS_FLI
   - 7E0.7E8.22F431:FOCUS_DIST_DTC_CLR
+  - 7E0.7E8.22F43C:FOCUS_CAT_TEMP
 unsupported_commands_by_ecu:
   "720":
   - 720.728.22404C:FOCUS_ODO
