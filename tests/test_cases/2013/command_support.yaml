@@ -147,6 +147,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010D
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "720":
   - 720.728.22404C:FOCUS_ODO
