@@ -339,7 +339,7 @@
   "signals": [
     {"id": "FOCUS_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
@@ -379,7 +379,7 @@
   "signals": [
     {"id": "FOCUS_PCM_CMD_TRANS_GEAR_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "unit": "scalar" }, "name": "Gear ratio, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1A"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
