@@ -4,5 +4,5 @@ test_cases:
     FOCUS_TP_RLO: 28
   response: '72E056228160230'
 - expected_values:
-    FOCUS_TP_RLO: 37.5
-  response: 72E0562281602EE
+    FOCUS_TP_RLO: 38
+  response: 72E0562281602F8
