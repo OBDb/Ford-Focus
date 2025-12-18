@@ -4,6 +4,12 @@ test_cases:
     FOCUS_LTFT: -7.03125
   response: 7E80462F40777
 - expected_values:
+    FOCUS_LTFT: -3.90625
+  response: 7E80462F4077B
+- expected_values:
+    FOCUS_LTFT: -2.34375
+  response: 7E80462F4077D
+- expected_values:
     FOCUS_LTFT: 1.5625
   response: 7E80462F40782
 - expected_values:
