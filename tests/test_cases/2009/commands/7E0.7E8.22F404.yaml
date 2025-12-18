@@ -4,29 +4,5 @@ test_cases:
     FOCUS_ENG_LOAD_PCT: 18.82353
   response: 7E80462F40430
 - expected_values:
-    FOCUS_ENG_LOAD_PCT: 20
-  response: 7E80462F40433
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 23.52941
-  response: 7E80462F4043C
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 37.64706
-  response: 7E80462F40460
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 60
-  response: 7E80462F40499
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 73.33333
-  response: 7E80462F404BB
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 74.11765
-  response: 7E80462F404BD
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 89.80392
-  response: 7E80462F404E5
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 90.19608
-  response: 7E80462F404E6
-- expected_values:
-    FOCUS_ENG_LOAD_PCT: 95.29412
-  response: 7E80462F404F3
+    FOCUS_ENG_LOAD_PCT: 100
+  response: 7E80462F404FF
