@@ -147,7 +147,7 @@
   "signals": [
     {"id": "FOCUS_PCM_MISF_EVENTS_LATEST_CYC", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Misfire events, latest cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_BARO", "path": "Engine", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 615, "div": 16963, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
@@ -171,7 +171,7 @@
   "signals": [
     {"id": "FOCUS_PCM_MISF_ACCEL_CYL3_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038B"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "FOCUS_PCM_MISF_ACCEL_CYL4_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 4"}
   ]},
@@ -410,7 +410,7 @@
   "signals": [
     {"id": "FOCUS_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.5, "dbgfilter": { "to": 2010, "years": [2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.5, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
   ]},
@@ -430,11 +430,11 @@
   "signals": [
     {"id": "FOCUS_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "dbgfilter": { "to": 2010, "years": [2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2015, 2016, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
