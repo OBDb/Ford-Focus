@@ -4,6 +4,9 @@ test_cases:
     FOCUS_FLI: 57.2549
   response: '7280462618592'
 - expected_values:
+    FOCUS_FLI: 86.66667
+  response: 72804626185DD
+- expected_values:
     FOCUS_FLI: 88.23529
   response: '72804626185E1'
 - expected_values:
