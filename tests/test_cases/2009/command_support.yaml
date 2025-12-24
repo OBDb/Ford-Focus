@@ -1,5 +1,7 @@
 model_year: 2009
 supported_commands_by_ecu:
+  "720":
+  - 720.728.226185:FOCUS_FLI
   "760":
   - 760.222B00:FOCUS_PARKING_BRAKE
   "7DF":
@@ -79,7 +81,6 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "720":
   - 720.728.22404C:FOCUS_ODO
-  - 720.728.226185:FOCUS_FLI
   - 720.728.2261A5:FOCUS_TPMS_WARN
   "726":
   - 726.72E.222813:FOCUS_TP_FL
