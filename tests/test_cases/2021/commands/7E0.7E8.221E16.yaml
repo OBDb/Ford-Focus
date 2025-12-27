@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221E16
 test_cases:
 - expected_values:
-    FOCUS_AXLE_GEAR_RATIO_MEAS: 1.41919
-  response: 7E805621E1616B5
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 1.41846
+  response: 7E805621E1616B2
+- expected_values:
+    FOCUS_AXLE_GEAR_RATIO_MEAS: 1.42017
+  response: 7E805621E1616B9
 - expected_values:
     FOCUS_AXLE_GEAR_RATIO_MEAS: 10
   response: 7E805621E16A000
