@@ -10,5 +10,5 @@ test_cases:
     FOCUS_DTE: 332.8
   response: 7E8056241940D00
 - expected_values:
-    FOCUS_DTE: 599.5
-  response: 7E805624194176B
+    FOCUS_DTE: 590.7
+  response: '7E8056241941713'
