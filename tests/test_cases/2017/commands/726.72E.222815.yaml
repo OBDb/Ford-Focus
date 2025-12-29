@@ -4,8 +4,8 @@ test_cases:
     FOCUS_TP_RRO: 27.4
   response: '72E056228150224'
 - expected_values:
-    FOCUS_TP_RRO: 38.25
-  response: 72E0562281502FD
+    FOCUS_TP_RRO: 38.3
+  response: 72E0562281502FE
 - expected_values:
     FOCUS_TP_RRO: 38.4
   response: '72E056228150300'
