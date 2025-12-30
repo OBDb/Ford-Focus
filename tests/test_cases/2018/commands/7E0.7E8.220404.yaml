@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220404
+test_cases:
+- expected_values:
+    FOCUS_KS2_RAW: 56
+  response: '7E8056204040038'
+- expected_values:
+    FOCUS_KS2_RAW: 57
+  response: '7E8056204040039'
+- expected_values:
+    FOCUS_KS2_RAW: 70
+  response: '7E8056204040046'
+- expected_values:
+    FOCUS_KS2_RAW: 80
+  response: '7E8056204040050'
+- expected_values:
+    FOCUS_KS2_RAW: 83
+  response: '7E8056204040053'
+- expected_values:
+    FOCUS_KS2_RAW: 86
+  response: '7E8056204040056'
+- expected_values:
+    FOCUS_KS2_RAW: 87
+  response: '7E8056204040057'
+- expected_values:
+    FOCUS_KS2_RAW: 117
+  response: '7E8056204040075'
+- expected_values:
+    FOCUS_KS2_RAW: 122
+  response: 7E805620404007A
