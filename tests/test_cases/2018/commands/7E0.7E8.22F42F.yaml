@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
+    FOCUS_FLI: 8.23529
+  response: 7E80462F42F15
+- expected_values:
+    FOCUS_FLI: 10.19608
+  response: 7E80462F42F1A
+- expected_values:
+    FOCUS_FLI: 12.15686
+  response: 7E80462F42F1F
+- expected_values:
     FOCUS_FLI: 46.27451
   response: 7E80462F42F76
