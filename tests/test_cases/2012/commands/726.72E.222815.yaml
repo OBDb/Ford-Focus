@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     FOCUS_TP_RRO: 25.6
   response: '72E056228150200'
+- expected_values:
+    FOCUS_TP_RRO: 26.7
+  response: '72E056228150216'

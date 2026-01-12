@@ -4,5 +4,8 @@ test_cases:
     FOCUS_HIGHBEAM_STATUS: 0
   response: '72E0762715100000000'
 - expected_values:
+    FOCUS_HIGHBEAM_STATUS: 0
+  response: '72E0762715100000100'
+- expected_values:
     FOCUS_HIGHBEAM_STATUS: 2
   response: '72E0762715120000000'
