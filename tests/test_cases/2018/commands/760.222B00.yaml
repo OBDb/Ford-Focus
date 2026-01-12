@@ -7,5 +7,8 @@ test_cases:
     FOCUS_PARKING_BRAKE: 0
   response: 76807622B0000000000
 - expected_values:
+    FOCUS_PARKING_BRAKE: 0
+  response: 76807622B0020000000
+- expected_values:
     FOCUS_PARKING_BRAKE: 1
   response: 76807622B0080000000

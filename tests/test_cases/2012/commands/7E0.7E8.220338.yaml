@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220338
+test_cases:
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.73047
+  response: '7E8056203380176'
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.73633
+  response: '7E8056203380179'
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.73828
+  response: 7E805620338017A
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.74805
+  response: 7E805620338017F
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.75781
+  response: '7E8056203380184'
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.76758
+  response: '7E8056203380189'
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.7793
+  response: 7E805620338018F
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.79492
+  response: '7E8056203380197'

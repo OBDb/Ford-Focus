@@ -1,0 +1,23 @@
+command_id: 726.72E.222814
+test_cases:
+- expected_values:
+    FOCUS_TP_FR: 30.8
+  response: '72E056228140268'
+- expected_values:
+    FOCUS_TP_FR: 30.95
+  response: 72E05622814026B
+- expected_values:
+    FOCUS_TP_FR: 31.2
+  response: '72E056228140270'
+- expected_values:
+    FOCUS_TP_FR: 31.45
+  response: '72E056228140275'
+- expected_values:
+    FOCUS_TP_FR: 31.7
+  response: 72E05622814027A
+- expected_values:
+    FOCUS_TP_FR: 31.85
+  response: 72E05622814027D
+- expected_values:
+    FOCUS_TP_FR: 31.95
+  response: 72E05622814027F
