@@ -4,5 +4,8 @@ test_cases:
     FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 0
   response: '7E80762034500000000'
 - expected_values:
+    FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 1
+  response: '7E80762034500000001'
+- expected_values:
     FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 3
   response: '7E80762034500000003'
