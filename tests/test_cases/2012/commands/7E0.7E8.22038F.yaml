@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22038F
+test_cases:
+- expected_values:
+    FOCUS_ECT: 13.3125
+  response: 7E80562038F0354
+- expected_values:
+    FOCUS_ECT: 20.03125
+  response: 7E80562038F0502
+- expected_values:
+    FOCUS_ECT: 51.95312
+  response: 7E80562038F0CFD
+- expected_values:
+    FOCUS_ECT: 72.03125
+  response: 7E80562038F1202
