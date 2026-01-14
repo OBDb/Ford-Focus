@@ -4,5 +4,5 @@ test_cases:
     FOCUS_TP_FR: 30.45
   response: '72E056228140261'
 - expected_values:
-    FOCUS_TP_FR: 35.2
-  response: 72E0562281402C0
+    FOCUS_TP_FR: 35.7
+  response: 72E0562281402CA
