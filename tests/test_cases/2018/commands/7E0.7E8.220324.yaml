@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.220324
-test_cases:
-- expected_values:
-    FOCUS_HPFP_V: 0.89443
-  response: 7E80562032400B7
-- expected_values:
-    FOCUS_HPFP_V: 1.01662
-  response: 7E80562032400D0

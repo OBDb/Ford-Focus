@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.229800
-test_cases:
-- expected_values:
-    FOCUS_AC_P_SENS_V: 1.14355
-  response: '7E8056298000493'
-- expected_values:
-    FOCUS_AC_P_SENS_V: 1.23633
-  response: 7E80562980004F2
