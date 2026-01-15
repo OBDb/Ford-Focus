@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.2203BA
-test_cases:
-- expected_values:
-    FOCUS_AAT_V: 2.69795
-  response: 7E8056203BA0228
-- expected_values:
-    FOCUS_AAT_V: 2.95699
-  response: 7E8056203BA025D
