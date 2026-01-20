@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22032B
+test_cases:
+- expected_values:
+    FOCUS_ACC_POS: 0
+  response: 7E80462032B00
+- expected_values:
+    FOCUS_ACC_POS: 3.5
+  response: 7E80462032B07
+- expected_values:
+    FOCUS_ACC_POS: 4
+  response: 7E80462032B08
+- expected_values:
+    FOCUS_ACC_POS: 7
+  response: 7E80462032B0E
+- expected_values:
+    FOCUS_ACC_POS: 13
+  response: 7E80462032B1A
+- expected_values:
+    FOCUS_ACC_POS: 16.5
+  response: 7E80462032B21
+- expected_values:
+    FOCUS_ACC_POS: 17.5
+  response: 7E80462032B23

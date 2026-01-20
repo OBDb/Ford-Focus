@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220338
+test_cases:
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.7168
+  response: 7E805620338016F
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 0.99023
+  response: 7E80562033801FB
+- expected_values:
+    FOCUS_ETC_TRIM_LRN: 1.00195
+  response: '7E8056203380201'

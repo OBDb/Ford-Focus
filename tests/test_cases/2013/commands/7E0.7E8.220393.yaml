@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220393
+test_cases:
+- expected_values:
+    FOCUS_AC_P: 68.74789
+  response: 7E80562039300ED
+- expected_values:
+    FOCUS_AC_P: 69.32804
+  response: 7E80562039300EF
+- expected_values:
+    FOCUS_AC_P: 69.90819
+  response: 7E80562039300F1
+- expected_values:
+    FOCUS_AC_P: 70.48835
+  response: 7E80562039300F3
+- expected_values:
+    FOCUS_AC_P: 71.0685
+  response: 7E80562039300F5
+- expected_values:
+    FOCUS_AC_P: 72.2288
+  response: 7E80562039300F9

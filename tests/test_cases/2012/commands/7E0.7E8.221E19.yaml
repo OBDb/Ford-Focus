@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221E19
+test_cases:
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 2.70292
+  response: 7E805621E192B3F
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 3.33599
+  response: 7E805621E193560
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 4.36799
+  response: 7E805621E1945E3
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 6.14292
+  response: 7E805621E196249
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 9.35
+  response: 7E805621E199599
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 15.00706
+  response: 7E805621E19F01C
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_GEAR_RATIO: 15.07909
+  response: 7E805621E19F143

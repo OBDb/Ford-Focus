@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 42.95959
+  response: 7E80562116636FD
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 96.94214
+  response: 7E8056211667C16

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    FOCUS_CAT_TEMP: 27.4
+  response: 7E80562F43C02A2
+- expected_values:
+    FOCUS_CAT_TEMP: 548.5
+  response: 7E80562F43C16FD
+- expected_values:
+    FOCUS_CAT_TEMP: 625.6
+  response: 7E80562F43C1A00
+- expected_values:
+    FOCUS_CAT_TEMP: 779.5
+  response: 7E80562F43C2003

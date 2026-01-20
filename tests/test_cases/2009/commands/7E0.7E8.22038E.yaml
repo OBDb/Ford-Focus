@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22038E
+test_cases:
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E09F8
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A20
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A66
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A84
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A89
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A8E
+- expected_values:
+    FOCUS_EVAP_V: 5
+  response: 7E80562038E0A93

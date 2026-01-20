@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 430
+  response: 7E805621E1A00D7
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 506
+  response: 7E805621E1A00FD
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 574
+  response: 7E805621E1A011F
+- expected_values:
+    FOCUS_PCM_CMD_TRANS_MAIN_LINE_P: 1176
+  response: 7E805621E1A024C

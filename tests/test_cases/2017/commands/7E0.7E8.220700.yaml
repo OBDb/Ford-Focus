@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220700
+test_cases:
+- expected_values:
+    FOCUS_IAT_FAULT: 0
+  response: '7E80762070000800000'
+- expected_values:
+    FOCUS_IAT_FAULT: 0
+  response: '7E80762070000800008'
+- expected_values:
+    FOCUS_IAT_FAULT: 0
+  response: '7E80762070000800800'
+- expected_values:
+    FOCUS_IAT_FAULT: 0
+  response: '7E80762070000820008'
+- expected_values:
+    FOCUS_IAT_FAULT: 128
+  response: '7E80762070080800008'
