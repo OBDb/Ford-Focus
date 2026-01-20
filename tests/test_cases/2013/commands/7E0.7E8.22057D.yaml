@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22057D
 test_cases:
 - expected_values:
+    FOCUS_AAT_ALT: 6
+  response: 7E80462057D5C
+- expected_values:
     FOCUS_AAT_ALT: 7
   response: 7E80462057D5E
 - expected_values:

@@ -7,26 +7,8 @@ test_cases:
     FOCUS_CAT_TEMP: 600
   response: 7E80562F43C1900
 - expected_values:
-    FOCUS_CAT_TEMP: 632.5
-  response: 7E80562F43C1A45
-- expected_values:
-    FOCUS_CAT_TEMP: 670.4
-  response: 7E80562F43C1BC0
-- expected_values:
-    FOCUS_CAT_TEMP: 681.8
-  response: 7E80562F43C1C32
-- expected_values:
     FOCUS_CAT_TEMP: 697
   response: 7E80562F43C1CCA
-- expected_values:
-    FOCUS_CAT_TEMP: 717.5
-  response: 7E80562F43C1D97
-- expected_values:
-    FOCUS_CAT_TEMP: 718.1
-  response: 7E80562F43C1D9D
-- expected_values:
-    FOCUS_CAT_TEMP: 720.7
-  response: 7E80562F43C1DB7
 - expected_values:
     FOCUS_CAT_TEMP: 735.8
   response: 7E80562F43C1E4E

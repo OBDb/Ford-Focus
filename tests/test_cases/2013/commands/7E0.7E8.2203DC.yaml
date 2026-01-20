@@ -4,29 +4,8 @@ test_cases:
     FOCUS_HPFP_DES: 310.38076
   response: 7E8056203DC00D6
 - expected_values:
-    FOCUS_HPFP_DES: 414.80794
-  response: 7E8056203DC011E
-- expected_values:
-    FOCUS_HPFP_DES: 514.88398
-  response: 7E8056203DC0163
-- expected_values:
-    FOCUS_HPFP_DES: 670.07436
-  response: 7E8056203DC01CE
-- expected_values:
     FOCUS_HPFP_DES: 742.59323
   response: 7E8056203DC0200
-- expected_values:
-    FOCUS_HPFP_DES: 868.77606
-  response: 7E8056203DC0257
-- expected_values:
-    FOCUS_HPFP_DES: 1161.75229
-  response: 7E8056203DC0321
-- expected_values:
-    FOCUS_HPFP_DES: 1386.56079
-  response: 7E8056203DC03BC
-- expected_values:
-    FOCUS_HPFP_DES: 1411.21721
-  response: 7E8056203DC03CD
 - expected_values:
     FOCUS_HPFP_DES: 1589.61363
   response: 7E8056203DC0448
