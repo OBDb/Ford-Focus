@@ -7,6 +7,9 @@ test_cases:
     FOCUS_ERT: 59
   response: 7E8046211263B
 - expected_values:
+    FOCUS_ERT: 80
+  response: '7E80462112650'
+- expected_values:
     FOCUS_ERT: 93
   response: 7E8046211265D
 - expected_values:
