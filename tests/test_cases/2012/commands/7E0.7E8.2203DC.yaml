@@ -4,11 +4,11 @@ test_cases:
     FOCUS_HPFP_DES: 53.66396
   response: 7E8056203DC0025
 - expected_values:
+    FOCUS_HPFP_DES: 369.84624
+  response: 7E8056203DC00FF
+- expected_values:
     FOCUS_HPFP_DES: 371.29661
   response: 7E8056203DC0100
-- expected_values:
-    FOCUS_HPFP_DES: 1112.43946
-  response: 7E8056203DC02FF
 - expected_values:
     FOCUS_HPFP_DES: 1879.68911
   response: 7E8056203DC0510
