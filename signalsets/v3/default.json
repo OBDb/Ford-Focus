@@ -347,7 +347,7 @@
   "signals": [
     {"id": "FOCUS_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
