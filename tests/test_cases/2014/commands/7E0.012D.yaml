@@ -1,0 +1,20 @@
+command_id: 7E0.012D
+test_cases:
+- expected_values:
+    EGR_ERR: -6.25
+  response: 7E803412D78
+- expected_values:
+    EGR_ERR: -2.34375
+  response: 7E803412D7D
+- expected_values:
+    EGR_ERR: -0.78125
+  response: 7E803412D7F
+- expected_values:
+    EGR_ERR: 0
+  response: 7E803412D80
+- expected_values:
+    EGR_ERR: 3.125
+  response: 7E803412D84
+- expected_values:
+    EGR_ERR: 9.375
+  response: 7E803412D8C

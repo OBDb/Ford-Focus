@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220404
+test_cases:
+- expected_values:
+    FOCUS_KS2_RAW: 51
+  response: '7E8056204040033'
+- expected_values:
+    FOCUS_KS2_RAW: 207
+  response: 7E80562040400CF

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F421
+test_cases:
+- expected_values:
+    FOCUS_MIL_DIST: 11458
+  response: 7E80562F4212CC2
+- expected_values:
+    FOCUS_MIL_DIST: 11459
+  response: 7E80562F4212CC3
+- expected_values:
+    FOCUS_MIL_DIST: 11460
+  response: 7E80562F4212CC4
+- expected_values:
+    FOCUS_MIL_DIST: 11461
+  response: 7E80562F4212CC5
+- expected_values:
+    FOCUS_MIL_DIST: 11462
+  response: 7E80562F4212CC6

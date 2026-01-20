@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22054D
+test_cases:
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.13379
+  response: 7E80562054D0889
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.27539
+  response: 7E80562054D091A
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.29004
+  response: 7E80562054D0929
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.2998
+  response: 7E80562054D0933
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.30957
+  response: 7E80562054D093D
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.34375
+  response: 7E80562054D0960
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.34863
+  response: 7E80562054D0965
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.48047
+  response: 7E80562054D09EC
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.50488
+  response: 7E80562054D0A05
+- expected_values:
+    FOCUS_LPFP_SENS_V: 2.73438
+  response: 7E80562054D0AF0
