@@ -4,29 +4,8 @@ test_cases:
     FOCUS_VCT_INT_DES: -39.9375
   response: 7E8056203BCFD81
 - expected_values:
-    FOCUS_VCT_INT_DES: -39.5625
-  response: 7E8056203BCFD87
-- expected_values:
-    FOCUS_VCT_INT_DES: -30
-  response: 7E8056203BCFE20
-- expected_values:
     FOCUS_VCT_INT_DES: -14.75
   response: 7E8056203BCFF14
-- expected_values:
-    FOCUS_VCT_INT_DES: -11.0625
-  response: 7E8056203BCFF4F
-- expected_values:
-    FOCUS_VCT_INT_DES: -1.75
-  response: 7E8056203BCFFE4
-- expected_values:
-    FOCUS_VCT_INT_DES: -1.4375
-  response: 7E8056203BCFFE9
-- expected_values:
-    FOCUS_VCT_INT_DES: -1.25
-  response: 7E8056203BCFFEC
-- expected_values:
-    FOCUS_VCT_INT_DES: -0.375
-  response: 7E8056203BCFFFA
 - expected_values:
     FOCUS_VCT_INT_DES: -0.125
   response: 7E8056203BCFFFE

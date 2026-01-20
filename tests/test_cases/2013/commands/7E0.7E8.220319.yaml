@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     FOCUS_VCT_EXH_ACT: 44.6875
   response: 7E80562031902CB
+- expected_values:
+    FOCUS_VCT_EXH_ACT: 50
+  response: 7E805620319FFFF

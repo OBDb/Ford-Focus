@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    FOCUS_LPFP_DUTY: 50.04578
-  response: 7E805620307400F
-- expected_values:
-    FOCUS_LPFP_DUTY: 50.15869
-  response: '7E8056203074034'
+    FOCUS_LPFP_DUTY: 48.02856
+  response: 7E8056203073D7A
 - expected_values:
     FOCUS_LPFP_DUTY: 50.57068
   response: 7E80562030740BB
 - expected_values:
-    FOCUS_LPFP_DUTY: 50.80566
-  response: '7E8056203074108'
-- expected_values:
-    FOCUS_LPFP_DUTY: 51.86157
-  response: '7E8056203074262'
-- expected_values:
-    FOCUS_LPFP_DUTY: 51.93481
-  response: 7E805620307427A
-- expected_values:
-    FOCUS_LPFP_DUTY: 52.05994
-  response: 7E80562030742A3
-- expected_values:
-    FOCUS_LPFP_DUTY: 52.41699
-  response: '7E8056203074318'
-- expected_values:
     FOCUS_LPFP_DUTY: 53.13721
   response: '7E8056203074404'
-- expected_values:
-    FOCUS_LPFP_DUTY: 53.4729
-  response: '7E8056203074472'

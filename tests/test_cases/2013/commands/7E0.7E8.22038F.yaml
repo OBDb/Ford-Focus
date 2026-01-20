@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.22038F
 test_cases:
 - expected_values:
-    FOCUS_ECT: 23.79688
-  response: 7E80562038F05F3
-- expected_values:
-    FOCUS_ECT: 34.28125
-  response: 7E80562038F0892
+    FOCUS_ECT: 19.03125
+  response: 7E80562038F04C2
 - expected_values:
     FOCUS_ECT: 43.90625
   response: 7E80562038F0AFA
 - expected_values:
-    FOCUS_ECT: 50.73438
-  response: 7E80562038F0CAF
-- expected_values:
-    FOCUS_ECT: 55.26562
-  response: 7E80562038F0DD1
-- expected_values:
-    FOCUS_ECT: 62.48438
-  response: 7E80562038F0F9F
-- expected_values:
-    FOCUS_ECT: 67.03125
-  response: 7E80562038F10C2
-- expected_values:
-    FOCUS_ECT: 67.89062
-  response: 7E80562038F10F9
-- expected_values:
     FOCUS_ECT: 68.23438
   response: 7E80562038F110F
-- expected_values:
-    FOCUS_ECT: 68.59375
-  response: 7E80562038F1126
