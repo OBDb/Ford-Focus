@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203AF
+test_cases:
+- expected_values:
+    FOCUS_TRQ_CTRL_REQ: 0
+  response: 7E8046203AF00
+- expected_values:
+    FOCUS_TRQ_CTRL_REQ: 5
+  response: 7E8046203AF05
+- expected_values:
+    FOCUS_TRQ_CTRL_REQ: 9
+  response: 7E8046203AF09
+- expected_values:
+    FOCUS_TRQ_CTRL_REQ: 16
+  response: 7E8046203AF10
