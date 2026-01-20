@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    FOCUS_LPFP_DUTY: 24.03259
-  response: 7E8056203071EC3
+    FOCUS_LPFP_DUTY: 23.12012
+  response: 7E8056203071D98
 - expected_values:
-    FOCUS_LPFP_DUTY: 28.11584
-  response: 7E80562030723FD
+    FOCUS_LPFP_DUTY: 29.68445
+  response: 7E80562030725FF
+- expected_values:
+    FOCUS_LPFP_DUTY: 31.25
+  response: '7E8056203072800'
 - expected_values:
     FOCUS_LPFP_DUTY: 75
   response: '7E8056203076000'
