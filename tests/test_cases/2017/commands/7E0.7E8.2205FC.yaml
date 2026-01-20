@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2205FC
 test_cases:
 - expected_values:
-    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 29.76562
-  response: 7E8056205FC0771
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 14.20312
+  response: 7E8056205FC038D
 - expected_values:
     FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 72
   response: 7E8056205FC1200
