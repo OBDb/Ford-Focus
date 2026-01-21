@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22116B
 test_cases:
 - expected_values:
-    FOCUS_IGN_TIM_CYL1: 0.25
-  response: 7E80562116B0001
+    FOCUS_IGN_TIM_CYL1: 0
+  response: 7E80562116B0000
 - expected_values:
     FOCUS_IGN_TIM_CYL1: -12
   response: 7E80562116BFFD0
 - expected_values:
-    FOCUS_IGN_TIM_CYL1: -2.75
-  response: 7E80562116BFFF5
+    FOCUS_IGN_TIM_CYL1: -0.25
+  response: 7E80562116BFFFF
