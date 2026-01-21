@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    FOCUS_CAT_TEMP: 227.2
+  response: 7E80562F43C0A70
+- expected_values:
+    FOCUS_CAT_TEMP: 485.5
+  response: 7E80562F43C1487
+- expected_values:
+    FOCUS_CAT_TEMP: 553.8
+  response: 7E80562F43C1732
+- expected_values:
+    FOCUS_CAT_TEMP: 561.5
+  response: 7E80562F43C177F
+- expected_values:
+    FOCUS_CAT_TEMP: 565
+  response: 7E80562F43C17A2
+- expected_values:
+    FOCUS_CAT_TEMP: 585.7
+  response: 7E80562F43C1871
+- expected_values:
+    FOCUS_CAT_TEMP: 588.2
+  response: 7E80562F43C188A
+- expected_values:
+    FOCUS_CAT_TEMP: 607.9
+  response: 7E80562F43C194F
+- expected_values:
+    FOCUS_CAT_TEMP: 615.8
+  response: 7E80562F43C199E
+- expected_values:
+    FOCUS_CAT_TEMP: 624.6
+  response: 7E80562F43C19F6
