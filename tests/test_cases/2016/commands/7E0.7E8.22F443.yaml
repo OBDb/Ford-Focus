@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 18.82353
+  response: 7E80562F4430030
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 19.60784
+  response: 7E80562F4430032
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 23.13725
+  response: 7E80562F443003B
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 23.92157
+  response: 7E80562F443003D
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 29.01961
+  response: 7E80562F443004A
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 37.2549
+  response: 7E80562F443005F
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 38.03922
+  response: 7E80562F4430061
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 48.23529
+  response: 7E80562F443007B
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 58.03922
+  response: 7E80562F4430094
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 64.70588
+  response: 7E80562F44300A5

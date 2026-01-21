@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220707
+test_cases:
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 30.58824
+  response: 7E8046207074E
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 33.33333
+  response: '7E80462070755'
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 53.33333
+  response: '7E80462070788'
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 56.47059
+  response: '7E80462070790'
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 67.45098
+  response: 7E804620707AC
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 94.11765
+  response: 7E804620707F0
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 100
+  response: 7E804620707FF
