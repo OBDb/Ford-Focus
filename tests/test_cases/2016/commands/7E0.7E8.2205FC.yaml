@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2205FC
+test_cases:
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 49.32812
+  response: 7E8056205FC0C55
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 51.71875
+  response: 7E8056205FC0CEE
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 54.09375
+  response: 7E8056205FC0D86
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 55.6875
+  response: 7E8056205FC0DEC
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 61.25
+  response: 7E8056205FC0F50
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 63.1875
+  response: 7E8056205FC0FCC
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 66.34375
+  response: 7E8056205FC1096
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 71.4375
+  response: 7E8056205FC11DC
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 75.48438
+  response: 7E8056205FC12DF
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 76
+  response: 7E8056205FC1300

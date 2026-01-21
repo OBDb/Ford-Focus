@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.220462
+test_cases:
+- expected_values:
+    FOCUS_WGDC: 24.41101
+  response: 7E8056204621F3F
+- expected_values:
+    FOCUS_WGDC: 24.46594
+  response: 7E8056204621F51
+- expected_values:
+    FOCUS_WGDC: 24.5575
+  response: 7E8056204621F6F
+- expected_values:
+    FOCUS_WGDC: 24.72534
+  response: 7E8056204621FA6
+- expected_values:
+    FOCUS_WGDC: 50.73853
+  response: 7E80562046240F2
+- expected_values:
+    FOCUS_WGDC: 56.90918
+  response: 7E80562046248D8
+- expected_values:
+    FOCUS_WGDC: 57.01294
+  response: 7E80562046248FA
+- expected_values:
+    FOCUS_WGDC: 57.44324
+  response: '7E8056204624987'
+- expected_values:
+    FOCUS_WGDC: 57.4646
+  response: 7E805620462498E
+- expected_values:
+    FOCUS_WGDC: 57.4707
+  response: '7E8056204624990'
