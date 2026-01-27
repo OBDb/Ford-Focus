@@ -7,5 +7,5 @@ test_cases:
     FOCUS_VCT_INT_ACT: 4076.0625
   response: 7E805620318FEC1
 - expected_values:
-    FOCUS_VCT_INT_ACT: 4091.375
-  response: 7E805620318FFB6
+    FOCUS_VCT_INT_ACT: 4080.5
+  response: 7E805620318FF08
