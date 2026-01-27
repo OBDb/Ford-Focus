@@ -4,6 +4,9 @@ test_cases:
     FOCUS_VCT_INT_DES: 0
   response: 7E8056203BC0000
 - expected_values:
+    FOCUS_VCT_INT_DES: -15.6875
+  response: 7E8056203BCFF05
+- expected_values:
     FOCUS_VCT_INT_DES: -3.375
   response: 7E8056203BCFFCA
 - expected_values:
@@ -21,6 +24,9 @@ test_cases:
 - expected_values:
     FOCUS_VCT_INT_DES: -0.6875
   response: 7E8056203BCFFF5
+- expected_values:
+    FOCUS_VCT_INT_DES: -0.5625
+  response: 7E8056203BCFFF7
 - expected_values:
     FOCUS_VCT_INT_DES: -0.0625
   response: 7E8056203BCFFFF
