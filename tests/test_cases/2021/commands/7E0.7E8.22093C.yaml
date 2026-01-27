@@ -10,5 +10,5 @@ test_cases:
     FOCUS_ETC_ANG_ACT: 10.99219
   response: 7E80562093C15FC
 - expected_values:
-    FOCUS_ETC_ANG_ACT: 21.27344
-  response: 7E80562093C2A8C
+    FOCUS_ETC_ANG_ACT: 26.13281
+  response: 7E80562093C3444

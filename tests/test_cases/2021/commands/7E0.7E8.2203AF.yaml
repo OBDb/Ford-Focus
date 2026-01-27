@@ -10,6 +10,9 @@ test_cases:
     FOCUS_TRQ_CTRL_REQ: 12
   response: 7E8046203AF0C
 - expected_values:
+    FOCUS_TRQ_CTRL_REQ: 14
+  response: 7E8046203AF0E
+- expected_values:
     FOCUS_TRQ_CTRL_REQ: 16
   response: 7E8046203AF10
 - expected_values:
