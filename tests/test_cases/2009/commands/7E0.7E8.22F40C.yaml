@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    FOCUS_RPM: 661.75
+  response: 7E80562F40C0A57
+- expected_values:
+    FOCUS_RPM: 676
+  response: 7E80562F40C0A90
+- expected_values:
+    FOCUS_RPM: 716.5
+  response: 7E80562F40C0B32
+- expected_values:
+    FOCUS_RPM: 891.5
+  response: 7E80562F40C0DEE
+- expected_values:
+    FOCUS_RPM: 898.5
+  response: 7E80562F40C0E0A
+- expected_values:
+    FOCUS_RPM: 969.75
+  response: 7E80562F40C0F27
+- expected_values:
+    FOCUS_RPM: 1580.25
+  response: 7E80562F40C18B1
+- expected_values:
+    FOCUS_RPM: 1618.25
+  response: 7E80562F40C1949
+- expected_values:
+    FOCUS_RPM: 2263.5
+  response: 7E80562F40C235E
+- expected_values:
+    FOCUS_RPM: 2850.75
+  response: 7E80562F40C2C8B
