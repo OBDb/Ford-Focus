@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_FLI: 61.17647
   response: 728046261859C
+- expected_values:
+    FOCUS_FLI: 61.96078
+  response: 728046261859E
