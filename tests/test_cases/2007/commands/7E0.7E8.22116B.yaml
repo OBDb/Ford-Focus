@@ -1,11 +1,29 @@
 command_id: 7E0.7E8.22116B
 test_cases:
 - expected_values:
+    FOCUS_IGN_TIM_CYL1: 40
+  response: 7E80562116B00A0
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 40.5
+  response: 7E80562116B00A2
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 40.75
+  response: 7E80562116B00A3
+- expected_values:
     FOCUS_IGN_TIM_CYL1: 41.5
   response: 7E80562116B00A6
 - expected_values:
     FOCUS_IGN_TIM_CYL1: 42
   response: 7E80562116B00A8
 - expected_values:
+    FOCUS_IGN_TIM_CYL1: 42.25
+  response: 7E80562116B00A9
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 42.75
+  response: 7E80562116B00AB
+- expected_values:
     FOCUS_IGN_TIM_CYL1: 43
   response: 7E80562116B00AC
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 43.5
+  response: 7E80562116B00AE
