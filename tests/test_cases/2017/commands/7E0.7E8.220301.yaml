@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_MAP_V: 0
   response: '7E8056203010000'
+- expected_values:
+    FOCUS_MAP_V: 0.58594
+  response: '7E8056203010258'
+- expected_values:
+    FOCUS_MAP_V: 0.625
+  response: '7E8056203010280'

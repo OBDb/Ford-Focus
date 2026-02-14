@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2203CA
 test_cases:
 - expected_values:
+    FOCUS_MCT: 68
+  response: 7E8046203CA44
+- expected_values:
+    FOCUS_MCT: 69
+  response: 7E8046203CA45
+- expected_values:
     FOCUS_MCT: 94
   response: 7E8046203CA5E
