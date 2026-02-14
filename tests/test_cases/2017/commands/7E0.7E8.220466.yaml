@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_TIP_DES_ABS: 14.16115
   response: 7E80562046631FF
+- expected_values:
+    FOCUS_TIP_DES_ABS: 14.54176
+  response: '7E8056204663357'
+- expected_values:
+    FOCUS_TIP_DES_ABS: 15.2377
+  response: 7E80562046635CC
