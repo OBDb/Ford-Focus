@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_TIP_V: 1.25
   response: 7E80562033C0100
+- expected_values:
+    FOCUS_TIP_V: 1.63574
+  response: 7E80562033C014F
+- expected_values:
+    FOCUS_TIP_V: 1.69434
+  response: 7E80562033C015B
