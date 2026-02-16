@@ -4,5 +4,5 @@ test_cases:
     FOCUS_LPFP_DES: 59.16
   response: 7E80462041F88
 - expected_values:
-    FOCUS_LPFP_DES: 87.435
-  response: 7E80462041FC9
+    FOCUS_LPFP_DES: 90.915
+  response: 7E80462041FD1
