@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
+    FOCUS_DIST_DTC_CLR: 1114
+  response: 7E80562F431045A
+- expected_values:
     FOCUS_DIST_DTC_CLR: 1985
   response: 7E80562F43107C1
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1986
-  response: 7E80562F43107C2
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1987
-  response: 7E80562F43107C3
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1988
-  response: 7E80562F43107C4
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1989
-  response: 7E80562F43107C5
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1991
-  response: 7E80562F43107C7
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1993
-  response: 7E80562F43107C9
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1995
-  response: 7E80562F43107CB
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 1997
-  response: 7E80562F43107CD
 - expected_values:
     FOCUS_DIST_DTC_CLR: 1999
   response: 7E80562F43107CF

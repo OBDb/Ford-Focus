@@ -3,7 +3,7 @@
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2008], "from": 2010 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2008, 2010], "from": 2012 },
   "signals": [
     {"id": "FOCUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -75,7 +75,7 @@
   "signals": [
     {"id": "FOCUS_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus Parking Brake State"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008], "from": 2010 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2010], "from": 2012 },
   "signals": [
     {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
