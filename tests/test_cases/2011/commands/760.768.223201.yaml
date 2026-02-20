@@ -1,0 +1,8 @@
+command_id: 760.768.223201
+test_cases:
+- expected_values:
+    FOCUS_STEER_ANGLE: 790
+  response: 768056232017FC4
+- expected_values:
+    FOCUS_STEER_ANGLE: -790
+  response: '768056232018000'

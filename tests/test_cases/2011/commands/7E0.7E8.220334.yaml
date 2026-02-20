@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220334
 test_cases:
 - expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 70.15625
-  response: 7E805620334118A
+    FOCUS_PCM_CYL_HEAD_T_CORR: 54.17188
+  response: 7E8056203340D8B
 - expected_values:
     FOCUS_PCM_CYL_HEAD_T_CORR: 72.375
   response: '7E8056203341218'
