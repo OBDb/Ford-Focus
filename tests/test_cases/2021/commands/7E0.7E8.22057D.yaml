@@ -4,20 +4,5 @@ test_cases:
     FOCUS_AAT_ALT: 20
   response: 7E80462057D78
 - expected_values:
-    FOCUS_AAT_ALT: 21
-  response: 7E80462057D7A
-- expected_values:
-    FOCUS_AAT_ALT: 22
-  response: 7E80462057D7C
-- expected_values:
-    FOCUS_AAT_ALT: 23
-  response: 7E80462057D7E
-- expected_values:
-    FOCUS_AAT_ALT: 24
-  response: 7E80462057D80
-- expected_values:
-    FOCUS_AAT_ALT: 25
-  response: 7E80462057D82
-- expected_values:
-    FOCUS_AAT_ALT: 26
-  response: 7E80462057D84
+    FOCUS_AAT_ALT: 32
+  response: 7E80462057D90
