@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221126
+test_cases:
+- expected_values:
+    FOCUS_ERT: 26
+  response: 7E8046211261A
+- expected_values:
+    FOCUS_ERT: 49
+  response: '7E80462112631'
+- expected_values:
+    FOCUS_ERT: 81
+  response: '7E80462112651'
+- expected_values:
+    FOCUS_ERT: 112
+  response: '7E80462112670'
+- expected_values:
+    FOCUS_ERT: 147
+  response: '7E80462112693'
+- expected_values:
+    FOCUS_ERT: 179
+  response: 7E804621126B3
+- expected_values:
+    FOCUS_ERT: 209
+  response: 7E804621126D1
+- expected_values:
+    FOCUS_ERT: 237
+  response: 7E804621126ED
+- expected_values:
+    FOCUS_ERT: 240
+  response: 7E804621126F0
+- expected_values:
+    FOCUS_ERT: 255
+  response: 7E804621126FF

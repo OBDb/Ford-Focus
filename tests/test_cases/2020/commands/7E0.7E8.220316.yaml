@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220316
+test_cases:
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 37.96082
+  response: '7E8056203163097'
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 38.04321
+  response: 7E80562031630B2
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 39.23035
+  response: '7E8056203163237'
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 39.41956
+  response: '7E8056203163275'
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 39.45923
+  response: '7E8056203163282'

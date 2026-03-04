@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220324
+test_cases:
+- expected_values:
+    FOCUS_HPFP_V: 0.71359
+  response: '7E8056203240092'
+- expected_values:
+    FOCUS_HPFP_V: 1.06549
+  response: 7E80562032400DA
+- expected_values:
+    FOCUS_HPFP_V: 1.35386
+  response: '7E8056203240115'
+- expected_values:
+    FOCUS_HPFP_V: 3.06452
+  response: '7E8056203240273'
