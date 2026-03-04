@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22033C
+test_cases:
+- expected_values:
+    FOCUS_TIP_V: 1.44043
+  response: 7E80562033C0127
+- expected_values:
+    FOCUS_TIP_V: 1.44531
+  response: 7E80562033C0128
+- expected_values:
+    FOCUS_TIP_V: 1.4502
+  response: 7E80562033C0129
+- expected_values:
+    FOCUS_TIP_V: 1.45508
+  response: 7E80562033C012A
+- expected_values:
+    FOCUS_TIP_V: 1.45996
+  response: 7E80562033C012B
+- expected_values:
+    FOCUS_TIP_V: 1.46484
+  response: 7E80562033C012C
+- expected_values:
+    FOCUS_TIP_V: 1.46973
+  response: 7E80562033C012D
+- expected_values:
+    FOCUS_TIP_V: 1.48926
+  response: 7E80562033C0131

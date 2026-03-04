@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49184.7
+  response: 7E80762F4A600078147
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49188
+  response: 7E80762F4A600078168
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49188.1
+  response: 7E80762F4A600078169
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49188.3
+  response: 7E80762F4A60007816B
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49189
+  response: 7E80762F4A600078172
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49189.4
+  response: 7E80762F4A600078176
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49189.9
+  response: 7E80762F4A60007817B
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49190.2
+  response: 7E80762F4A60007817E
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 49190.5
+  response: 7E80762F4A600078181

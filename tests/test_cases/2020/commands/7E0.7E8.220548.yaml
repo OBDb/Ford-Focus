@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220548
+test_cases:
+- expected_values:
+    FOCUS_LPFP_ACT: 77.23436
+  response: '7E8056205480429'
+- expected_values:
+    FOCUS_LPFP_ACT: 81.07795
+  response: 7E805620548045E

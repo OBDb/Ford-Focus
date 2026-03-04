@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2203CA
+test_cases:
+- expected_values:
+    FOCUS_MCT: 60
+  response: 7E8046203CA3C
+- expected_values:
+    FOCUS_MCT: 61
+  response: 7E8046203CA3D
+- expected_values:
+    FOCUS_MCT: 62
+  response: 7E8046203CA3E
+- expected_values:
+    FOCUS_MCT: 65
+  response: 7E8046203CA41
+- expected_values:
+    FOCUS_MCT: 66
+  response: 7E8046203CA42
+- expected_values:
+    FOCUS_MCT: 68
+  response: 7E8046203CA44
+- expected_values:
+    FOCUS_MCT: 69
+  response: 7E8046203CA45
+- expected_values:
+    FOCUS_MCT: 70
+  response: 7E8046203CA46
+- expected_values:
+    FOCUS_MCT: 72
+  response: 7E8046203CA48

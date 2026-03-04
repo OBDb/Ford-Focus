@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2203DC
+test_cases:
+- expected_values:
+    FOCUS_HPFP_DES: 294.42661
+  response: 7E8056203DC00CB
+- expected_values:
+    FOCUS_HPFP_DES: 313.28152
+  response: 7E8056203DC00D8
+- expected_values:
+    FOCUS_HPFP_DES: 719.38719
+  response: 7E8056203DC01F0
+- expected_values:
+    FOCUS_HPFP_DES: 1266.17947
+  response: 7E8056203DC0369
+- expected_values:
+    FOCUS_HPFP_DES: 1615.72042
+  response: 7E8056203DC045A
+- expected_values:
+    FOCUS_HPFP_DES: 3150.21971
+  response: 7E8056203DC087C
+- expected_values:
+    FOCUS_HPFP_DES: 3269.15065
+  response: 7E8056203DC08CE
+- expected_values:
+    FOCUS_HPFP_DES: 3463.50122
+  response: 7E8056203DC0954
+- expected_values:
+    FOCUS_HPFP_DES: 3500
+  response: 7E8056203DC09C3
