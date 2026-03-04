@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22038A
+test_cases:
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0
+  response: 7E80462038A00
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.01562
+  response: 7E80462038A01
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.04688
+  response: 7E80462038A03
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.07812
+  response: 7E80462038A05
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.09375
+  response: 7E80462038A06
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.14062
+  response: 7E80462038A09
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.15625
+  response: 7E80462038A0A
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: 0.25
+  response: 7E80462038A10
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL3_NORM: -0.32812
+  response: 7E80462038AEB
