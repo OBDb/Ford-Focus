@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_TP_RRI: 13.5
   response: 72E05622817010E
+- expected_values:
+    FOCUS_TP_RRI: 150
+  response: 72E056228170BB8

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_TP_RLI: 13.5
   response: 72E05622818010E
+- expected_values:
+    FOCUS_TP_RLI: 150
+  response: 72E056228180BB8
