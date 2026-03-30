@@ -79,7 +79,7 @@
   "signals": [
     {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2014, 2015, 2016, 2019], "from": 2022 },
   "signals": [
     {"id": "FOCUS_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
@@ -355,7 +355,7 @@
   "signals": [
     {"id": "FOCUS_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2008, "years": [2010, 2014, 2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2008, "years": [2010, 2014, 2015, 2016, 2019], "from": 2022 },
   "signals": [
     {"id": "FOCUS_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
@@ -383,7 +383,7 @@
   "signals": [
     {"id": "FOCUS_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2019], "from": 2022 },
   "signals": [
     {"id": "FOCUS_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
   ]},
