@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F463
 test_cases:
 - expected_values:
+    FOCUS_PCM_ENG_REFERENCE_TRQ: 200
+  response: 7E80562F46300C8
+- expected_values:
     FOCUS_PCM_ENG_REFERENCE_TRQ: 420
   response: 7E80562F46301A4

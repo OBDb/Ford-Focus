@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
+    FOCUS_CAT_TEMP: 19.3
+  response: 7E80562F43C0251
+- expected_values:
     FOCUS_CAT_TEMP: 370.3
   response: 7E80562F43C1007
 - expected_values:
