@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22041F
 test_cases:
 - expected_values:
+    FOCUS_LPFP_DES: 64.38
+  response: 7E80462041F94
+- expected_values:
     FOCUS_LPFP_DES: 79.17
   response: 7E80462041FB6
