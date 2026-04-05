@@ -4,29 +4,5 @@ test_cases:
     FOCUS_MAP: 3.19086
   response: 7E80462F40B16
 - expected_values:
-    FOCUS_MAP: 3.3359
-  response: 7E80462F40B17
-- expected_values:
-    FOCUS_MAP: 4.20613
-  response: 7E80462F40B1D
-- expected_values:
-    FOCUS_MAP: 4.35117
-  response: 7E80462F40B1E
-- expected_values:
-    FOCUS_MAP: 4.49621
-  response: 7E80462F40B1F
-- expected_values:
-    FOCUS_MAP: 4.64125
-  response: 7E80462F40B20
-- expected_values:
-    FOCUS_MAP: 4.78629
-  response: 7E80462F40B21
-- expected_values:
-    FOCUS_MAP: 5.65652
-  response: 7E80462F40B27
-- expected_values:
-    FOCUS_MAP: 11.74815
-  response: 7E80462F40B51
-- expected_values:
-    FOCUS_MAP: 12.76343
-  response: 7E80462F40B58
+    FOCUS_MAP: 14.64893
+  response: 7E80462F40B65

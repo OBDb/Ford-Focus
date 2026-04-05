@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220415
 test_cases:
 - expected_values:
-    FOCUS_PCM_ENG_EOP_RAW: 168
-  response: 7E80562041500A8
+    FOCUS_PCM_ENG_EOP_RAW: 0
+  response: '7E8056204150000'
 - expected_values:
     FOCUS_PCM_ENG_EOP_RAW: 233
   response: 7E80562041500E9
