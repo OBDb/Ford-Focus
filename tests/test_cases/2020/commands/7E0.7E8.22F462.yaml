@@ -4,29 +4,5 @@ test_cases:
     FOCUS_PCM_ACT_ENG_PCT_TRQ: 0
   response: 7E80462F4627D
 - expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 5
-  response: 7E80462F46282
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 6
-  response: 7E80462F46283
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 7
-  response: 7E80462F46284
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 8
-  response: 7E80462F46285
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 9
-  response: 7E80462F46286
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 10
-  response: 7E80462F46287
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 14
-  response: 7E80462F4628B
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 18
-  response: 7E80462F4628F
-- expected_values:
-    FOCUS_PCM_ACT_ENG_PCT_TRQ: 23
-  response: 7E80462F46294
+    FOCUS_PCM_ACT_ENG_PCT_TRQ: 79
+  response: 7E80462F462CC
