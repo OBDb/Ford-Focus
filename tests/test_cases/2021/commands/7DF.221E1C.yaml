@@ -1,8 +1,8 @@
 command_id: 7DF.221E1C
 test_cases:
 - expected_values:
-    FOCUS_TOT: 20
-  response: 7E805621E1C0140
+    FOCUS_TOT: 19.4375
+  response: 7E805621E1C0137
 - expected_values:
     FOCUS_TOT: 32
   response: 7E805621E1C0200
