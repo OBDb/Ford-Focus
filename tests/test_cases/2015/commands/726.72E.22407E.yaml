@@ -1,0 +1,5 @@
+command_id: 726.72E.22407E
+test_cases:
+- expected_values:
+    FOCUS_EXTERIOR_LIGHT_STATE: '0'
+  response: 72E0462407E00
