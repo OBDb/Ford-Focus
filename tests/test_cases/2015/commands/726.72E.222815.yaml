@@ -1,5 +1,8 @@
 command_id: 726.72E.222815
 test_cases:
 - expected_values:
-    FOCUS_TP_RRO: 33.75
-  response: 72E0562281502A3
+    FOCUS_TP_RRO: 32.15
+  response: '72E056228150283'
+- expected_values:
+    FOCUS_TP_RRO: 35
+  response: 72E0562281502BC
