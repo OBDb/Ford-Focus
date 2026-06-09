@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     FOCUS_CAT_TEMP: 457.1
   response: 7E80562F43C136B
+- expected_values:
+    FOCUS_CAT_TEMP: 463.8
+  response: 7E80562F43C13AE
+- expected_values:
+    FOCUS_CAT_TEMP: 464.1
+  response: 7E80562F43C13B1
+- expected_values:
+    FOCUS_CAT_TEMP: 464.2
+  response: 7E80562F43C13B2

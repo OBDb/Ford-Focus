@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_KS2_RAW: 100
   response: '7E8056204040064'
+- expected_values:
+    FOCUS_KS2_RAW: 114
+  response: '7E8056204040072'
+- expected_values:
+    FOCUS_KS2_RAW: 118
+  response: '7E8056204040076'

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_ETC_ANG_DES: 3.36133
   response: 7E80562091A06B9
+- expected_values:
+    FOCUS_ETC_ANG_DES: 3.41016
+  response: 7E80562091A06D2
+- expected_values:
+    FOCUS_ETC_ANG_DES: 3.41992
+  response: 7E80562091A06D7

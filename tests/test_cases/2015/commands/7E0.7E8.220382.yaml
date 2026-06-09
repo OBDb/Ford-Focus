@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.220382
 test_cases:
 - expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL1_NORM: -0.10938
+  response: 7E804620382F9
+- expected_values:
     FOCUS_PCM_MISF_ACCEL_CYL1_NORM: -0.0625
   response: 7E804620382FC
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL1_NORM: -0.03125
+  response: 7E804620382FE

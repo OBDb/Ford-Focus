@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 91.65625
   response: 7E8056205FC16EA
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 98.84375
+  response: 7E8056205FC18B6
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_SENS_2_RAW: 99
+  response: 7E8056205FC18C0
