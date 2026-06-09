@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_STFT: 8.59375
   response: 7E80462F4068B
+- expected_values:
+    FOCUS_STFT: 12.5
+  response: 7E80462F40690
