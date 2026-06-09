@@ -2,4 +2,10 @@ command_id: 7E0.7E8.220319
 test_cases:
 - expected_values:
     FOCUS_VCT_EXH_ACT: 50
+  response: 7E805620319FFFC
+- expected_values:
+    FOCUS_VCT_EXH_ACT: 50
   response: 7E805620319FFFD
+- expected_values:
+    FOCUS_VCT_EXH_ACT: 50
+  response: 7E805620319FFFF
