@@ -4,5 +4,8 @@ test_cases:
     FOCUS_WARMUP_CLR: 107
   response: 7E80462F4306B
 - expected_values:
+    FOCUS_WARMUP_CLR: 221
+  response: 7E80462F430DD
+- expected_values:
     FOCUS_WARMUP_CLR: 255
   response: 7E80462F430FF
