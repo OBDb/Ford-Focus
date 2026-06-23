@@ -7,5 +7,8 @@ test_cases:
     FOCUS_MAP: 5.07636
   response: 7E80462F40B23
 - expected_values:
+    FOCUS_MAP: 5.65652
+  response: 7E80462F40B27
+- expected_values:
     FOCUS_MAP: 14.79397
   response: 7E80462F40B66
