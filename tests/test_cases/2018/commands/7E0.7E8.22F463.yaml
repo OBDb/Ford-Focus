@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_ENG_REFERENCE_TRQ: 0
   response: 7E80562F4630000
+- expected_values:
+    FOCUS_PCM_ENG_REFERENCE_TRQ: 350
+  response: 7E80562F463015E

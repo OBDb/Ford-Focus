@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_GRILL_SHUT_DC: 20
   response: '7E80462070733'
+- expected_values:
+    FOCUS_GRILL_SHUT_DC: 39.21569
+  response: '7E80462070764'

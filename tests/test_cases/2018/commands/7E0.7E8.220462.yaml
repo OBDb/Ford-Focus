@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.220462
 test_cases:
 - expected_values:
-    FOCUS_WGDC: 14.99939
-  response: '7E8056204621333'
-- expected_values:
-    FOCUS_WGDC: 18.75305
-  response: '7E8056204621801'
+    FOCUS_WGDC: 0
+  response: '7E8056204620000'
 - expected_values:
     FOCUS_WGDC: 62.49695
   response: 7E8056204624FFF
