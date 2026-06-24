@@ -10,6 +10,9 @@ test_cases:
     FOCUS_VSS: 16
   response: 7E80462F40D10
 - expected_values:
+    FOCUS_VSS: 33
+  response: 7E80462F40D21
+- expected_values:
     FOCUS_VSS: 48
   response: 7E80462F40D30
 - expected_values:
