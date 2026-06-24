@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_WARMUP_CLR: 0
   response: 7E80462F43000
+- expected_values:
+    FOCUS_WARMUP_CLR: 12
+  response: 7E80462F4300C

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_ACT_ENG_PCT_TRQ: 0
   response: 7E80462F4627D
+- expected_values:
+    FOCUS_PCM_ACT_ENG_PCT_TRQ: 15
+  response: 7E80462F4628C
