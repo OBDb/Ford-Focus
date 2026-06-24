@@ -17,7 +17,14 @@ supported_commands_by_ecu:
   "760":
   - 760.222B00:FOCUS_PARKING_BRAKE
   "7DF":
+  - 7DF.0104
+  - 7DF.0105
   - 7DF.0106
+  - 7DF.010D
+  - 7DF.0110
+  - 7DF.0111
+  - 7DF.0131
+  - 7DF.015E
   - 7DF.221E12
   - 7DF.221E1C:FOCUS_TOT
   - 7DF.22F42F
