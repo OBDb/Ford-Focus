@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221E23
+test_cases:
+- expected_values:
+    FOCUS_GEAR_SHFT: PARK
+  response: 7E804621E2346
