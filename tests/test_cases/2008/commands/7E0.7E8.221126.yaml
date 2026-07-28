@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.221126
 test_cases:
 - expected_values:
-    FOCUS_ERT: 133
-  response: '7E80462112685'
-- expected_values:
-    FOCUS_ERT: 158
-  response: 7E8046211269E
-- expected_values:
-    FOCUS_ERT: 189
-  response: 7E804621126BD
-- expected_values:
-    FOCUS_ERT: 226
-  response: 7E804621126E2
-- expected_values:
-    FOCUS_ERT: 246
-  response: 7E804621126F6
+    FOCUS_ERT: 42
+  response: 7E8046211262A
 - expected_values:
     FOCUS_ERT: 255
   response: 7E804621126FF

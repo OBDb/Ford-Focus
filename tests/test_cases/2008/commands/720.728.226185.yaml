@@ -1,11 +1,8 @@
 command_id: 720.728.226185
 test_cases:
 - expected_values:
-    FOCUS_FLI: 64.70588
-  response: 72804626185A5
+    FOCUS_FLI: 56.47059
+  response: '7280462618590'
 - expected_values:
-    FOCUS_FLI: 65.09804
-  response: 72804626185A6
-- expected_values:
-    FOCUS_FLI: 65.4902
-  response: 72804626185A7
+    FOCUS_FLI: 84.70588
+  response: 72804626185D8

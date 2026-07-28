@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    FOCUS_CAT_TEMP: 469.8
-  response: 7E80562F43C13EA
+    FOCUS_CAT_TEMP: 425.1
+  response: 7E80562F43C122B
 - expected_values:
     FOCUS_CAT_TEMP: 471.9
   response: 7E80562F43C13FF
 - expected_values:
-    FOCUS_CAT_TEMP: 473.5
-  response: 7E80562F43C140F
+    FOCUS_CAT_TEMP: 754
+  response: 7E80562F43C1F04
 - expected_values:
-    FOCUS_CAT_TEMP: 474.7
-  response: 7E80562F43C141B
-- expected_values:
-    FOCUS_CAT_TEMP: 475.2
-  response: 7E80562F43C1420
-- expected_values:
-    FOCUS_CAT_TEMP: 475.4
-  response: 7E80562F43C1422
-- expected_values:
-    FOCUS_CAT_TEMP: 475.9
-  response: 7E80562F43C1427
-- expected_values:
-    FOCUS_CAT_TEMP: 476.3
-  response: 7E80562F43C142B
-- expected_values:
-    FOCUS_CAT_TEMP: 477.1
-  response: 7E80562F43C1433
+    FOCUS_CAT_TEMP: 857.1
+  response: 7E80562F43C230B
