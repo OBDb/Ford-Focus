@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.220334
 test_cases:
 - expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 91.10938
-  response: 7E80562033416C7
+    FOCUS_PCM_CYL_HEAD_T_CORR: 44.25
+  response: 7E8056203340B10
 - expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 91.45312
-  response: 7E80562033416DD
+    FOCUS_PCM_CYL_HEAD_T_CORR: 67.89062
+  response: 7E80562033410F9
 - expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 91.79688
-  response: 7E80562033416F3
+    FOCUS_PCM_CYL_HEAD_T_CORR: 88.03125
+  response: '7E8056203341602'
 - expected_values:
     FOCUS_PCM_CYL_HEAD_T_CORR: 92.0625
   response: '7E8056203341704'
-- expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 92.17188
-  response: 7E805620334170B
-- expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 92.25
-  response: '7E8056203341710'
-- expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 92.48438
-  response: 7E805620334171F
-- expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 92.5625
-  response: '7E8056203341724'
-- expected_values:
-    FOCUS_PCM_CYL_HEAD_T_CORR: 92.8125
-  response: '7E8056203341734'

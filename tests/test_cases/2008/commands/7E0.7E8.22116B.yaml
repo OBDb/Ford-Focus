@@ -4,23 +4,5 @@ test_cases:
     FOCUS_IGN_TIM_CYL1: 8
   response: 7E80562116B0020
 - expected_values:
-    FOCUS_IGN_TIM_CYL1: 8.5
-  response: 7E80562116B0022
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 8.75
-  response: 7E80562116B0023
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 9.25
-  response: 7E80562116B0025
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 9.5
-  response: 7E80562116B0026
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 10.25
-  response: 7E80562116B0029
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 10.5
-  response: 7E80562116B002A
-- expected_values:
-    FOCUS_IGN_TIM_CYL1: 10.75
-  response: 7E80562116B002B
+    FOCUS_IGN_TIM_CYL1: 49.5
+  response: 7E80562116B00C6
