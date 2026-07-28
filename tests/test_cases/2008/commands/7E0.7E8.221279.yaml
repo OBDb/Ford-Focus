@@ -4,23 +4,8 @@ test_cases:
     FOCUS_IAT_SENS_V: 1.10459
   response: 7E80562127900E2
 - expected_values:
-    FOCUS_IAT_SENS_V: 1.11437
-  response: 7E80562127900E4
+    FOCUS_IAT_SENS_V: 2.49756
+  response: 7E80562127901FF
 - expected_values:
-    FOCUS_IAT_SENS_V: 1.12414
-  response: 7E80562127900E6
-- expected_values:
-    FOCUS_IAT_SENS_V: 1.13881
-  response: 7E80562127900E9
-- expected_values:
-    FOCUS_IAT_SENS_V: 1.1437
-  response: 7E80562127900EA
-- expected_values:
-    FOCUS_IAT_SENS_V: 1.15347
-  response: 7E80562127900EC
-- expected_values:
-    FOCUS_IAT_SENS_V: 1.16813
-  response: 7E80562127900EF
-- expected_values:
-    FOCUS_IAT_SENS_V: 1.17791
-  response: 7E80562127900F1
+    FOCUS_IAT_SENS_V: 2.51711
+  response: '7E8056212790203'
