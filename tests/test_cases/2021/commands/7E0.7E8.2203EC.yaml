@@ -4,5 +4,11 @@ test_cases:
     FOCUS_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
 - expected_values:
+    FOCUS_IGN_CORR_CYL1: -2.47852
+  response: 7E8056203ECFB0B
+- expected_values:
+    FOCUS_IGN_CORR_CYL1: -2.34375
+  response: 7E8056203ECFB50
+- expected_values:
     FOCUS_IGN_CORR_CYL1: -1.25195
   response: 7E8056203ECFD7F
