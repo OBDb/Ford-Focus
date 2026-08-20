@@ -7,8 +7,8 @@ test_cases:
     FOCUS_LPFP_SENS_V: 1.74316
   response: 7E80562054D06F9
 - expected_values:
-    FOCUS_LPFP_SENS_V: 1.75781
-  response: 7E80562054D0708
+    FOCUS_LPFP_SENS_V: 2.00684
+  response: 7E80562054D0807
 - expected_values:
     FOCUS_LPFP_SENS_V: 2.78809
   response: 7E80562054D0B27

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_ENG_EOP_RAW: 206
   response: 7E80562041500CE
+- expected_values:
+    FOCUS_PCM_ENG_EOP_RAW: 315
+  response: 7E805620415013B
