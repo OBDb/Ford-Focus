@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22091A
 test_cases:
 - expected_values:
-    FOCUS_ETC_ANG_DES: 3.0918
-  response: 7E80562091A062F
+    FOCUS_ETC_ANG_DES: 2.1543
+  response: 7E80562091A044F
 - expected_values:
     FOCUS_ETC_ANG_DES: 4.99023
   response: 7E80562091A09FB
@@ -10,5 +10,5 @@ test_cases:
     FOCUS_ETC_ANG_DES: 8
   response: 7E80562091A1000
 - expected_values:
-    FOCUS_ETC_ANG_DES: 29.97852
-  response: 7E80562091A3BF5
+    FOCUS_ETC_ANG_DES: 62.6875
+  response: 7E80562091A7D60
