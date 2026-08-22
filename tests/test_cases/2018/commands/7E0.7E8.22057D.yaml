@@ -7,5 +7,8 @@ test_cases:
     FOCUS_AAT_ALT: -8
   response: 7E80462057D40
 - expected_values:
+    FOCUS_AAT_ALT: 14
+  response: 7E80462057D6C
+- expected_values:
     FOCUS_AAT_ALT: 20
   response: 7E80462057D78
