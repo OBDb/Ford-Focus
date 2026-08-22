@@ -10,5 +10,8 @@ test_cases:
     FOCUS_AAT_V: 2.98631
   response: 7E8056203BA0263
 - expected_values:
+    FOCUS_AAT_V: 3.26979
+  response: 7E8056203BA029D
+- expected_values:
     FOCUS_AAT_V: 3.34311
   response: 7E8056203BA02AC
