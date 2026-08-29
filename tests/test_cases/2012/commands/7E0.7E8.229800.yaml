@@ -10,5 +10,5 @@ test_cases:
     FOCUS_AC_P_SENS_V: 1.74902
   response: 7E80562980006FF
 - expected_values:
-    FOCUS_AC_P_SENS_V: 2.0127
-  response: 7E805629800080D
+    FOCUS_AC_P_SENS_V: 3.5625
+  response: 7E8056298000E40
