@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F407
 test_cases:
 - expected_values:
-    FOCUS_LTFT: -1.5625
-  response: 7E80462F4077E
+    FOCUS_LTFT: -4.6875
+  response: 7E80462F4077A
 - expected_values:
     FOCUS_LTFT: 11.71875
   response: 7E80462F4078F
