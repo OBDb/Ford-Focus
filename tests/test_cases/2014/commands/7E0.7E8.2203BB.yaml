@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203BB
+test_cases:
+- expected_values:
+    FOCUS_VCT_EXH_DES: 0
+  response: 7E8056203BB0000
+- expected_values:
+    FOCUS_VCT_EXH_DES: 0.125
+  response: 7E8056203BB0002
+- expected_values:
+    FOCUS_VCT_EXH_DES: 28.5625
+  response: 7E8056203BB01C9

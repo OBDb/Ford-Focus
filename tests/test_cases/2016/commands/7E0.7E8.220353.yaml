@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     FOCUS_BARO: 14.17585
   response: '7E8056203530187'
+- expected_values:
+    FOCUS_BARO: 14.21211
+  response: '7E8056203530188'
+- expected_values:
+    FOCUS_BARO: 14.24836
+  response: '7E8056203530189'
+- expected_values:
+    FOCUS_BARO: 14.28462
+  response: 7E805620353018A
+- expected_values:
+    FOCUS_BARO: 14.32087
+  response: 7E805620353018B
+- expected_values:
+    FOCUS_BARO: 14.35713
+  response: 7E805620353018C
+- expected_values:
+    FOCUS_BARO: 14.39339
+  response: 7E805620353018D
+- expected_values:
+    FOCUS_BARO: 14.4659
+  response: 7E805620353018F

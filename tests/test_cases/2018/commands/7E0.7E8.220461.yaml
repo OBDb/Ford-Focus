@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     FOCUS_CAT: -40
   response: '7E8056204610000'
+- expected_values:
+    FOCUS_CAT: -3.4375
+  response: '7E8056204610924'
+- expected_values:
+    FOCUS_CAT: -3.3125
+  response: 7E805620461092C
+- expected_values:
+    FOCUS_CAT: -3.07812
+  response: 7E805620461093B
+- expected_values:
+    FOCUS_CAT: -2.48438
+  response: '7E8056204610961'
+- expected_values:
+    FOCUS_CAT: -2.375
+  response: '7E8056204610968'
+- expected_values:
+    FOCUS_CAT: -2.14062
+  response: '7E8056204610977'
+- expected_values:
+    FOCUS_CAT: -2.01562
+  response: 7E805620461097F
+- expected_values:
+    FOCUS_CAT: -1.78125
+  response: 7E805620461098E
+- expected_values:
+    FOCUS_CAT: -1.54688
+  response: 7E805620461099D

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_MIL_DIST: 0
   response: 7E80562F4210000
+- expected_values:
+    FOCUS_MIL_DIST: 8179
+  response: 7E80562F4211FF3
+- expected_values:
+    FOCUS_MIL_DIST: 8484
+  response: 7E80562F4212124

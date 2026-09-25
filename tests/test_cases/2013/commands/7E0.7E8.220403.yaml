@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220403
 test_cases:
 - expected_values:
-    FOCUS_KS1_RAW: 79
-  response: 7E805620403004F
+    FOCUS_KS1_RAW: 29
+  response: 7E805620403001D
 - expected_values:
     FOCUS_KS1_RAW: 160
   response: 7E80562040300A0
