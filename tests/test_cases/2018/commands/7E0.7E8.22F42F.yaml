@@ -4,8 +4,8 @@ test_cases:
     FOCUS_FLI: 8.23529
   response: 7E80462F42F15
 - expected_values:
-    FOCUS_FLI: 46.27451
-  response: 7E80462F42F76
+    FOCUS_FLI: 15.29412
+  response: 7E80462F42F27
 - expected_values:
     FOCUS_FLI: 93.72549
   response: 7E80462F42FEF

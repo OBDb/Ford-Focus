@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
+    FOCUS_OAR: 0.25671
+  response: 7E8056203E8106E
+- expected_values:
+    FOCUS_OAR: 0
+  response: 7E8056203E8C1D3
+- expected_values:
     FOCUS_OAR: 0
   response: 7E8056203E8E870

@@ -4,5 +4,5 @@ test_cases:
     FOCUS_ACC_POS: 0
   response: 7E80462032B00
 - expected_values:
-    FOCUS_ACC_POS: 57
-  response: 7E80462032B72
+    FOCUS_ACC_POS: 61
+  response: 7E80462032B7A

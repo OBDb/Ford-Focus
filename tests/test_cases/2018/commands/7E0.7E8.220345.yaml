@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 0
   response: '7E80762034500000000'
+- expected_values:
+    FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 2
+  response: '7E80762034500000002'
+- expected_values:
+    FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 3
+  response: '7E80762034500000003'
+- expected_values:
+    FOCUS_PCM_MISF_EVENTS_LATEST_CYC: 18
+  response: '7E80762034500000012'

@@ -4,26 +4,8 @@ test_cases:
     FOCUS_AC_P: 69.90819
   response: 7E80562039300F1
 - expected_values:
-    FOCUS_AC_P: 70.48835
-  response: 7E80562039300F3
+    FOCUS_AC_P: 73.96925
+  response: 7E80562039300FF
 - expected_values:
-    FOCUS_AC_P: 71.0685
-  response: 7E80562039300F5
-- expected_values:
-    FOCUS_AC_P: 71.64865
-  response: 7E80562039300F7
-- expected_values:
-    FOCUS_AC_P: 72.80895
-  response: 7E80562039300FB
-- expected_values:
-    FOCUS_AC_P: 73.3891
-  response: 7E80562039300FD
-- expected_values:
-    FOCUS_AC_P: 75.12955
-  response: '7E8056203930103'
-- expected_values:
-    FOCUS_AC_P: 78.32038
-  response: 7E805620393010E
-- expected_values:
-    FOCUS_AC_P: 93.40431
-  response: '7E8056203930142'
+    FOCUS_AC_P: 74.5494
+  response: '7E8056203930101'
