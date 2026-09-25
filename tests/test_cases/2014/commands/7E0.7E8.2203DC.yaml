@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2203DC
 test_cases:
 - expected_values:
-    FOCUS_HPFP_DES: 3189.3799
-  response: 7E8056203DC0897
+    FOCUS_HPFP_DES: 253.81604
+  response: 7E8056203DC00AF
 - expected_values:
     FOCUS_HPFP_DES: 3500
   response: 7E8056203DC0BFE

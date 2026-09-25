@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_PCM_CYL_1_KNK_COMB_PERF_CNT: 8
   response: 7E8046205AC08
+- expected_values:
+    FOCUS_PCM_CYL_1_KNK_COMB_PERF_CNT: 69
+  response: 7E8046205AC45

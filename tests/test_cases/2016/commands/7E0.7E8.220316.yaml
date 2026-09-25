@@ -4,5 +4,8 @@ test_cases:
     FOCUS_VCT_INT_DUTY: 0
   response: '7E8056203160000'
 - expected_values:
-    FOCUS_VCT_INT_DUTY: 33.17261
-  response: 7E8056203162A76
+    FOCUS_VCT_INT_DUTY: 30.46265
+  response: 7E80562031626FE
+- expected_values:
+    FOCUS_VCT_INT_DUTY: 79.99878
+  response: '7E8056203166666'

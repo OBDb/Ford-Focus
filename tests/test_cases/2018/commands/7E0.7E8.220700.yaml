@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FOCUS_IAT_FAULT: 0
   response: '7E80762070000800800'
+- expected_values:
+    FOCUS_IAT_FAULT: 0
+  response: '7E80762070000820000'

@@ -4,11 +4,11 @@ test_cases:
     FOCUS_AC_P: 46.99223
   response: 7E80562039300A2
 - expected_values:
-    FOCUS_AC_P: 73.67918
-  response: 7E80562039300FE
+    FOCUS_AC_P: 73.96925
+  response: 7E80562039300FF
 - expected_values:
     FOCUS_AC_P: 74.25933
   response: '7E8056203930100'
 - expected_values:
-    FOCUS_AC_P: 178.39643
-  response: '7E8056203930267'
+    FOCUS_AC_P: 300.22814
+  response: 7E805620393040B

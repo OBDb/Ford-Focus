@@ -16,5 +16,11 @@ test_cases:
     FOCUS_PCM_MISF_ACCEL_CYL4_NORM: 0.15625
   response: 7E80462038B0A
 - expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL4_NORM: -0.125
+  response: 7E80462038BF8
+- expected_values:
     FOCUS_PCM_MISF_ACCEL_CYL4_NORM: -0.0625
   response: 7E80462038BFC
+- expected_values:
+    FOCUS_PCM_MISF_ACCEL_CYL4_NORM: -0.01562
+  response: 7E80462038BFF

@@ -5,13 +5,7 @@ test_cases:
   response: 7E80562038E064B
 - expected_values:
     FOCUS_EVAP_V: 5
-  response: 7E80562038E0650
+  response: 7E80562038E08FE
 - expected_values:
     FOCUS_EVAP_V: 5
-  response: 7E80562038E0655
-- expected_values:
-    FOCUS_EVAP_V: 5
-  response: 7E80562038E065A
-- expected_values:
-    FOCUS_EVAP_V: 5
-  response: 7E80562038E065F
+  response: 7E80562038E0A02

@@ -4,8 +4,8 @@ test_cases:
     FOCUS_CL_LC: 0
   response: 7E8056203BD0000
 - expected_values:
-    FOCUS_CL_LC: -0.01904
-  response: 7E8056203BDFF64
+    FOCUS_CL_LC: -0.02637
+  response: 7E8056203BDFF28
 - expected_values:
     FOCUS_CL_LC: -0.00012
   response: 7E8056203BDFFFF

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220301
+test_cases:
+- expected_values:
+    FOCUS_MAP_V: 0.4248
+  response: 7E80562030101B3
+- expected_values:
+    FOCUS_MAP_V: 1.28418
+  response: '7E8056203010523'
+- expected_values:
+    FOCUS_MAP_V: 1.4502
+  response: 7E80562030105CD

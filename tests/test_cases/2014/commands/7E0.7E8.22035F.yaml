@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22035F
+test_cases:
+- expected_values:
+    FOCUS_RO2_V: 0.02441
+  response: 7E80562035F0019
+- expected_values:
+    FOCUS_RO2_V: 0.52734
+  response: 7E80562035F021C
+- expected_values:
+    FOCUS_RO2_V: 0.7373
+  response: 7E80562035F02F3

@@ -4,8 +4,8 @@ test_cases:
     FOCUS_ECT: 19.98438
   response: 7E80562038F04FF
 - expected_values:
-    FOCUS_ECT: 96
-  response: 7E80562038F1800
+    FOCUS_ECT: 68
+  response: 7E80562038F1100
 - expected_values:
     FOCUS_ECT: 104.29688
   response: 7E80562038F1A13

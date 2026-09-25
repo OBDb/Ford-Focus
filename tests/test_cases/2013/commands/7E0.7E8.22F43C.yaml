@@ -4,11 +4,21 @@ test_cases:
     FOCUS_CAT_TEMP: 426.5
   response: 7E80562F43C1239
 - expected_values:
+    FOCUS_CAT_TEMP: 497.1
+  response: 7E80562F43C14FB
+- expected_values:
+    FOCUS_CAT_TEMP: 591.1
+  response: |-
+    7E80562F43C18A7
+    7E8300000
+    7E8027E00
+    7E8027E00
+    7E8027E00
+    7E8300000
+    7E8046C02F200
+- expected_values:
     FOCUS_CAT_TEMP: 600
   response: 7E80562F43C1900
-- expected_values:
-    FOCUS_CAT_TEMP: 697
-  response: 7E80562F43C1CCA
 - expected_values:
     FOCUS_CAT_TEMP: 735.8
   response: 7E80562F43C1E4E

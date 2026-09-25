@@ -4,29 +4,11 @@ test_cases:
     FOCUS_RO2_V: 0.17578
   response: 7E80562035F00B4
 - expected_values:
-    FOCUS_RO2_V: 0.30762
-  response: 7E80562035F013B
+    FOCUS_RO2_V: 0.74707
+  response: 7E80562035F02FD
 - expected_values:
-    FOCUS_RO2_V: 0.35156
-  response: 7E80562035F0168
+    FOCUS_RO2_V: 0.75195
+  response: 7E80562035F0302
 - expected_values:
-    FOCUS_RO2_V: 0.625
-  response: 7E80562035F0280
-- expected_values:
-    FOCUS_RO2_V: 0.67871
-  response: 7E80562035F02B7
-- expected_values:
-    FOCUS_RO2_V: 0.69824
-  response: 7E80562035F02CB
-- expected_values:
-    FOCUS_RO2_V: 0.70801
-  response: 7E80562035F02D5
-- expected_values:
-    FOCUS_RO2_V: 0.72266
-  response: 7E80562035F02E4
-- expected_values:
-    FOCUS_RO2_V: 0.7666
-  response: 7E80562035F0311
-- expected_values:
-    FOCUS_RO2_V: 0.7959
-  response: 7E80562035F032F
+    FOCUS_RO2_V: 1
+  response: 7E80562035F04EE

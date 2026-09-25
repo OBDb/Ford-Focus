@@ -4,8 +4,8 @@ test_cases:
     FOCUS_HPFP_V: 0.49853
   response: '7E8056203240066'
 - expected_values:
-    FOCUS_HPFP_V: 0.89443
-  response: 7E80562032400B7
+    FOCUS_HPFP_V: 1.12414
+  response: 7E80562032400E6
 - expected_values:
-    FOCUS_HPFP_V: 1.01662
-  response: 7E80562032400D0
+    FOCUS_HPFP_V: 1.87195
+  response: 7E805620324017F

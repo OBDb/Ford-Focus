@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22035A
 test_cases:
 - expected_values:
-    FOCUS_BARO_V: 3.91496
-  response: 7E80562035A0321
+    FOCUS_BARO_V: 3.79277
+  response: 7E80562035A0308
 - expected_values:
     FOCUS_BARO_V: 4.0176
   response: 7E80562035A0336
