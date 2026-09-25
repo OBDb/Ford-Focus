@@ -1,29 +1,11 @@
 command_id: 7E0.7E8.220319
 test_cases:
 - expected_values:
-    FOCUS_VCT_EXH_ACT: 8.5625
-  response: '7E8056203190089'
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 16.9375
-  response: 7E805620319010F
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 19
-  response: '7E8056203190130'
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 25.4375
-  response: '7E8056203190197'
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 25.8125
-  response: 7E805620319019D
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 34.6875
-  response: 7E805620319022B
+    FOCUS_VCT_EXH_ACT: 0
+  response: '7E8056203190000'
 - expected_values:
     FOCUS_VCT_EXH_ACT: 50
-  response: 7E805620319FFF8
+  response: 7E805620319FFEC
 - expected_values:
     FOCUS_VCT_EXH_ACT: 50
-  response: 7E805620319FFF9
-- expected_values:
-    FOCUS_VCT_EXH_ACT: 50
-  response: 7E805620319FFFA
+  response: 7E805620319FFFF

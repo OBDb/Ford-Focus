@@ -4,8 +4,8 @@ test_cases:
     FOCUS_RPM: 0
   response: 7E80562F40C0000
 - expected_values:
-    FOCUS_RPM: 1663.75
-  response: 7E80562F40C19FF
+    FOCUS_RPM: 895.75
+  response: 7E80562F40C0DFF
 - expected_values:
-    FOCUS_RPM: 3011.5
-  response: 7E80562F40C2F0E
+    FOCUS_RPM: 4264.25
+  response: 7E80562F40C42A1

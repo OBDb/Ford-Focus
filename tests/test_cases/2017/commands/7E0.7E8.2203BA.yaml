@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2203BA
 test_cases:
 - expected_values:
-    FOCUS_AAT_V: 0.85044
-  response: 7E8056203BA00AE
+    FOCUS_AAT_V: 0.65005
+  response: 7E8056203BA0085
 - expected_values:
-    FOCUS_AAT_V: 0.93842
-  response: 7E8056203BA00C0
+    FOCUS_AAT_V: 1.24633
+  response: 7E8056203BA00FF
 - expected_values:
-    FOCUS_AAT_V: 1.3001
-  response: 7E8056203BA010A
+    FOCUS_AAT_V: 1.25122
+  response: 7E8056203BA0100

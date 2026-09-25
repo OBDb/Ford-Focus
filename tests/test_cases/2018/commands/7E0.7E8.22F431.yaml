@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     FOCUS_DIST_DTC_CLR: 214
   response: 7E80562F43100D6
+- expected_values:
+    FOCUS_DIST_DTC_CLR: 345
+  response: 7E80562F4310159
+- expected_values:
+    FOCUS_DIST_DTC_CLR: 527
+  response: 7E80562F431020F

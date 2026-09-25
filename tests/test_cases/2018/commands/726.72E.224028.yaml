@@ -1,0 +1,11 @@
+command_id: 726.72E.224028
+test_cases:
+- expected_values:
+    FOCUS_12V_SOC: 62
+  response: 72E046240283E
+- expected_values:
+    FOCUS_12V_SOC: 63
+  response: 72E046240283F
+- expected_values:
+    FOCUS_12V_SOC: 64
+  response: '72E0462402840'

@@ -1,0 +1,17 @@
+command_id: 7E4.7EC.224800|f=2012-2018
+test_cases:
+- expected_values:
+    FOCUS_HVBAT_T: 1
+  response: 7EC0462480033
+- expected_values:
+    FOCUS_HVBAT_T: 2
+  response: 7EC0462480034
+- expected_values:
+    FOCUS_HVBAT_T: 4
+  response: 7EC0462480036
+- expected_values:
+    FOCUS_HVBAT_T: 14
+  response: 7EC0462480040
+- expected_values:
+    FOCUS_HVBAT_T: 15
+  response: 7EC0462480041

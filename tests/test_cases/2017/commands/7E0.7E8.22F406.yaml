@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
-    FOCUS_STFT: -10.9375
-  response: 7E80462F40672
+    FOCUS_STFT: -16.40625
+  response: 7E80462F4066B
 - expected_values:
-    FOCUS_STFT: 8.59375
-  response: 7E80462F4068B
+    FOCUS_STFT: 15.625
+  response: 7E80462F40694

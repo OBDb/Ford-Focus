@@ -1,14 +1,17 @@
 command_id: 726.72E.22DD01
 test_cases:
 - expected_values:
-    FOCUS_ODO: 255074
-  response: 72E0662DD0103E462
+    FOCUS_ODO: 131330
+  response: 72E0662DD01020102
+- expected_values:
+    FOCUS_ODO: 196210
+  response: 72E0662DD0102FE72
+- expected_values:
+    FOCUS_ODO: 196876
+  response: 72E0662DD0103010C
 - expected_values:
     FOCUS_ODO: 259840
   response: 72E0662DD0103F700
 - expected_values:
     FOCUS_ODO: 260602
   response: 72E0662DD0103F9FA
-- expected_values:
-    FOCUS_ODO: 261387
-  response: 72E0662DD0103FD0B
