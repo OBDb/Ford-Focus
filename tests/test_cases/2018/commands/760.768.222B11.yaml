@@ -1,0 +1,26 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    FOCUS_LAT_G: 0.92
+  response: 76805622B11002E
+- expected_values:
+    FOCUS_LAT_G: 0.94
+  response: 76805622B11002F
+- expected_values:
+    FOCUS_LAT_G: 0.96
+  response: 76805622B110030
+- expected_values:
+    FOCUS_LAT_G: 0.98
+  response: 76805622B110031
+- expected_values:
+    FOCUS_LAT_G: 1
+  response: 76805622B110032
+- expected_values:
+    FOCUS_LAT_G: 1
+  response: 76805622B110033
+- expected_values:
+    FOCUS_LAT_G: 1
+  response: 76805622B110034
+- expected_values:
+    FOCUS_LAT_G: 1
+  response: 76805622B110036

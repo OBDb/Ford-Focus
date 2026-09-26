@@ -1,0 +1,32 @@
+command_id: 726.72E.224028
+test_cases:
+- expected_values:
+    FOCUS_12V_SOC: 70
+  response: '72E0462402846'
+- expected_values:
+    FOCUS_12V_SOC: 71
+  response: '72E0462402847'
+- expected_values:
+    FOCUS_12V_SOC: 73
+  response: '72E0462402849'
+- expected_values:
+    FOCUS_12V_SOC: 74
+  response: 72E046240284A
+- expected_values:
+    FOCUS_12V_SOC: 75
+  response: 72E046240284B
+- expected_values:
+    FOCUS_12V_SOC: 76
+  response: 72E046240284C
+- expected_values:
+    FOCUS_12V_SOC: 77
+  response: 72E046240284D
+- expected_values:
+    FOCUS_12V_SOC: 78
+  response: 72E046240284E
+- expected_values:
+    FOCUS_12V_SOC: 79
+  response: 72E046240284F
+- expected_values:
+    FOCUS_12V_SOC: 81
+  response: '72E0462402851'

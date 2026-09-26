@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    FOCUS_VSS_HD: 0
+  response: '7E8056215050000'
+- expected_values:
+    FOCUS_VSS_HD: 57.98438
+  response: 7E8056215051CFE
+- expected_values:
+    FOCUS_VSS_HD: 136.15625
+  response: '7E8056215054414'
