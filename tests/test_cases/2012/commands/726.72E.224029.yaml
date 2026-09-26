@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     FOCUS_12V_T: 29
   response: '72E0462402945'
+- expected_values:
+    FOCUS_12V_T: 33
+  response: '72E0462402949'
+- expected_values:
+    FOCUS_12V_T: 34
+  response: 72E046240294A
+- expected_values:
+    FOCUS_12V_T: 37
+  response: 72E046240294D
+- expected_values:
+    FOCUS_12V_T: 38
+  response: 72E046240294E
