@@ -1,0 +1,5 @@
+command_id: 726.72E.224029
+test_cases:
+- expected_values:
+    FOCUS_12V_T: 29
+  response: '72E0462402945'
