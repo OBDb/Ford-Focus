@@ -1,0 +1,26 @@
+command_id: 760.768.222B07
+test_cases:
+- expected_values:
+    FOCUS_FL_VSS: 0
+  response: 76804622B0700
+- expected_values:
+    FOCUS_FL_VSS: 20
+  response: 76804622B0714
+- expected_values:
+    FOCUS_FL_VSS: 22
+  response: 76804622B0716
+- expected_values:
+    FOCUS_FL_VSS: 28
+  response: 76804622B071C
+- expected_values:
+    FOCUS_FL_VSS: 46
+  response: 76804622B072E
+- expected_values:
+    FOCUS_FL_VSS: 49
+  response: 76804622B0731
+- expected_values:
+    FOCUS_FL_VSS: 62
+  response: 76804622B073E
+- expected_values:
+    FOCUS_FL_VSS: 64
+  response: 76804622B0740

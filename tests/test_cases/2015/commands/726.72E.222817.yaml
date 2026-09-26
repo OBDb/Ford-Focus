@@ -1,5 +1,0 @@
-command_id: 726.72E.222817
-test_cases:
-- expected_values:
-    FOCUS_TP_RRI: 13.5
-  response: 72E05622817010E

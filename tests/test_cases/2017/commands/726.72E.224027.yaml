@@ -1,0 +1,20 @@
+command_id: 726.72E.224027
+test_cases:
+- expected_values:
+    FOCUS_12V_AGE: 0
+  response: '72E056240270000'
+- expected_values:
+    FOCUS_12V_AGE: 96
+  response: '72E056240270004'
+- expected_values:
+    FOCUS_12V_AGE: 480
+  response: '72E056240270014'
+- expected_values:
+    FOCUS_12V_AGE: 18144
+  response: 72E0562402702F4
+- expected_values:
+    FOCUS_12V_AGE: 72240
+  response: 72E056240270BC2
+- expected_values:
+    FOCUS_12V_AGE: 80184
+  response: 72E056240270D0D
