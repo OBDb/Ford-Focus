@@ -27,19 +27,19 @@
   "signals": [
     {"id": "FOCUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_12V_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1572840, "mul": 24, "unit": "hours" }, "name": "12V battery age"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_12V_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "12V battery state of charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_12V_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_12V_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "div": 20, "add": 6, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -83,23 +83,23 @@
   "signals": [
     {"id": "FOCUS_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus Parking Brake State"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_LAT_G", "path": "Movement", "fmt": { "len": 16, "max": 1, "min": -1, "div": 50, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration"}
   ]},
@@ -315,7 +315,7 @@
   "signals": [
     {"id": "FOCUS_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_GRILL_SHUTTER_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
   ]},
@@ -387,7 +387,7 @@
   "signals": [
     {"id": "FOCUS_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
     {"id": "FOCUS_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution"}
   ]},
