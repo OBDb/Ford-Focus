@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2203B9
 test_cases:
 - expected_values:
-    FOCUS_FAN_SPD_DES: 73.25551
-  response: 7E8056203B95DC4
+    FOCUS_FAN_SPD_DES: 7.99878
+  response: 7E8056203B90A3D
 - expected_values:
-    FOCUS_FAN_SPD_DES: 75.7641
-  response: 7E8056203B960FA
+    FOCUS_FAN_SPD_DES: 58.58549
+  response: 7E8056203B94AFD
 - expected_values:
-    FOCUS_FAN_SPD_DES: 77.02449
-  response: 7E8056203B96297
+    FOCUS_FAN_SPD_DES: 71.11009
+  response: 7E8056203B95B05
 - expected_values:
-    FOCUS_FAN_SPD_DES: 77.43648
-  response: 7E8056203B9631E
-- expected_values:
-    FOCUS_FAN_SPD_DES: 79.02342
-  response: 7E8056203B96526
+    FOCUS_FAN_SPD_DES: 91.99969
+  response: 7E8056203B975C2
