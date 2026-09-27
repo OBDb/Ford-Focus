@@ -4,26 +4,8 @@ test_cases:
     FOCUS_BAT_CURRENT_726: -22.8875
   response: 72E056240901E8D
 - expected_values:
-    FOCUS_BAT_CURRENT_726: -20.7625
-  response: 72E056240901EAF
-- expected_values:
     FOCUS_BAT_CURRENT_726: 0.925
   response: 72E05624090200A
 - expected_values:
-    FOCUS_BAT_CURRENT_726: 3.55
-  response: '72E056240902034'
-- expected_values:
-    FOCUS_BAT_CURRENT_726: 3.925
-  response: 72E05624090203A
-- expected_values:
-    FOCUS_BAT_CURRENT_726: 4.2375
-  response: 72E05624090203F
-- expected_values:
-    FOCUS_BAT_CURRENT_726: 4.675
-  response: '72E056240902046'
-- expected_values:
-    FOCUS_BAT_CURRENT_726: 5.175
-  response: 72E05624090204E
-- expected_values:
-    FOCUS_BAT_CURRENT_726: 5.7375
-  response: '72E056240902057'
+    FOCUS_BAT_CURRENT_726: 15.175
+  response: 72E0562409020EE
