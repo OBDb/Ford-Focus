@@ -1,8 +1,17 @@
 command_id: 726.72E.224090
 test_cases:
 - expected_values:
+    FOCUS_BAT_CURRENT_726: -22.8875
+  response: 72E056240901E8D
+- expected_values:
     FOCUS_BAT_CURRENT_726: -20.7625
   response: 72E056240901EAF
+- expected_values:
+    FOCUS_BAT_CURRENT_726: 0.925
+  response: 72E05624090200A
+- expected_values:
+    FOCUS_BAT_CURRENT_726: 3.55
+  response: '72E056240902034'
 - expected_values:
     FOCUS_BAT_CURRENT_726: 3.925
   response: 72E05624090203A

@@ -1,6 +1,12 @@
 command_id: 726.72E.22DD04
 test_cases:
 - expected_values:
+    FOCUS_CAR_T: 20.5
+  response: 72E0462DD04A4
+- expected_values:
+    FOCUS_CAR_T: 20.75
+  response: 72E0462DD04A6
+- expected_values:
     FOCUS_CAR_T: 21.375
   response: 72E0462DD04AB
 - expected_values:
