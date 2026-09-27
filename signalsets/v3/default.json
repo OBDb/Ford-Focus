@@ -9,7 +9,7 @@
   ]},
 { "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
   "signals": [
-    {"id": "FOCUS_ODO_720", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer"}
+    {"id": "FOCUS_ODO_720", "path": "Trips", "fmt": { "len": 24, "max": 1677721.4998999999, "div": 10, "unit": "kilometers" }, "name": "Odometer"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 30, "dbgfilter": { "to": 2005, "years": [2010], "from": 2012 },
   "signals": [
@@ -579,7 +579,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1310"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Engine oil temperature"}
+    {"id": "FOCUS_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.3499, "min": -39.9999, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1440"}, "freq": 1,
   "signals": [
@@ -627,7 +627,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1624"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
+    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 131069.9999, "mul": 2, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1639"}, "freq": 1,
   "signals": [
@@ -647,11 +647,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1674"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 1"}
+    {"id": "FOCUS_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 16, "max": 8191.8749, "div": 8, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1685"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_CYL_HEAD_T_ALT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature, alternate"}
+    {"id": "FOCUS_CYL_HEAD_T_ALT", "path": "Engine", "fmt": { "len": 16, "max": 18415.3349, "mul": 281, "div": 1000, "unit": "fahrenheit" }, "name": "Cylinder head temperature, alternate"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "168B"}, "freq": 1,
   "signals": [
@@ -659,11 +659,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16A8"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_IAT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Intake air temperature 2"}
+    {"id": "FOCUS_IAT_2", "path": "Engine", "fmt": { "len": 16, "max": 36390.5555, "min": -17.7777, "mul": 5, "div": 9, "add": -17.777778, "unit": "celsius" }, "name": "Intake air temperature 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16C1"}, "freq": 30,
   "signals": [
-    {"id": "FOCUS_FLI_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+    {"id": "FOCUS_FLI_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 200.003, "mul": 0.0030518509, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E1"}, "freq": 1,
   "signals": [
