@@ -627,7 +627,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1624"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 131069.9999, "mul": 2, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
+    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1639"}, "freq": 1,
   "signals": [
