@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    FOCUS_FAN_SPD_DES: 73.25551
+  response: 7E8056203B95DC4
+- expected_values:
+    FOCUS_FAN_SPD_DES: 75.7641
+  response: 7E8056203B960FA
+- expected_values:
+    FOCUS_FAN_SPD_DES: 77.02449
+  response: 7E8056203B96297
+- expected_values:
+    FOCUS_FAN_SPD_DES: 77.43648
+  response: 7E8056203B9631E
+- expected_values:
+    FOCUS_FAN_SPD_DES: 79.02342
+  response: 7E8056203B96526
