@@ -36,19 +36,19 @@
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "401E"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "mul": 1000, "div": 10000, "unit": "offon" }, "name": "Normalized cumulative charge when ignition is on"}
+    {"id": "FOCUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative charge when ignition is on"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4021"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "mul": 1000, "div": 10000, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine on"}
+    {"id": "FOCUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine on"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4025"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_BAT_QUIESCENT", "path": "Battery", "fmt": { "len": 16, "max": 31767.5, "min": -1000, "mul": 5000, "div": 10000, "add": -1000, "unit": "milliamps" }, "name": "Battery quiescent current, low range"}
+    {"id": "FOCUS_BAT_QUIESCENT", "path": "Battery", "fmt": { "len": 16, "max": 31767.5, "min": -1000, "div": 2, "add": -1000, "unit": "milliamps" }, "name": "Battery quiescent current, low range"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4026"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "mul": 1000, "div": 10000, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine off"}
+    {"id": "FOCUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine off"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016], "from": 2019 },
   "signals": [
@@ -78,6 +78,10 @@
         }}
     }
   ]},
+{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4090"}, "freq": 1,
+  "signals": [
+    {"id": "FOCUS_BAT_CURRENT_726", "path": "Engine", "fmt": { "len": 16, "max": 3584.2375, "min": -511.7, "div": 16, "add": -511.7, "unit": "amps" }, "name": "Battery current"}
+  ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "41A9"}, "freq": 5,
   "signals": [
     {"id": "FOCUS_BAT_CURRENT_TOO_HIGH", "path": "Battery", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Battery current too high for start/stop"},
@@ -91,11 +95,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "41E8"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_VEH_BAT_B_V", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 6.05, "mul": 5, "div": 100, "add": 6, "unit": "offon" }, "name": "Vehicle battery B voltage"}
+    {"id": "FOCUS_VEH_BAT_B_V", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 6.05, "div": 20, "add": 6, "unit": "offon" }, "name": "Vehicle battery B voltage"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4209"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_BAT_CURRENT", "path": "Battery", "fmt": { "len": 24, "max": 4194303.75, "mul": 2500, "div": 10000, "unit": "amps" }, "name": "Battery current, predicted"}
+    {"id": "FOCUS_BAT_CURRENT", "path": "Battery", "fmt": { "len": 24, "max": 4194303.75, "div": 4, "unit": "amps" }, "name": "Battery current, predicted"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "420A"}, "freq": 1,
   "signals": [
@@ -103,7 +107,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "423C"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_VEH_BAT_B_CURRENT", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0, "min": -0.03125, "mul": 312.5, "div": 10000, "sign": true, "unit": "offon" }, "name": "Vehicle battery B current"}
+    {"id": "FOCUS_VEH_BAT_B_CURRENT", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0, "min": -0.0312, "div": 32, "sign": true, "unit": "offon" }, "name": "Vehicle battery B current"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "7151"}, "freq": 4, "dbgfilter": { "to": 2011, "from": 2019 },
   "signals": [
@@ -132,6 +136,10 @@
 { "hdr": "726", "rax": "72E", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2011, "from": 2019 },
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "DD04"}, "freq": 5,
+  "signals": [
+    {"id": "FOCUS_CAR_T", "path": "Engine", "fmt": { "len": 8, "max": 31.875, "div": 8, "unit": "celsius" }, "name": "In car temperature"}
   ]},
 { "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2008, "years": [2010], "from": 2019 },
   "signals": [
@@ -306,7 +314,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03B9"}, "freq": 0.25,
   "signals": [
-    {"id": "FOCUS_FAN_SPD_DES", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Fan speed, desired"}
+    {"id": "FOCUS_FAN_SPD_DES", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Fan speed, desired"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
   "signals": [
@@ -394,7 +402,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "04F7"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.82054, "min": -511.83616, "mul": 0.01562, "sign": true, "unit": "amps" }, "name": "Generator current"}
+    {"id": "FOCUS_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.8205, "min": -511.8361, "mul": 781, "div": 50000, "sign": true, "unit": "amps" }, "name": "Generator current"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051C"}, "freq": 5,
   "signals": [
@@ -402,7 +410,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051D"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
+    {"id": "FOCUS_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0522"}, "freq": 5,
   "signals": [
@@ -410,7 +418,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "053F"}, "freq": 30,
   "signals": [
-    {"id": "FOCUS_TIME_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "unknown" }, "name": "Time since last oil change"}
+    {"id": "FOCUS_TIME_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 200, "div": 13107, "unit": "unknown" }, "name": "Time since last oil change"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0542"}, "freq": 30,
   "signals": [
@@ -502,7 +510,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09CB"}, "freq": 0.25,
   "signals": [
-    {"id": "FOCUS_TQ_INTO_TQ_CONV", "path": "Engine", "fmt": { "len": 16, "max": 48336.135393, "div": 1.35581795, "unit": "newtonMeters" }, "name": "Torque into torque converter"}
+    {"id": "FOCUS_TQ_INTO_TQ_CONV", "path": "Engine", "fmt": { "len": 16, "max": 48336.1353, "div": 1.35581795, "unit": "newtonMeters" }, "name": "Torque into torque converter"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09D4"}, "freq": 0.25,
   "signals": [
@@ -516,6 +524,10 @@
   "signals": [
     {"id": "FOCUS_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1127"}, "freq": 1,
+  "signals": [
+    {"id": "FOCUS_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 1079.4118, "mul": 338639, "div": 80000, "unit": "kilopascal" }, "name": "Barometric pressure"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113C"}, "freq": 1,
   "signals": [
     {"id": "FOCUS_EGR_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Exhaust gas recirculation duty cycle"}
@@ -523,6 +535,10 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
   "signals": [
     {"id": "FOCUS_INJ_IMPULSE_WIDTH", "path": "Engine", "fmt": { "len": 16, "max": 0.05, "mul": 0.000022, "unit": "seconds" }, "name": "Injector impulse width"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1142"}, "freq": 1,
+  "signals": [
+    {"id": "FOCUS_FUEL_PMP_WIDTH_BANK_2", "path": "Engine", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "scalar" }, "name": "Fuel pump pulse width, bank 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2014, 2019], "from": 2022 },
   "signals": [
@@ -540,9 +556,21 @@
   "signals": [
     {"id": "FOCUS_TRANS_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "scalar" }, "name": "Transmission gear"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B5"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_TRANS_OUTPUT_SHFT", "path": "Transmission", "fmt": { "len": 16, "max": 1638.375, "div": 40, "unit": "rpm" }, "name": "Transmission output shaft speed"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B8"}, "freq": 0.25,
   "signals": [
-    {"id": "FOCUS_TQ_CONV_SLIP", "path": "Engine", "fmt": { "len": 16, "max": 39996.0105, "div": 1.6385384237, "unit": "rpm" }, "name": "Torque converter slip"}
+    {"id": "FOCUS_TQ_CONV_SLIP", "path": "Engine", "fmt": { "len": 16, "max": 39996.0104, "div": 1.6385384237, "unit": "rpm" }, "name": "Torque converter slip"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BA"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_CONV_SPD_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 3996.0365, "mul": 5, "div": 82, "unit": "scalar" }, "name": "Converter speed ratio"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C0"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_TQ_CONV_LINE_P", "path": "Transmission", "fmt": { "len": 8, "max": 8790.819, "mul": 172369, "div": 5000, "unit": "kilopascal" }, "name": "Torque converter line pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2010, 2019], "from": 2022 },
   "signals": [
@@ -598,15 +626,23 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1624"}, "freq": 5,
   "signals": [
-    {"id": "FOCUS_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
+    {"id": "FOCUS_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1639"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_FUEL_TANK_P", "path": "Fuel", "fmt": { "len": 16, "max": 9496.021499, "div": 6.9013112491, "unit": "psi" }, "name": "Fuel tank pressure"}
+    {"id": "FOCUS_FUEL_TANK_P", "path": "Fuel", "fmt": { "len": 16, "max": 9496.0214, "div": 6.9013112491, "unit": "psi" }, "name": "Fuel tank pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163A"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_TQ_INTO_TQ_CONV_7E0", "path": "Engine", "fmt": { "len": 8, "max": 69.1467, "mul": 0.2711635897, "unit": "newtonMeters" }, "name": "Torque into torque converter"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163B"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 4015.748, "mul": 15.7480315, "unit": "scalar" }, "name": "Transmission gear ratio"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1672"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_FUEL_PMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 199.21875, "mul": 100, "div": 128, "unit": "percent" }, "name": "Fuel pump duty cycle"}
+    {"id": "FOCUS_FUEL_PMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 199.2187, "mul": 25, "div": 32, "unit": "percent" }, "name": "Fuel pump duty cycle"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1674"}, "freq": 5,
   "signals": [
@@ -630,7 +666,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E1"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01526, "unit": "percent" }, "name": "Wastegate control"}
+    {"id": "FOCUS_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 763, "div": 50000, "unit": "percent" }, "name": "Wastegate control"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E8"}, "freq": 1,
   "signals": [
@@ -745,7 +781,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F434"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.280183, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
+    {"id": "FOCUS_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.2801, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2010, 2019], "from": 2022 },
   "signals": [
@@ -757,7 +793,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45E"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Engine fuel rate"}
+    {"id": "FOCUS_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019], "from": 2021 },
   "signals": [
@@ -773,11 +809,15 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "FD18"}, "freq": 1,
   "signals": [
-    {"id": "FOCUS_AC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 3100.000064, "mul": 12.156863, "unit": "kilopascal" }, "name": "Air conditioning pressure"}
+    {"id": "FOCUS_AC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 3100, "mul": 12.156863, "unit": "kilopascal" }, "name": "Air conditioning pressure"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "11B3"}, "freq": 0.25,
   "signals": [
     {"id": "FOCUS_TRANS_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "scalar" }, "name": "Transmission gear"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "163A"}, "freq": 0.25,
+  "signals": [
+    {"id": "FOCUS_TQ_INTO_TQ_CONV_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 69.1467, "mul": 0.2711635897, "unit": "newtonMeters" }, "name": "Torque into torque converter, variant 2"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1674"}, "freq": 5,
   "signals": [
