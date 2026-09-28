@@ -35,19 +35,19 @@
   "signals": [
     {"id": "FOCUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative charge when ignition is on"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4021"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4021"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine on"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_BAT_QUIESCENT", "path": "Battery", "fmt": { "len": 16, "max": 31767.5, "min": -1000, "div": 2, "add": -1000, "unit": "milliamps" }, "name": "Battery quiescent current, low range"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4026"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4026"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine off"}
   ]},
@@ -79,11 +79,11 @@
         }}
     }
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4090"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4090"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_BAT_CURRENT_726", "path": "Engine", "fmt": { "len": 16, "max": 3584.2375, "min": -511.7, "div": 16, "add": -511.7, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "41A9"}, "freq": 5, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "41A9"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_BAT_CURRENT_TOO_HIGH", "path": "Battery", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Battery current too high for start/stop"},
     {"id": "FOCUS_BAT_V_TOO_LOW_START",  "path": "Battery", "fmt": {"bix": 3,  "len": 1, "max": 1, "unit": "offon" }, "name": "Battery voltage too low for start/stop"},
@@ -138,7 +138,7 @@
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "FOCUS_CAR_T", "path": "Engine", "fmt": { "len": 8, "max": 31.875, "div": 8, "unit": "celsius" }, "name": "In car temperature"}
   ]},
@@ -828,7 +828,7 @@
   "signals": [
     {"id": "FOCUS_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FOCUS_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "celsius" }, "name": "Transmission odometer"}
   ]}
