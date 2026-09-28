@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_ENG_LOAD_ACT: 97.64706
   response: 7E80562F44300F9
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 102.7451
+  response: 7E80562F4430106
