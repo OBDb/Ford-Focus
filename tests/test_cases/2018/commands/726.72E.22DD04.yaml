@@ -1,0 +1,11 @@
+command_id: 726.72E.22DD04
+test_cases:
+- expected_values:
+    FOCUS_CAR_T: 8.875
+  response: 72E0462DD0447
+- expected_values:
+    FOCUS_CAR_T: 9.75
+  response: 72E0462DD044E
+- expected_values:
+    FOCUS_CAR_T: 10.5
+  response: 72E0462DD0454

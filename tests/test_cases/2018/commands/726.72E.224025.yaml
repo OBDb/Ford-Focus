@@ -1,0 +1,5 @@
+command_id: 726.72E.224025
+test_cases:
+- expected_values:
+    FOCUS_BAT_QUIESCENT: -58
+  response: 72E05624025075C
