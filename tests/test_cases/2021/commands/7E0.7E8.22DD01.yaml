@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    FOCUS_ODO_7E0: 33410
+  response: 7E80662DD01008282
+- expected_values:
+    FOCUS_ODO_7E0: 33425
+  response: 7E80662DD01008291

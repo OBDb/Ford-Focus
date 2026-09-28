@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     FOCUS_IGN_CORR_CYL1: -1.25195
   response: 7E8056203ECFD7F
+- expected_values:
+    FOCUS_IGN_CORR_CYL1: -1
+  response: 7E8056203ECFE00
