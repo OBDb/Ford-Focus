@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220580
+test_cases:
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 26.66667
+  response: '7E80462058044'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 33.33333
+  response: '7E80462058055'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 40
+  response: '7E80462058066'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 46.66667
+  response: '7E80462058077'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 53.33333
+  response: '7E80462058088'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 60
+  response: '7E80462058099'
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 66.66667
+  response: 7E804620580AA
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 73.33333
+  response: 7E804620580BB
+- expected_values:
+    FOCUS_GRILL_SHUTTER_POS: 100
+  response: 7E804620580FF
