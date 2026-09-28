@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 13.30442
+  response: 7E80762F43474527F9F
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 13.61315
+  response: 7E80762F43477057FB2
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 14.55945
+  response: 7E80762F4347F4B8001
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 14.58938
+  response: 7E80762F4347F8E7FFF
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF81B2
+- expected_values:
+    FOCUS_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF8218

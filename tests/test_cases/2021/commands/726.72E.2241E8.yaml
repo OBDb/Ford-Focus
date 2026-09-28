@@ -1,0 +1,11 @@
+command_id: 726.72E.2241E8
+test_cases:
+- expected_values:
+    FOCUS_VEH_BAT_B_V: 6
+  response: 72E046241E88E
+- expected_values:
+    FOCUS_VEH_BAT_B_V: 6.05
+  response: 72E046241E8AF
+- expected_values:
+    FOCUS_VEH_BAT_B_V: 6
+  response: 72E046241E8B0

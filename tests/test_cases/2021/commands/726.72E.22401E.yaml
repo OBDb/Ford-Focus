@@ -1,0 +1,8 @@
+command_id: 726.72E.22401E
+test_cases:
+- expected_values:
+    FOCUS_NORM_CUM_CHG_IGN_ON: 0
+  response: 72E0562401E004D
+- expected_values:
+    FOCUS_NORM_CUM_CHG_IGN_ON: 0
+  response: 72E0562401E004E
