@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_ODO_720: 189627.1
   response: 728066261801CEF4F
+- expected_values:
+    FOCUS_ODO_720: 189643.8
+  response: 728066261801CEFF6
+- expected_values:
+    FOCUS_ODO_720: 189646.2
+  response: 728066261801CF00E

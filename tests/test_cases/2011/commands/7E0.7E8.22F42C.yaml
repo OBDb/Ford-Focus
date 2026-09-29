@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_EGR: 0
   response: 7E80462F42C00
+- expected_values:
+    FOCUS_EGR: 100
+  response: 7E80462F42CB5
