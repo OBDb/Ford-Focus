@@ -4,8 +4,11 @@ test_cases:
     FOCUS_MAP_HIRES: 22
   response: '7E8056203700058'
 - expected_values:
-    FOCUS_MAP_HIRES: 61.5
-  response: 7E80562037000F6
+    FOCUS_MAP_HIRES: 63.5
+  response: 7E80562037000FE
 - expected_values:
-    FOCUS_MAP_HIRES: 69.75
-  response: '7E8056203700117'
+    FOCUS_MAP_HIRES: 66.5
+  response: 7E805620370010A
+- expected_values:
+    FOCUS_MAP_HIRES: 137.75
+  response: '7E8056203700227'

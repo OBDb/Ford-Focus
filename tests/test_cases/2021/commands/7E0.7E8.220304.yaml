@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.220304
 test_cases:
 - expected_values:
+    FOCUS_CMD_GEN_V: 14.42674
+  response: 7E805620304737B
+- expected_values:
+    FOCUS_CMD_GEN_V: 14.49165
+  response: '7E8056203047400'
+- expected_values:
     FOCUS_CMD_GEN_V: 14.80055
   response: '7E8056203047679'
 - expected_values:

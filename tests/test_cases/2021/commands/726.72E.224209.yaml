@@ -10,5 +10,5 @@ test_cases:
     FOCUS_BAT_CURRENT: 14.25
   response: '72E0762420900003900'
 - expected_values:
-    FOCUS_BAT_CURRENT: 23.5
-  response: 72E0762420900005E60
+    FOCUS_BAT_CURRENT: 29
+  response: '72E0762420900007400'
