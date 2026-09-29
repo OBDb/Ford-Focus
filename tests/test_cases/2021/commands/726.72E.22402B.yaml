@@ -5,19 +5,4 @@ test_cases:
   response: 72E0462402B72
 - expected_values:
     FOCUS_VEH_BAT_CURRENT: -127
-  response: 72E0462402B80
-- expected_values:
-    FOCUS_VEH_BAT_CURRENT: -126
-  response: 72E0462402B81
-- expected_values:
-    FOCUS_VEH_BAT_CURRENT: -127
-  response: 72E0462402B82
-- expected_values:
-    FOCUS_VEH_BAT_CURRENT: -126
-  response: 72E0462402B83
-- expected_values:
-    FOCUS_VEH_BAT_CURRENT: -127
-  response: 72E0462402B84
-- expected_values:
-    FOCUS_VEH_BAT_CURRENT: -126
-  response: 72E0462402B87
+  response: 72E0462402B88

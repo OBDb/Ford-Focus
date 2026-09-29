@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_12V_AGE: 7416
   response: '72E056240270135'
+- expected_values:
+    FOCUS_12V_AGE: 7440
+  response: '72E056240270136'

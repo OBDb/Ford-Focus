@@ -4,5 +4,8 @@ test_cases:
     FOCUS_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
-    FOCUS_ENG_FUEL_RATE: 7.6
-  response: 7E80562F45E0098
+    FOCUS_ENG_FUEL_RATE: 12.7
+  response: 7E80562F45E00FE
+- expected_values:
+    FOCUS_ENG_FUEL_RATE: 15.75
+  response: 7E80562F45E013B
