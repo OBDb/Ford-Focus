@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_VSS_HD: 0
   response: '7E8056215050000'
+- expected_values:
+    FOCUS_VSS_HD: 29.99219
+  response: 7E8056215050EFF
+- expected_values:
+    FOCUS_VSS_HD: 94.40625
+  response: 7E8056215052F34
