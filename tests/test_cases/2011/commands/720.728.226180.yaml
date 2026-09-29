@@ -1,0 +1,5 @@
+command_id: 720.728.226180
+test_cases:
+- expected_values:
+    FOCUS_ODO_720: 189627.1
+  response: 728066261801CEF4F

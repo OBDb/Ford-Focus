@@ -1,0 +1,14 @@
+command_id: 760.768.223987
+test_cases:
+- expected_values:
+    FOCUS_ABS_WHL_SPD_1: 0
+    FOCUS_ABS_WHL_SPD_2: 0
+    FOCUS_ABS_WHL_SPD_3: 0
+    FOCUS_ABS_WHL_SPD_4: 0
+  response: '7680762398700000000'
+- expected_values:
+    FOCUS_ABS_WHL_SPD_1: 2
+    FOCUS_ABS_WHL_SPD_2: 2
+    FOCUS_ABS_WHL_SPD_3: 2
+    FOCUS_ABS_WHL_SPD_4: 2
+  response: '7680762398702020202'

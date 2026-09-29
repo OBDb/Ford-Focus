@@ -7,7 +7,7 @@
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6180"}, "freq": 30, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "FOCUS_ODO_720", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer"}
   ]},
@@ -170,7 +170,7 @@
   "signals": [
     {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3987"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3987"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "FOCUS_ABS_WHL_SPD_1", "path": "Control", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 1"},
     {"id": "FOCUS_ABS_WHL_SPD_2", "path": "Control", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 2"},
@@ -189,7 +189,7 @@
   "signals": [
     {"id": "FOCUS_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "unit": "volts" }, "name": "Manifold pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_CMD_GEN_V", "path": "Battery", "fmt": { "len": 16, "max": 16, "mul": 0.000488, "unit": "volts" }, "name": "Commanded generator voltage"}
   ]},
@@ -269,7 +269,7 @@
   "signals": [
     {"id": "FOCUS_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0378"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "FOCUS_GEN_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Generator control"}
   ]},
@@ -585,7 +585,7 @@
   "signals": [
     {"id": "FOCUS_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "psi" }, "name": "Boost"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution"}
   ]},
@@ -669,7 +669,7 @@
   "signals": [
     {"id": "FOCUS_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 763, "div": 50000, "unit": "percent" }, "name": "Wastegate control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "FOCUS_CMD_GEN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Commanded generator duty"}
   ]},
@@ -764,7 +764,7 @@
   "signals": [
     {"id": "FOCUS_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "FOCUS_EGR", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Exhaust gas recirculation"}
   ]},
@@ -808,7 +808,7 @@
   "signals": [
     {"id": "FOCUS_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD18"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD18"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "FOCUS_AC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 3100, "mul": 12.156863, "unit": "kilopascal" }, "name": "Air conditioning pressure"}
   ]},
