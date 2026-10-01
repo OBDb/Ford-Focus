@@ -7,8 +7,8 @@ test_cases:
     FOCUS_CMD_GEN_V: 14.49165
   response: '7E8056203047400'
 - expected_values:
-    FOCUS_CMD_GEN_V: 14.80055
-  response: '7E8056203047679'
+    FOCUS_CMD_GEN_V: 14.74297
+  response: '7E8056203047603'
 - expected_values:
     FOCUS_CMD_GEN_V: 14.86594
   response: 7E80562030476FF
