@@ -1,5 +1,5 @@
 command_id: 726.72E.22401E
 test_cases:
 - expected_values:
-    FOCUS_NORM_CUM_CHG_IGN_ON: 0
+    FOCUS_NORM_CUM_CHG_IGN_ON: 23
   response: 72E0562401E00E6
