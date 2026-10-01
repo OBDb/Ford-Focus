@@ -1,14 +1,14 @@
 command_id: 726.72E.22423C
 test_cases:
 - expected_values:
-    FOCUS_VEH_BAT_B_CURRENT: 0
+    FOCUS_VEH_BAT_B_CURRENT: 0.59375
   response: 72E0562423C0013
 - expected_values:
-    FOCUS_VEH_BAT_B_CURRENT: -0.0312
+    FOCUS_VEH_BAT_B_CURRENT: 8.15625
   response: 72E0562423C0105
 - expected_values:
-    FOCUS_VEH_BAT_B_CURRENT: -0.0312
+    FOCUS_VEH_BAT_B_CURRENT: -0.8125
   response: 72E0562423CFFE6
 - expected_values:
-    FOCUS_VEH_BAT_B_CURRENT: -0.0312
+    FOCUS_VEH_BAT_B_CURRENT: -0.09375
   response: 72E0562423CFFFD
