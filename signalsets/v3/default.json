@@ -828,7 +828,7 @@
   "signals": [
     {"id": "FOCUS_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "FOCUS_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "celsius" }, "name": "Transmission odometer"}
   ]}
