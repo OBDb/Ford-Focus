@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22038E
 test_cases:
 - expected_values:
-    FOCUS_EVAP_V: 5
+    FOCUS_EVAP_V: 0.33
   response: 7E80562038E014A
 - expected_values:
-    FOCUS_EVAP_V: 5
+    FOCUS_EVAP_V: 1.536
   response: 7E80562038E0600
 - expected_values:
-    FOCUS_EVAP_V: 5
+    FOCUS_EVAP_V: 1.791
   response: 7E80562038E06FF
 - expected_values:
-    FOCUS_EVAP_V: 5
+    FOCUS_EVAP_V: 2.817
   response: 7E80562038E0B01
