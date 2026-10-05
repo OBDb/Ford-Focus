@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22054D|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_LPFP_SENS_V: 0.00977
+  response: 7E80562054D000A
+- expected_values:
+    FOCUS_LPFP_SENS_V: 3.75
+  response: 7E80562054D0F00
+- expected_values:
+    FOCUS_LPFP_SENS_V: 3.99902
+  response: 7E80562054D0FFF
+- expected_values:
+    FOCUS_LPFP_SENS_V: 4.79004
+  response: 7E80562054D1329

@@ -5,4 +5,7 @@ test_cases:
   response: 7E8056203E8D6ED
 - expected_values:
     FOCUS_OAR: 0
+  response: 7E8056203E8DBE8
+- expected_values:
+    FOCUS_OAR: 0
   response: 7E8056203E8F91B
