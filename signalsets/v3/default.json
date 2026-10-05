@@ -138,9 +138,13 @@
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD04"}, "freq": 5, "filter": { "to": 2014 }, "dbgfilter": { "to": 2011, "years": [2013] },
   "signals": [
-    {"id": "FOCUS_CAR_T", "path": "Engine", "fmt": { "len": 8, "max": 31.875, "div": 8, "nullmax": 31.875, "unit": "celsius" }, "name": "In car temperature"}
+    {"id": "FOCUS_CAR_T_PRE15", "path": "Engine", "fmt": { "len": 8, "max": 31.875, "div": 8, "nullmax": 31.875, "unit": "celsius" }, "name": "In car temperature"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD04"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "from": 2019 },
+  "signals": [
+    {"id": "FOCUS_CAR_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "In car temperature"}
   ]},
 { "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2008, "years": [2010], "from": 2019 },
   "signals": [
