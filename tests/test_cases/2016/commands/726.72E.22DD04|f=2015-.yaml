@@ -1,26 +1,26 @@
-command_id: 726.72E.22DD04
+command_id: 726.72E.22DD04|f=2015-
 test_cases:
 - expected_values:
-    FOCUS_CAR_T: 7.5
+    FOCUS_CAR_T: 20
   response: 72E0462DD043C
 - expected_values:
-    FOCUS_CAR_T: 7.625
+    FOCUS_CAR_T: 21
   response: 72E0462DD043D
 - expected_values:
-    FOCUS_CAR_T: 8
+    FOCUS_CAR_T: 24
   response: 72E0462DD0440
 - expected_values:
-    FOCUS_CAR_T: 8.125
+    FOCUS_CAR_T: 25
   response: 72E0462DD0441
 - expected_values:
-    FOCUS_CAR_T: 8.25
+    FOCUS_CAR_T: 26
   response: 72E0462DD0442
 - expected_values:
-    FOCUS_CAR_T: 8.375
+    FOCUS_CAR_T: 27
   response: 72E0462DD0443
 - expected_values:
-    FOCUS_CAR_T: 8.5
+    FOCUS_CAR_T: 28
   response: 72E0462DD0444
 - expected_values:
-    FOCUS_CAR_T: 13.75
+    FOCUS_CAR_T: 70
   response: 72E0462DD046E

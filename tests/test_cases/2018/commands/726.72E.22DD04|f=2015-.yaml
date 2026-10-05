@@ -1,11 +1,11 @@
-command_id: 726.72E.22DD04
+command_id: 726.72E.22DD04|f=2015-
 test_cases:
 - expected_values:
-    FOCUS_CAR_T: 8.875
+    FOCUS_CAR_T: 31
   response: 72E0462DD0447
 - expected_values:
-    FOCUS_CAR_T: 9.75
+    FOCUS_CAR_T: 38
   response: 72E0462DD044E
 - expected_values:
-    FOCUS_CAR_T: 10.5
+    FOCUS_CAR_T: 44
   response: 72E0462DD0454
