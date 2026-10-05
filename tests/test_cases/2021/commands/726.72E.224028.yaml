@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     FOCUS_12V_SOC: 78
   response: 72E046240284E
+- expected_values:
+    FOCUS_12V_SOC: 82
+  response: '72E0462402852'
