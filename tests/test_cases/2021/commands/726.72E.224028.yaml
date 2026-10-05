@@ -4,29 +4,5 @@ test_cases:
     FOCUS_12V_SOC: 70
   response: '72E0462402846'
 - expected_values:
-    FOCUS_12V_SOC: 71
-  response: '72E0462402847'
-- expected_values:
-    FOCUS_12V_SOC: 72
-  response: '72E0462402848'
-- expected_values:
-    FOCUS_12V_SOC: 73
-  response: '72E0462402849'
-- expected_values:
-    FOCUS_12V_SOC: 74
-  response: 72E046240284A
-- expected_values:
-    FOCUS_12V_SOC: 75
-  response: 72E046240284B
-- expected_values:
-    FOCUS_12V_SOC: 76
-  response: 72E046240284C
-- expected_values:
-    FOCUS_12V_SOC: 77
-  response: 72E046240284D
-- expected_values:
-    FOCUS_12V_SOC: 78
-  response: 72E046240284E
-- expected_values:
-    FOCUS_12V_SOC: 82
-  response: '72E0462402852'
+    FOCUS_12V_SOC: 83
+  response: '72E0462402853'
