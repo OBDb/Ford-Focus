@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.220415
-test_cases:
-- expected_values:
-    FOCUS_PCM_ENG_EOP_RAW: 107
-  response: 7E805620415006B

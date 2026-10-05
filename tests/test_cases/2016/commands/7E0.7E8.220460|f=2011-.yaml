@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220460|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_CAT_SENS_V: 2.27051
+  response: '7E8056204600915'
+- expected_values:
+    FOCUS_CAT_SENS_V: 2.48535
+  response: 7E80562046009F1
+- expected_values:
+    FOCUS_CAT_SENS_V: 2.5
+  response: 7E8056204600A00

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_AC_P_7E0: 0
   response: 7E80762FD1800165804
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001667C6
