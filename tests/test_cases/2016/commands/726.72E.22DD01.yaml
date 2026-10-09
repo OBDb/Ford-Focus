@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     FOCUS_ODO: 326656
   response: 72E0662DD0104FC00
+- expected_values:
+    FOCUS_ODO: 326912
+  response: 72E0662DD0104FD00
