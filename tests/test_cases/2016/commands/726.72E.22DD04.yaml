@@ -7,6 +7,9 @@ test_cases:
     FOCUS_CAR_T: 7.625
   response: 72E0462DD043D
 - expected_values:
+    FOCUS_CAR_T: 7.875
+  response: 72E0462DD043F
+- expected_values:
     FOCUS_CAR_T: 8
   response: 72E0462DD0440
 - expected_values:

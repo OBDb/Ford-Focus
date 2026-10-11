@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FOCUS_CAT: -40
   response: '7E8056204610000'
+- expected_values:
+    FOCUS_CAT: -13.82812
+  response: 7E805620461068B
+- expected_values:
+    FOCUS_CAT: -12.73438
+  response: 7E80562046106D1

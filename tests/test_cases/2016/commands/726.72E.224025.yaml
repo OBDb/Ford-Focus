@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FOCUS_BAT_QUIESCENT: -14
   response: 72E0562402507B4
+- expected_values:
+    FOCUS_BAT_QUIESCENT: -9
+  response: 72E0562402507BE
