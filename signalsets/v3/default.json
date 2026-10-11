@@ -100,7 +100,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4209"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "FOCUS_BAT_CURRENT", "path": "Battery", "fmt": { "len": 24, "max": 4194303.75, "div": 4, "unit": "amps" }, "name": "Battery current, predicted"}
+    {"id": "FOCUS_BAT_CURRENT", "path": "Battery", "fmt": { "len": 24, "max": 2097151.75, "min": -2097152, "div": 4, "sign": true, "unit": "amps" }, "name": "Battery current, predicted"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "420A"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
