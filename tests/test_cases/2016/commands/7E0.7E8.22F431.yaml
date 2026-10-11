@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
+    FOCUS_DIST_DTC_CLR: 572
+  response: 7E80562F431023C
+- expected_values:
     FOCUS_DIST_DTC_CLR: 47883
   response: 7E80562F431BB0B
 - expected_values:

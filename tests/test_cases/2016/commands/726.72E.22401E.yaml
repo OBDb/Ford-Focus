@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_NORM_CUM_CHG_IGN_ON: 167
   response: 72E0562401E0686
+- expected_values:
+    FOCUS_NORM_CUM_CHG_IGN_ON: 169
+  response: 72E0562401E069A

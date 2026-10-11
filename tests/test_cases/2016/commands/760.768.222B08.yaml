@@ -4,5 +4,5 @@ test_cases:
     FOCUS_RR_VSS: 0
   response: 76804622B0800
 - expected_values:
-    FOCUS_RR_VSS: 65
-  response: 76804622B0841
+    FOCUS_RR_VSS: 78
+  response: 76804622B084E
