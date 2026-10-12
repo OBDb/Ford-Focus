@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F404
 test_cases:
 - expected_values:
-    FOCUS_ENG_LOAD_PCT: 7.45098
-  response: 7E80462F40413
+    FOCUS_ENG_LOAD_PCT: 6.66667
+  response: 7E80462F40411
 - expected_values:
     FOCUS_ENG_LOAD_PCT: 92.54902
   response: 7E80462F404EC

@@ -7,8 +7,8 @@ test_cases:
     FOCUS_LPFP_DUTY: 27.3468
   response: '7E8056203072301'
 - expected_values:
-    FOCUS_LPFP_DUTY: 32.02515
-  response: 7E80562030728FE
+    FOCUS_LPFP_DUTY: 39.05945
+  response: 7E80562030731FF
 - expected_values:
-    FOCUS_LPFP_DUTY: 34.53369
-  response: 7E8056203072C34
+    FOCUS_LPFP_DUTY: 41.56799
+  response: '7E8056203073535'

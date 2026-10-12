@@ -4,29 +4,5 @@ test_cases:
     FOCUS_KS1_RAW: 21
   response: '7E8056204030015'
 - expected_values:
-    FOCUS_KS1_RAW: 25
-  response: '7E8056204030019'
-- expected_values:
-    FOCUS_KS1_RAW: 35
-  response: '7E8056204030023'
-- expected_values:
-    FOCUS_KS1_RAW: 40
-  response: '7E8056204030028'
-- expected_values:
-    FOCUS_KS1_RAW: 44
-  response: 7E805620403002C
-- expected_values:
-    FOCUS_KS1_RAW: 45
-  response: 7E805620403002D
-- expected_values:
-    FOCUS_KS1_RAW: 46
-  response: 7E805620403002E
-- expected_values:
-    FOCUS_KS1_RAW: 56
-  response: '7E8056204030038'
-- expected_values:
-    FOCUS_KS1_RAW: 58
-  response: 7E805620403003A
-- expected_values:
-    FOCUS_KS1_RAW: 81
-  response: '7E8056204030051'
+    FOCUS_KS1_RAW: 163
+  response: 7E80562040300A3
