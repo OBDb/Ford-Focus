@@ -830,7 +830,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
-    {"id": "FOCUS_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "celsius" }, "name": "Transmission odometer"}
+    {"id": "FOCUS_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Transmission odometer"}
   ]}
 ]
 }
