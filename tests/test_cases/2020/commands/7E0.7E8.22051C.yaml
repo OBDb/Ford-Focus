@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22051C
+test_cases:
+- expected_values:
+    FOCUS_CHG_AIR_T: 47
+  response: 7E80462051C57
+- expected_values:
+    FOCUS_CHG_AIR_T: 49
+  response: 7E80462051C59

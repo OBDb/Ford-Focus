@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203F3
+test_cases:
+- expected_values:
+    FOCUS_SUMP_OIL_T_MEAS: 94
+  response: 7E8046203F386
+- expected_values:
+    FOCUS_SUMP_OIL_T_MEAS: 95
+  response: 7E8046203F387
