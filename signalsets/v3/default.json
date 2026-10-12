@@ -265,7 +265,7 @@
   "signals": [
     {"id": "FOCUS_RO2_V", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "O2 sensor voltage, rear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "filter": { "to": 2011, "from": 2018 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "FOCUS_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
@@ -792,7 +792,7 @@
   "signals": [
     {"id": "FOCUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "filter": { "to": 2011, "from": 2018 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "FOCUS_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
   ]},
@@ -804,7 +804,7 @@
   "signals": [
     {"id": "FOCUS_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "filter": { "to": 2007, "from": 2018 }, "dbgfilter": { "to": 2019, "from": 2022 },
   "signals": [
     {"id": "FOCUS_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
   ]},
