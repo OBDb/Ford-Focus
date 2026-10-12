@@ -4,29 +4,5 @@ test_cases:
     FOCUS_LPFP_ACT: 71.43272
   response: 7E80562054803D9
 - expected_values:
-    FOCUS_LPFP_ACT: 80.2077
-  response: '7E8056205480452'
-- expected_values:
-    FOCUS_LPFP_ACT: 81.94819
-  response: 7E805620548046A
-- expected_values:
-    FOCUS_LPFP_ACT: 82.16575
-  response: 7E805620548046D
-- expected_values:
-    FOCUS_LPFP_ACT: 82.96348
-  response: '7E8056205480478'
-- expected_values:
-    FOCUS_LPFP_ACT: 84.05129
-  response: '7E8056205480487'
-- expected_values:
-    FOCUS_LPFP_ACT: 85.28414
-  response: '7E8056205480498'
-- expected_values:
-    FOCUS_LPFP_ACT: 85.35666
-  response: '7E8056205480499'
-- expected_values:
-    FOCUS_LPFP_ACT: 86.15438
-  response: 7E80562054804A4
-- expected_values:
-    FOCUS_LPFP_ACT: 87.38723
-  response: 7E80562054804B5
+    FOCUS_LPFP_ACT: 78.90233
+  response: '7E8056205480440'
