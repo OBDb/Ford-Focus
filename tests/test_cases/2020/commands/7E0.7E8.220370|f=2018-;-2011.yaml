@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220370|f=2018-;-2011
+test_cases:
+- expected_values:
+    FOCUS_MAP_HIRES: 97.25
+  response: '7E8056203700185'

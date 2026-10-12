@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203F5
+test_cases:
+- expected_values:
+    FOCUS_EXH_GAS_T_2: 240
+  response: 7E8046203F530
+- expected_values:
+    FOCUS_EXH_GAS_T_2: 245
+  response: 7E8046203F531
