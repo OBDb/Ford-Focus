@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224194|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_DTE: 85.6
+  response: '7E8056241940358'

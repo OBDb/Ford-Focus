@@ -1,0 +1,8 @@
+command_id: 726.72E.224209|f=2018-
+test_cases:
+- expected_values:
+    FOCUS_BAT_CURRENT: 13.25
+  response: '72E0762420900003560'
+- expected_values:
+    FOCUS_BAT_CURRENT: 14.5
+  response: 72E0762420900003A00
