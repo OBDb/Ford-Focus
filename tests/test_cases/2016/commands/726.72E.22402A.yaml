@@ -4,5 +4,5 @@ test_cases:
     FOCUS_12V_V: 11.1
   response: 72E0462402A66
 - expected_values:
-    FOCUS_12V_V: 14.8
-  response: 72E0462402AB0
+    FOCUS_12V_V: 14.85
+  response: 72E0462402AB1
