@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2204F7
+test_cases:
+- expected_values:
+    FOCUS_GEN_CURRENT: 0
+  response: 7E8056204F70000

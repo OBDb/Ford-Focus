@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220370|f=2018-;-2011
+test_cases:
+- expected_values:
+    FOCUS_MAP_HIRES: 22
+  response: '7E8056203700058'
+- expected_values:
+    FOCUS_MAP_HIRES: 63.5
+  response: 7E80562037000FE
+- expected_values:
+    FOCUS_MAP_HIRES: 66.5
+  response: 7E805620370010A
+- expected_values:
+    FOCUS_MAP_HIRES: 137.75
+  response: '7E8056203700227'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22FD18
+test_cases:
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18000005DD

@@ -776,39 +776,39 @@
   "signals": [
     {"id": "FOCUS_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2010, 2013, 2014, 2019], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2010, 2019], "from": 2023 },
   "signals": [
     {"id": "FOCUS_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.2801, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2017, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2010, 2019], "from": 2023 },
   "signals": [
     {"id": "FOCUS_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2017], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2010, 2014, 2019], "from": 2023 },
   "signals": [
     {"id": "FOCUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45E"}, "freq": 1, "filter": { "to": 2011, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "filter": { "to": 2011, "from": 2018 }, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "FOCUS_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F462"}, "freq": 0.25, "filter": { "from": 2011 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F463"}, "freq": 3600, "filter": { "from": 2011 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2023 },
   "signals": [
     {"id": "FOCUS_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F4A6"}, "freq": 30, "filter": { "to": 2007, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "filter": { "to": 2007, "from": 2018 }, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "FOCUS_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD18"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015], "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD18"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2018, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_AC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 3100, "mul": 12.156863, "unit": "kilopascal" }, "name": "Air conditioning pressure"}
   ]},
@@ -828,7 +828,7 @@
   "signals": [
     {"id": "FOCUS_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "FOCUS_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Transmission odometer"}
   ]}

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    FOCUS_ODO_7E0: 39775
+  response: 7E80662DD01009B5F
+- expected_values:
+    FOCUS_ODO_7E0: 121858
+  response: 7E80662DD0101DC02
+- expected_values:
+    FOCUS_ODO_7E0: 140019
+  response: 7E80662DD010222F3
+- expected_values:
+    FOCUS_ODO_7E0: 140032
+  response: 7E80662DD01022300
+- expected_values:
+    FOCUS_ODO_7E0: 208586
+  response: 7E80662DD01032ECA
+- expected_values:
+    FOCUS_ODO_7E0: 217596
+  response: 7E80662DD010351FC
