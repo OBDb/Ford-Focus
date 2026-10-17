@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FOCUS_NORM_CUM_DCHG_BAT_OFF: 85.9
   response: 72E05624026035B
+- expected_values:
+    FOCUS_NORM_CUM_DCHG_BAT_OFF: 86.9
+  response: '72E056240260365'
