@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_12V_AGE: 91224
   response: 72E056240270ED9
+- expected_values:
+    FOCUS_12V_AGE: 91392
+  response: 72E056240270EE0
