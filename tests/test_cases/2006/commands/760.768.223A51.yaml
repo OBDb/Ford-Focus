@@ -1,0 +1,11 @@
+command_id: 760.768.223A51
+test_cases:
+- expected_values:
+    FOCUS_ABS_LATERAL_ACCEL: 0.38
+  response: 76805623A510013
+- expected_values:
+    FOCUS_ABS_LATERAL_ACCEL: 0.4
+  response: 76805623A510014
+- expected_values:
+    FOCUS_ABS_LATERAL_ACCEL: 0.42
+  response: 76805623A510015

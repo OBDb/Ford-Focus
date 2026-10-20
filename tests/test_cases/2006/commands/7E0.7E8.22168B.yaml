@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22168B
+test_cases:
+- expected_values:
+    FOCUS_FUEL_INJ_IMPULSE: 0.1
+  response: 7E80562168B6E00
+- expected_values:
+    FOCUS_FUEL_INJ_IMPULSE: 0.1
+  response: 7E80562168B6E40
+- expected_values:
+    FOCUS_FUEL_INJ_IMPULSE: 0.1
+  response: 7E80562168B6E80
+- expected_values:
+    FOCUS_FUEL_INJ_IMPULSE: 0.1
+  response: 7E80562168B6EC0
+- expected_values:
+    FOCUS_FUEL_INJ_IMPULSE: 0.1
+  response: 7E80562168B6F00

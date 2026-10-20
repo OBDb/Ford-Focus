@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221172
+test_cases:
+- expected_values:
+    FOCUS_BAT_V: 12.25
+  response: 7E804621172C4
+- expected_values:
+    FOCUS_BAT_V: 12.375
+  response: 7E804621172C6

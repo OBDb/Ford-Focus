@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2209DB
+test_cases:
+- expected_values:
+    FOCUS_TURBO_BOOST: 85
+  response: 7E8046209DB55
