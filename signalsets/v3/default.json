@@ -7,7 +7,7 @@
   "signals": [
     {"id": "FOCUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6180"}, "freq": 30, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6180"}, "freq": 30, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010], "from": 2012 },
   "signals": [
     {"id": "FOCUS_ODO_720", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer"}
   ]},
@@ -170,14 +170,14 @@
   "signals": [
     {"id": "FOCUS_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "3987"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3987"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010], "from": 2012 },
   "signals": [
     {"id": "FOCUS_ABS_WHL_SPD_1", "path": "Control", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 1"},
     {"id": "FOCUS_ABS_WHL_SPD_2", "path": "Control", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 2"},
     {"id": "FOCUS_ABS_WHL_SPD_3", "path": "Control", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 3"},
     {"id": "FOCUS_ABS_WHL_SPD_4", "path": "Control", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 4"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3A51"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3A51"}, "freq": 0.25, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "FOCUS_ABS_LATERAL_ACCEL", "path": "Control", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "gravity" }, "name": "Anti-lock brake lateral acceleration"}
   ]},
@@ -517,7 +517,7 @@
   "signals": [
     {"id": "FOCUS_ACCEL_PEDAL_POS", "path": "Movement", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09DB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "09DB"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "FOCUS_TURBO_BOOST", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Turbo boost"}
   ]},
@@ -549,7 +549,7 @@
   "signals": [
     {"id": "FOCUS_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1172"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1172"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "FOCUS_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 15.9375, "div": 16, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -653,7 +653,7 @@
   "signals": [
     {"id": "FOCUS_CYL_HEAD_T_ALT", "path": "Engine", "fmt": { "len": 16, "max": 18415, "mul": 281, "div": 1000, "unit": "fahrenheit" }, "name": "Cylinder head temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "168B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "168B"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "FOCUS_FUEL_INJ_IMPULSE", "path": "Fuel", "fmt": { "len": 16, "max": 0.1, "div": 125000, "unit": "seconds" }, "name": "Fuel injection impulse width"}
   ]},
@@ -665,7 +665,7 @@
   "signals": [
     {"id": "FOCUS_FLI_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 200, "mul": 0.0030518509, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E1"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "FOCUS_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 763, "div": 50000, "unit": "percent" }, "name": "Wastegate control"}
   ]},

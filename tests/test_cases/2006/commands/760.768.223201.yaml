@@ -8,4 +8,7 @@ test_cases:
   response: 76805623201011E
 - expected_values:
     FOCUS_STEER_ANGLE: -6.25
+  response: 76805623201FFA7
+- expected_values:
+    FOCUS_STEER_ANGLE: -6.25
   response: 76805623201FFB7
