@@ -19,51 +19,51 @@
   "signals": [
     {"id": "FOCUS_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 15, "dbgfilter": { "to": 2012, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 15, "dbgfilter": { "to": 2012, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 15, "dbgfilter": { "to": 2012, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 15, "dbgfilter": { "to": 2012, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative charge when ignition is on"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4021"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4021"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative discharge from battery with engine on"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_BAT_QUIESCENT", "path": "Battery", "fmt": { "len": 16, "max": 31767.5, "min": -1000, "div": 2, "add": -1000, "unit": "milliamps" }, "name": "Battery quiescent current, low range"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4026"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4026"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative discharge from battery with engine off"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_12V_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1572840, "mul": 24, "unit": "hours" }, "name": "12V battery age"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_12V_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "12V battery state of charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2019 },
   "signals": [
     {"id": "FOCUS_12V_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_12V_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "div": 20, "add": 6, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -71,7 +71,7 @@
   "signals": [
     {"id": "FOCUS_VEH_BAT_CURRENT", "path": "Battery", "fmt": { "len": 8, "max": 128, "min": -127, "add": -127, "unit": "amps" }, "name": "Vehicle battery current"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "407E"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "407E"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2019 },
   "signals": [
     {"id": "FOCUS_EXTERIOR_LIGHT_STATE", "path": "Lights", "name": "Exterior lighting state", "fmt": {"bix": 0, "len": 1, "map": {
           "0":   { "description": "0", "value": "0" },
@@ -79,11 +79,11 @@
         }}
     }
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4090"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4090"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2019 },
   "signals": [
     {"id": "FOCUS_BAT_CURRENT_726", "path": "Engine", "fmt": { "len": 16, "max": 3584.2375, "min": -511.7, "div": 16, "add": -511.7, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "41A9"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019, 2020], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "41A9"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "FOCUS_BAT_CURRENT_TOO_HIGH", "path": "Battery", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Battery current too high for start/stop"},
     {"id": "FOCUS_BAT_V_TOO_LOW_START",  "path": "Battery", "fmt": {"bix": 3,  "len": 1, "max": 1, "unit": "offon" }, "name": "Battery voltage too low for start/stop"},
