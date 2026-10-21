@@ -7,11 +7,11 @@ test_cases:
     FOCUS_AIR_FUEL_RAT: 12.52478
   response: 7E80762F4346D817F20
 - expected_values:
-    FOCUS_AIR_FUEL_RAT: 14.75514
-  response: 7E80762F43481017FFB
+    FOCUS_AIR_FUEL_RAT: 14.79222
+  response: 7E80762F43481547FFF
 - expected_values:
     FOCUS_AIR_FUEL_RAT: 29.2801
   response: 7E80762F434FFFF81ED
 - expected_values:
     FOCUS_AIR_FUEL_RAT: 29.2801
-  response: 7E80762F434FFFF8265
+  response: 7E80762F434FFFF8257
