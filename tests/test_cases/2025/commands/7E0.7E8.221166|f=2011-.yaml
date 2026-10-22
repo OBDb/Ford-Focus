@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221166|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.38062
+  response: 7E8056211663B5E
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.45386
+  response: 7E8056211663B76
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.52405
+  response: 7E8056211663B8D
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.81091
+  response: 7E8056211663BEB
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.85669
+  response: 7E8056211663BFA
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.88416
+  response: 7E8056211663C03
+- expected_values:
+    FOCUS_EVAP_PURGE_CMD: 46.90857
+  response: 7E8056211663C0B

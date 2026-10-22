@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 20
+  response: 7E80562F4430033
+- expected_values:
+    FOCUS_ENG_LOAD_ACT: 20.39216
+  response: 7E80562F4430034

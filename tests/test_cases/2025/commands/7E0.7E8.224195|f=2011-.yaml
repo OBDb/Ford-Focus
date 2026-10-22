@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.224195|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_DTE_DISP: 125.6
+  response: 7E80562419504E8
+- expected_values:
+    FOCUS_DTE_DISP: 125.7
+  response: 7E80562419504E9
+- expected_values:
+    FOCUS_DTE_DISP: 125.8
+  response: 7E80562419504EA
+- expected_values:
+    FOCUS_DTE_DISP: 125.9
+  response: 7E80562419504EB
+- expected_values:
+    FOCUS_DTE_DISP: 126.3
+  response: 7E80562419504EF
+- expected_values:
+    FOCUS_DTE_DISP: 126.4
+  response: 7E80562419504F0
+- expected_values:
+    FOCUS_DTE_DISP: 126.5
+  response: 7E80562419504F1
