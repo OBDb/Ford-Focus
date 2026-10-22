@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F4A6|f=2018-;-2007
+test_cases:
+- expected_values:
+    FOCUS_PCM_VEH_ODO: 13052.1
+  response: 7E80762F4A60001FDD9

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220318|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_VCT_INT_ACT: 0.25
+  response: '7E8056203180004'
+- expected_values:
+    FOCUS_VCT_INT_ACT: 0.3125
+  response: '7E8056203180005'
+- expected_values:
+    FOCUS_VCT_INT_ACT: 0.375
+  response: '7E8056203180006'
+- expected_values:
+    FOCUS_VCT_INT_ACT: 0.4375
+  response: '7E8056203180007'

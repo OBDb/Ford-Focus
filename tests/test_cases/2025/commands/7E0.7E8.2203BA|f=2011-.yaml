@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2203BA|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_AAT_V: 2.3216
+  response: 7E8056203BA01DB
+- expected_values:
+    FOCUS_AAT_V: 2.33627
+  response: 7E8056203BA01DE
+- expected_values:
+    FOCUS_AAT_V: 2.34604
+  response: 7E8056203BA01E0
+- expected_values:
+    FOCUS_AAT_V: 2.35093
+  response: 7E8056203BA01E1
+- expected_values:
+    FOCUS_AAT_V: 2.37537
+  response: 7E8056203BA01E6
+- expected_values:
+    FOCUS_AAT_V: 2.40958
+  response: 7E8056203BA01ED
+- expected_values:
+    FOCUS_AAT_V: 2.41935
+  response: 7E8056203BA01EF

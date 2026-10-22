@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220604|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1511
+  response: 7E80562060405E7
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1518
+  response: 7E80562060405EE
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1519
+  response: 7E80562060405EF
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1528
+  response: 7E80562060405F8
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1531
+  response: 7E80562060405FB
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1541
+  response: '7E8056206040605'
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 1552
+  response: '7E8056206040610'

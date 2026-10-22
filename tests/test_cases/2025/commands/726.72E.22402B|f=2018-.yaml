@@ -1,0 +1,17 @@
+command_id: 726.72E.22402B|f=2018-
+test_cases:
+- expected_values:
+    FOCUS_VEH_BAT_CURRENT: 0
+  response: 72E0462402B7F
+- expected_values:
+    FOCUS_VEH_BAT_CURRENT: 1
+  response: 72E0462402B80
+- expected_values:
+    FOCUS_VEH_BAT_CURRENT: 2
+  response: 72E0462402B81
+- expected_values:
+    FOCUS_VEH_BAT_CURRENT: 3
+  response: 72E0462402B82
+- expected_values:
+    FOCUS_VEH_BAT_CURRENT: 4
+  response: 72E0462402B83

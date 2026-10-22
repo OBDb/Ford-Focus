@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 2
+  response: 7E80562116B0008
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 5
+  response: 7E80562116B0014
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 5.25
+  response: 7E80562116B0015
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 5.5
+  response: 7E80562116B0016
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 6.25
+  response: 7E80562116B0019
+- expected_values:
+    FOCUS_IGN_TIM_CYL1: 6.5
+  response: 7E80562116B001A

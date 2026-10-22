@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220415|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_PCM_ENG_EOP_RAW: 318
+  response: 7E805620415013E
+- expected_values:
+    FOCUS_PCM_ENG_EOP_RAW: 320
+  response: '7E8056204150140'
+- expected_values:
+    FOCUS_PCM_ENG_EOP_RAW: 321
+  response: '7E8056204150141'
+- expected_values:
+    FOCUS_PCM_ENG_EOP_RAW: 323
+  response: '7E8056204150143'
