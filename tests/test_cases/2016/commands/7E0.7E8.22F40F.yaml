@@ -4,5 +4,5 @@ test_cases:
     FOCUS_IAT_ALT2: 7
   response: 7E80462F40F2F
 - expected_values:
-    FOCUS_IAT_ALT2: 41
-  response: 7E80462F40F51
+    FOCUS_IAT_ALT2: 48
+  response: 7E80462F40F58
