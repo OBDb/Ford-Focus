@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220301
 test_cases:
 - expected_values:
-    FOCUS_MAP_V: 0.37598
-  response: '7E8056203010181'
+    FOCUS_MAP_V: 0.37109
+  response: 7E805620301017C
 - expected_values:
     FOCUS_MAP_V: 0.49805
   response: 7E80562030101FE

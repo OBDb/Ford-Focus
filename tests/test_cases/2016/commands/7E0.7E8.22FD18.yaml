@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     FOCUS_AC_P_7E0: 0
   response: 7E80762FD18001D6A3A
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D900A
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D92A6
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D92E2
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D931E
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D935A
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D9396
+- expected_values:
+    FOCUS_AC_P_7E0: 0
+  response: 7E80762FD18001D93D2

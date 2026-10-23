@@ -10,5 +10,5 @@ test_cases:
     FOCUS_CAT_SENS_V: 2.74902
   response: 7E8056204600AFF
 - expected_values:
-    FOCUS_CAT_SENS_V: 2.79297
-  response: 7E8056204600B2C
+    FOCUS_CAT_SENS_V: 3.02734
+  response: 7E8056204600C1C

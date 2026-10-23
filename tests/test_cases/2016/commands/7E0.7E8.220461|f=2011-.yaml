@@ -4,23 +4,8 @@ test_cases:
     FOCUS_CAT: -40
   response: '7E8056204610000'
 - expected_values:
-    FOCUS_CAT: -13.82812
-  response: 7E805620461068B
-- expected_values:
-    FOCUS_CAT: -12.73438
-  response: 7E80562046106D1
-- expected_values:
-    FOCUS_CAT: 2.95312
-  response: 7E8056204610ABD
-- expected_values:
-    FOCUS_CAT: 3.65625
-  response: 7E8056204610AEA
+    FOCUS_CAT: -16.01562
+  response: 7E80562046105FF
 - expected_values:
     FOCUS_CAT: 4.25
   response: 7E8056204610B10
-- expected_values:
-    FOCUS_CAT: 4.48438
-  response: 7E8056204610B1F
-- expected_values:
-    FOCUS_CAT: 5.3125
-  response: 7E8056204610B54

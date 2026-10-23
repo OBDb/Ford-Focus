@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    FOCUS_WARMUP_CLR: 13
+  response: 7E80462F4300D
+- expected_values:
     FOCUS_WARMUP_CLR: 22
   response: 7E80462F43016
 - expected_values:
