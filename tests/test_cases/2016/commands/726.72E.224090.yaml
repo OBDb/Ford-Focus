@@ -7,8 +7,8 @@ test_cases:
     FOCUS_BAT_CURRENT_726: 0.7375
   response: '72E056240902007'
 - expected_values:
-    FOCUS_BAT_CURRENT_726: 13.925
-  response: 72E0562409020DA
+    FOCUS_BAT_CURRENT_726: 14.8
+  response: 72E0562409020E8
 - expected_values:
     FOCUS_BAT_CURRENT_726: 17.425
   response: '72E056240902112'

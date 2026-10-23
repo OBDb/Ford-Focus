@@ -10,5 +10,5 @@ test_cases:
     FOCUS_ETC_TRIM_LRN: 0.56836
   response: '7E8056203380123'
 - expected_values:
-    FOCUS_ETC_TRIM_LRN: -0.2832
-  response: 7E805620338FF6F
+    FOCUS_ETC_TRIM_LRN: -0.41016
+  response: 7E805620338FF2E
