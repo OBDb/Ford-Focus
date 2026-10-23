@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    FOCUS_CAT_TEMP: 227.2
-  response: 7E80562F43C0A70
+    FOCUS_CAT_TEMP: 42.9
+  response: 7E80562F43C033D
 - expected_values:
-    FOCUS_CAT_TEMP: 651.5
-  response: 7E80562F43C1B03
+    FOCUS_CAT_TEMP: 472.3
+  response: 7E80562F43C1403
 - expected_values:
     FOCUS_CAT_TEMP: 727.7
   response: 7E80562F43C1DFD
 - expected_values:
-    FOCUS_CAT_TEMP: 790.7
-  response: 7E80562F43C2073
+    FOCUS_CAT_TEMP: 836.3
+  response: 7E80562F43C223B

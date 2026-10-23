@@ -4,5 +4,8 @@ test_cases:
     FOCUS_KS2_RAW: 24
   response: '7E8056204040018'
 - expected_values:
-    FOCUS_KS2_RAW: 205
-  response: 7E80562040400CD
+    FOCUS_KS2_RAW: 255
+  response: 7E80562040400FF
+- expected_values:
+    FOCUS_KS2_RAW: 256
+  response: '7E8056204040100'

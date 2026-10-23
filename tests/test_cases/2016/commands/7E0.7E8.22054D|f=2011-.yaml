@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22054D|f=2011-
 test_cases:
 - expected_values:
-    FOCUS_LPFP_SENS_V: 3.22754
-  response: 7E80562054D0CE9
+    FOCUS_LPFP_SENS_V: 3.16895
+  response: 7E80562054D0CAD
 - expected_values:
     FOCUS_LPFP_SENS_V: 3.49609
   response: 7E80562054D0DFC
 - expected_values:
-    FOCUS_LPFP_SENS_V: 3.76465
-  response: 7E80562054D0F0F
+    FOCUS_LPFP_SENS_V: 3.75977
+  response: 7E80562054D0F0A
 - expected_values:
-    FOCUS_LPFP_SENS_V: 4.02832
-  response: 7E80562054D101D
+    FOCUS_LPFP_SENS_V: 4.375
+  response: 7E80562054D1180
