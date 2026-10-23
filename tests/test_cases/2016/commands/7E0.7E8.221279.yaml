@@ -4,8 +4,8 @@ test_cases:
     FOCUS_IAT_SENS_V: 1.71065
   response: 7E805621279015E
 - expected_values:
+    FOCUS_IAT_SENS_V: 2.49267
+  response: 7E80562127901FE
+- expected_values:
     FOCUS_IAT_SENS_V: 2.66373
   response: '7E8056212790221'
-- expected_values:
-    FOCUS_IAT_SENS_V: 3.22092
-  response: '7E8056212790293'
