@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FOCUS_KS1_RAW: 228
   response: 7E80562040300E4
+- expected_values:
+    FOCUS_KS1_RAW: 411
+  response: 7E805620403019B
