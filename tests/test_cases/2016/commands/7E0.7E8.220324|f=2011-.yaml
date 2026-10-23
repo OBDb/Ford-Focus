@@ -10,5 +10,5 @@ test_cases:
     FOCUS_HPFP_V: 1.25122
   response: '7E8056203240100'
 - expected_values:
-    FOCUS_HPFP_V: 2.53177
-  response: '7E8056203240206'
+    FOCUS_HPFP_V: 2.52199
+  response: '7E8056203240204'
