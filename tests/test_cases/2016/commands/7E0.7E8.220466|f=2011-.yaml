@@ -10,5 +10,5 @@ test_cases:
     FOCUS_TIP_DES_ABS: 13.88565
   response: '7E8056204663106'
 - expected_values:
-    FOCUS_TIP_DES_ABS: 17.00798
-  response: 7E8056204663C0C
+    FOCUS_TIP_DES_ABS: 18.53043
+  response: 7E805620466416C

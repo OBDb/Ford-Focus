@@ -4,26 +4,5 @@ test_cases:
     FOCUS_LTFT: 3.90625
   response: 7E80462F40785
 - expected_values:
-    FOCUS_LTFT: 6.25
-  response: 7E80462F40788
-- expected_values:
-    FOCUS_LTFT: 7.03125
-  response: 7E80462F40789
-- expected_values:
-    FOCUS_LTFT: 8.59375
-  response: 7E80462F4078B
-- expected_values:
-    FOCUS_LTFT: 10.15625
-  response: 7E80462F4078D
-- expected_values:
-    FOCUS_LTFT: 12.5
-  response: 7E80462F40790
-- expected_values:
-    FOCUS_LTFT: 13.28125
-  response: 7E80462F40791
-- expected_values:
-    FOCUS_LTFT: 15.625
-  response: 7E80462F40794
-- expected_values:
-    FOCUS_LTFT: 16.40625
-  response: 7E80462F40795
+    FOCUS_LTFT: 19.53125
+  response: 7E80462F40799

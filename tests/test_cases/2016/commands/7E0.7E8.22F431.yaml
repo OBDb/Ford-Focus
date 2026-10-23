@@ -4,17 +4,8 @@ test_cases:
     FOCUS_DIST_DTC_CLR: 572
   response: 7E80562F431023C
 - expected_values:
-    FOCUS_DIST_DTC_CLR: 601
-  response: 7E80562F4310259
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 602
-  response: 7E80562F431025A
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 603
-  response: 7E80562F431025B
+    FOCUS_DIST_DTC_CLR: 672
+  response: 7E80562F43102A0
 - expected_values:
     FOCUS_DIST_DTC_CLR: 47883
   response: 7E80562F431BB0B
-- expected_values:
-    FOCUS_DIST_DTC_CLR: 47884
-  response: 7E80562F431BB0C

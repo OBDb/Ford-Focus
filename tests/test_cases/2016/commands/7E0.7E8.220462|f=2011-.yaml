@@ -4,8 +4,8 @@ test_cases:
     FOCUS_WGDC: 0
   response: '7E8056204620000'
 - expected_values:
-    FOCUS_WGDC: 7.80334
-  response: 7E80562046209FD
+    FOCUS_WGDC: 0.77515
+  response: 7E80562046200FE
 - expected_values:
     FOCUS_WGDC: 57.44324
   response: '7E8056204624987'
