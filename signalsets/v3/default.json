@@ -313,7 +313,7 @@
   "signals": [
     {"id": "FOCUS_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FOCUS_FAN_SPD_DES", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Fan speed, desired"}
   ]},
