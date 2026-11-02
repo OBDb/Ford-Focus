@@ -9,11 +9,11 @@ test_cases:
     FOCUS_ODO: 84405
   response: 72E0662DD010149B5
 - expected_values:
-    FOCUS_ODO: 326655
-  response: 72E0662DD0104FBFF
+    FOCUS_ODO: 167679
+  response: 72E0662DD01028EFF
 - expected_values:
-    FOCUS_ODO: 326656
-  response: 72E0662DD0104FC00
+    FOCUS_ODO: 167680
+  response: 72E0662DD01028F00
 - expected_values:
     FOCUS_ODO: 327424
   response: 72E0662DD0104FF00
