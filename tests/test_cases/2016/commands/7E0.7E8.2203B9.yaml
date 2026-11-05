@@ -10,6 +10,9 @@ test_cases:
     FOCUS_FAN_SPD_DES: 19.53765
   response: 7E8056203B91902
 - expected_values:
+    FOCUS_FAN_SPD_DES: 20.84077
+  response: 7E8056203B91AAD
+- expected_values:
     FOCUS_FAN_SPD_DES: 74.59525
   response: 7E8056203B95F7B
 - expected_values:
