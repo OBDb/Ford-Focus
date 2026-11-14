@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    FOCUS_FAN_SPD_DES: 0
+  response: 7E8056203B90000

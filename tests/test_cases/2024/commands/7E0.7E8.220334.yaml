@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220334
+test_cases:
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_CORR: 49.5
+  response: 7E8056203340C60
+- expected_values:
+    FOCUS_PCM_CYL_HEAD_T_CORR: 49.625
+  response: 7E8056203340C68

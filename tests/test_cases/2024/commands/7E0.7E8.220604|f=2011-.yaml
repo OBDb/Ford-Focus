@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220604|f=2011-
+test_cases:
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 569
+  response: '7E8056206040239'
+- expected_values:
+    FOCUS_PCM_A_C_REFRIG_P: 573
+  response: 7E805620604023D
