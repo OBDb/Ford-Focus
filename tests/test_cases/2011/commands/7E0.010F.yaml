@@ -15,3 +15,18 @@ test_cases:
 - expected_values:
     IAT: 6
   response: 7E803410F2E
+- expected_values:
+    IAT: 7
+  response: 7E803410F2F
+- expected_values:
+    IAT: 8
+  response: 7E803410F30
+- expected_values:
+    IAT: 9
+  response: 7E803410F31
+- expected_values:
+    IAT: 10
+  response: 7E803410F32
+- expected_values:
+    IAT: 11
+  response: 7E803410F33
