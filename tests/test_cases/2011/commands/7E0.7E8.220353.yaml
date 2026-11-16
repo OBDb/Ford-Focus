@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FOCUS_BARO: 14.1396
   response: '7E8056203530186'
+- expected_values:
+    FOCUS_BARO: 14.39339
+  response: 7E805620353018D
