@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F40B
 test_cases:
 - expected_values:
-    FOCUS_MAP: 3.62597
-  response: 7E80462F40B19
+    FOCUS_MAP: 3.19086
+  response: 7E80462F40B16
 - expected_values:
-    FOCUS_MAP: 12.18327
-  response: 7E80462F40B54
+    FOCUS_MAP: 13.92374
+  response: 7E80462F40B60
