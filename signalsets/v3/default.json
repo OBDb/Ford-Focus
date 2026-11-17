@@ -23,7 +23,7 @@
   "signals": [
     {"id": "FOCUS_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021, 2023] },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021, 2022, 2023] },
   "signals": [
     {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
