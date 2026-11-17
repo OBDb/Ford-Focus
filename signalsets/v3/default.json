@@ -25,7 +25,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021, 2023] },
   "signals": [
-    {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "FOCUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2019, 2021, 2023, 2024] },
   "signals": [
@@ -343,7 +343,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2019, 2023] },
   "signals": [
-    {"id": "FOCUS_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
+    {"id": "FOCUS_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2019, 2023] },
   "signals": [
