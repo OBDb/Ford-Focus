@@ -7,8 +7,8 @@ test_cases:
     FOCUS_OAR: 0.64508
   response: 7E8056203E82949
 - expected_values:
-    FOCUS_OAR: 0
+    FOCUS_OAR: -0.3714
   response: 7E8056203E8E83B
 - expected_values:
-    FOCUS_OAR: 0
+    FOCUS_OAR: -0.11981
   response: 7E8056203E8F855
