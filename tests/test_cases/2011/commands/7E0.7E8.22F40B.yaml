@@ -4,5 +4,5 @@ test_cases:
     FOCUS_MAP: 3.04582
   response: 7E80462F40B15
 - expected_values:
-    FOCUS_MAP: 13.92374
-  response: 7E80462F40B60
+    FOCUS_MAP: 14.06878
+  response: 7E80462F40B61
